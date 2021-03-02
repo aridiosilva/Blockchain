@@ -122,5 +122,15 @@ In short, a hard fork is a change to the network consensus algorithm. Every alte
 
 Once a hard fork is launched, every node on the network that hasn’t updated to the new version of the software is rejected by the consensus as for its operating on invalid rules. That is one of the reasons why developers and communities generally avoid major changes, as it means some people will be left out or the transition phase may compromise the security of a network.
 
-![hard-fork-mobile]()
+![hard-fork-mobile](https://github.com/aridiosilva/Blockchain/blob/main/hard-fork-mobile.svg)
+
+### Soft Fork
+
+Another way of introducing changes to a network is via a soft fork. Contrary to hard forks, with this type of alteration, there’s no mandatory rule for users to update their nodes.
+
+One such example is the addition of the Segregated Witness feature to Bitcoin. To this day, transactions can be made on BTC’s blockchain with or without using this feature. Once 95% of clients on the network are updated to the version that supports SegWit, the consensus will automatically change and refuse any old transactions without it. This way, we have a smoother transition that does not force users to immediately update.
+
+![]()
+
+
 
