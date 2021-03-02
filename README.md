@@ -108,5 +108,19 @@ This way, instead of waiting for each transaction to be confirmed and filling th
 
 This way, instead of waiting for each transaction to be confirmed and filling the network with space-wasting data, parties can interact between each other and lower the load on the blockchain. Furthermore, if someone else wants to deal with the same party, the lightning network will search for a path with the least number of intermediaries and lowest transfer fees, thus reducing wait times.
 
-![ln nodes]()
+![ln nodes](https://github.com/aridiosilva/Blockchain/blob/main/lightning-nodes-mobile.svg)
+
+### What Happens to a Node After a Fork?
+
+Now that I’ve covered the different types of cryptocurrency nodes and you’re familiar with their operation, let’s explore how that ties into the network consensus and eventual forks.
+
+In previous paragraphs, I mentioned that if there’s not at least a 51% agreement between full nodes, a proposed change to the network is rejected. But what happens if there’s a large part of the community that still wants to accept the suggested alteration? That is where forks come into play. A developer decides to create a new client, using the source code of the coin and implements the proposed change. Users willing to go on in that direction, download the new version and decide to support the now forked chain.
+
+### Hard Fork
+
+In short, a hard fork is a change to the network consensus algorithm. Every alteration that is not compatible with the previous version of the client used, is considered a hard fork. Parameters of the consensus that can provoke a hard fork when changed, may include a new block reward, block time, transition from PoW to PoS, implementation of masternodes and others.
+
+Once a hard fork is launched, every node on the network that hasn’t updated to the new version of the software is rejected by the consensus as for its operating on invalid rules. That is one of the reasons why developers and communities generally avoid major changes, as it means some people will be left out or the transition phase may compromise the security of a network.
+
+
 
