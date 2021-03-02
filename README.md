@@ -142,23 +142,23 @@ On the other hand, if you don’t take enough security precautions, you risk som
 
 ### Why should I host a Full Node?
 
-    If you’re eager to support the network of a given coin or simply don’t want to rely on other full nodes for your information, you can host your own and store a copy of the blockchain. It’s more secure, however, it will take longer to set up.
+If you’re eager to support the network of a given coin or simply don’t want to rely on other full nodes for your information, you can host your own and store a copy of the blockchain. It’s more secure, however, it will take longer to set up.
    
 ### Is a Masternode better than a Full Node?
 
-    Masternodes and full nodes are similar in their function as discussed in the article. If your goal is to make a profit, then running a masternode would be the way to go.
+Masternodes and full nodes are similar in their function as discussed in the article. If your goal is to make a profit, then running a masternode would be the way to go.
     
 ### Can I make a Profit hosting a Blockchain Node?
 
-    Yes, but it depends on which type you decide to host. With masternodes, you will be paid for your services, but you have to consider the initial investment that you’ve locked into the masternode itself. Another option would be a staking node, it will offer you passive income which will increase as you invest more in it.
+Yes, but it depends on which type you decide to host. With masternodes, you will be paid for your services, but you have to consider the initial investment that you’ve locked into the masternode itself. Another option would be a staking node, it will offer you passive income which will increase as you invest more in it.
     
 ### How many Nodes can I run on a single Machine?
 
-    Depends on your hardware capabilities. Only one instance of a wallet may be run at the same time, so you’ll need to make use of Virtual Machines. If you decide to use a VPS, you need to make sure that you’re not using more than 80 to 85 percent of available resources, as you may be taken down, limited or some other measures may be employed by the provider.
+Depends on your hardware capabilities. Only one instance of a wallet may be run at the same time, so you’ll need to make use of Virtual Machines. If you decide to use a VPS, you need to make sure that you’re not using more than 80 to 85 percent of available resources, as you may be taken down, limited or some other measures may be employed by the provider.
     
 ### Which are the best VPS Providers?
 
-    The choice is entirely yours, however, based on my own experience and market research, some of the top suppliers include Amazon EC2, DigitalOcean Droplets, Vultr, and Microsoft Azure
+The choice is entirely yours, however, based on my own experience and market research, some of the top suppliers include Amazon EC2, DigitalOcean Droplets, Vultr, and Microsoft Azure
 
 
 
