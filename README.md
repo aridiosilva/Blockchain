@@ -14,11 +14,11 @@ Blockchains offer groundbreaking technology with the potential to change the int
 
 Who can be trusted in a digital space, where everything can easily be copied and most users are anonymous? Blockchain can help to solve this pressing question.
 
-### A blockchain is not updated and validated by a single individual, but by hundreds, thousands, or even millions of community members in regular timeframes.
+### (2) A blockchain is not updated and validated by a single individual, but by hundreds, thousands, or even millions of community members in regular timeframes.
 
 Instead of one central party such as a company, government or bank, the entire blockchain network agrees on a shared “reality”, i.e. complete history of every transaction that has ever taken place within the network. This agreement is called consensus.
 
-### Because every single transaction that has ever taken place within the network is recorded and permanently stored, it is not possible to change the ledger’s history or send the same transaction twice
+### (3) Because every single transaction that has ever taken place within the network is recorded and permanently stored, it is not possible to change the ledger’s history or send the same transaction twice
 
 This certainty creates mutual trust. In other words, participants of a blockchain network don’t even have to trust each other because no single user can cheat the system as a whole. Blockchain technology is suitable for transactions between parties that need to be verifiable and permanent, such as contracts, ownership of intellectual property, 
 identification, and, of course, cryptocurrencies like Bitcoin.
