@@ -122,5 +122,5 @@ In short, a hard fork is a change to the network consensus algorithm. Every alte
 
 Once a hard fork is launched, every node on the network that hasn’t updated to the new version of the software is rejected by the consensus as for its operating on invalid rules. That is one of the reasons why developers and communities generally avoid major changes, as it means some people will be left out or the transition phase may compromise the security of a network.
 
-
+![hard-fork-mobile]()
 
