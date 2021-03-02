@@ -31,4 +31,31 @@ In a blockchain, transactions are stored in blocks, with each newly generated bl
 
 These blocks constitute a chain, hence the name “blockchain”. This chain continues on indefinitely. In the case of blockchains such as Bitcoin, trust is based on technological features such as the fact that all blocks can be viewed by the public. No transaction is added to a block without first being verified by a miner - a special type of computer in the network. This way the community ensures that no fraudulent transaction is recorded in a blockchain. Consequently, a blockchain can even be used by parties who don’t necessarily trust each other to do business because they know their transactions are tamper-proof.
 
+# What is a Node in a Blockchain Network?
+
+There are different types, but each of them shares one specific characteristic – you’ll require specific hardware in order to host or simply connect to one.
+
+**Blockchain technology is decentralized by nature** – one of the key properties that made it so appealing to the wide public. It’s based on the principles of a P2P (Peer to Peer) network. In most networks, there are no dedicated servers, not one authority, but a consensus among users. As they’re all crucial to the security and integrity of the network, becoming a member of a certain crypto coin community is not only exciting but also a responsibility.
+
+**Take Bitcoin for example** – you have two types of nodes. **Full nodes ** which store a copy blockchain and thus guarantee the security and correctness of the data on the blockchain by validating data. The second type is a **lightweight node** – each user participating, who needs to connect to a full node in order to synchronize to the current state of the network and be able to participate.
+
+# The Consensus in a Decentralized Network
+
+In the previous section, I mentioned consensus. You might be wondering what that relates to in crypto terms. The rules by which a blockchain network operates and confirms the validity of information written in blocks and/or work performed is termed “consensus”.
+
+As we’ve already covered, cryptocurrencies operate on a decentralized P2P network. As you can imagine, agreeing on something with a large number of people is bound to lead to complications. This is where consensus algorithms come into play. The most common ones are Proof of Work (PoW) and Proof of Stake (PoS). The differences between the two, I’ll cover later down below. No matter which one has been chosen for a coin, they both have a crucial factor in common – reliance on full nodes for enforcing of rules and validation of transactions. While consensus must be achieved by a certain type of nodes, the beauty of a P2P network is that anyone can become a full node and thus achieve higher levels of independence and decentralization.
+
+In the Bitcoin example – users are free to download the whole blockchain and validate blocks, thus increasing security, as more and more copies of the ledger are created and used for reference. The prime cryptocurrency offers one of the highest levels of decentralization, compared to EOS for example, where becoming a validator needs to be voted by a set number of users and the available positions are limited. This opens the network to corruption and manipulation.
+
+The most common threat to a blockchain is the 51% attack, where more than half the network “power” is concentrated in one entity (be that a single person or collaboration between users). That allows said entity to change consensus rules as it sees fit, which could lead to a monopoly where everyone is either forced to continue with the new rules, hard fork (explained below) or abandon a project. While strict enforcement is a given during the day to day operation of the blockchain, for evolving the network, alterations need be voted on by the community and thus achieve long-term success.
+
+## Types of Blockchain Nodes
+
+In a nutshell, there are two main types of nodes – full nodes and light nodes. Another term to describe nodes is clients which supply wallet functions. Full ones contain а copy of the blockchain’s history, including all blocks created. Light nodes or SPV (Simple Payment Verification) nodes are all wallets that download only the headers of blocks and save hard drive space for users. Let us explore the different sub-kinds in detail.
+
+![bitcoin nodes]()
+
+
+
+
 
