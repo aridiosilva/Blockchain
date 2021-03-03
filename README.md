@@ -83,7 +83,37 @@ identification, and, of course, cryptocurrencies like Bitcoin.
 
 Distributed ledger technologies allow businesses and individuals alike to quickly carry out secure transactions without needing to rely on a middleman. By avoiding intermediaries, distributing control of the ledger, and providing a tamper-apparent network, DLTs present a more cost-efficient, accessible, and reliable transaction platform than centralized ledger systems.
 
-![]()
+![distributed_ledger_uses](https://github.com/aridiosilva/Blockchain/blob/main/distributed_ledger_uses.webp)
+
+## Remove the middleman
+
+Because central ledgers rely on intermediaries, they are burdened by the costs and inefficiencies of the middleman. DLTs do away with these limitations by avoiding middlemen and intermediaries altogether. Without a central agent, there is no need to pay a central agent. And, without the need for clunky bureaucracy, you can exchange assets directly and immediately. You no longer have to limit the speed of your transaction to the efficiency of expensive bankers, lawyers, or politicians.
+
+Moreover, you no longer have to trust bankers, lawyers, or politicians with the ledger and your assets. DLTs are trustless systems, meaning that no participant needs to trust any other participant to guarantee a valid ledger.
+
+## Accessibility
+
+While centralized systems monopolize control and limit access to their ledger, DLTs provide a much more accessible service. DLTs allow businesses and individuals to carry out transactions freely, without relying or trusting any other individual. Public DLTs take this further by issuing no restrictions on transactions or participation; no one can be denied from the platform, and no transaction will be treated with priority over another.
+
+## Tamper-apparent
+
+Traditional ledgers may provide fast and simple record-keeping, but they are vulnerable to corruption and hacking. Because only one central entity controls the ledger, a corrupt central agent can tamper with the records without the consent or knowledge of the affected members. Moreover, because there is only one copy of the ledger, hackers have a clear, single target for their attacks. Without visibility into whether tampering has occurred, we must simply trust that the central third-party is neither corrupt nor compromised when we use a centralized ledger.
+
+Distributed ledgers, however, are inherently resistant to tampering. While a malicious agent could compromise a central system by altering the single ledger, they would need to alter at least a plurality of ledgers to have an impact on a distributed system.
+
+Though DLTs are not tamper-proof, they are tamper-apparent. That is, if tampering does occur, the network’s transparency ensures that all members of the network will be aware of the change. Though a participant of a DLT cannot be completely certain that the ledger will remain unaltered, they can rest assured that they will know if tampering does occur.
+
+Hedera Hashgraph has achieved the gold standard of security in distributed ledger consensus mechanisms, which is asynchronous Byzantine fault tolerance (aBFT) and is the only distributed ledger to-date which has formally proven this quality. Hedera guarantees consensus, in real time, and is resistant to Distributed Denial of Service (DDoS) attacks, an area of vulnerability for some public ledger platforms.
+
+## Immutability and controlled mutability
+
+Some distributed ledgers take security beyond tamper-apparent by establishing immutability, preventing any and all participants from changing established records for any reason. Members of these immutable DLTs can only view the ledger and carry out new transactions. Even if all participants in the network wished to change the ledger, there would be no pathway within the system’s architecture for that change to occur. Therefore, participants of an immutable distributed ledger can be certain that their ledger is not only tamper-apparent, but tamper-proof. A distributed ledger technology is immutable if it does not provide any participant or group of participants the ability to alter or delete established records.
+
+Of course, immutability does come with downsides. In some cases, changing past records could be beneficial. For instance, if a bug in the DLT’s code causes a transaction to be misrepresented in the ledger, immutability would prevent anyone from fixing that problem. The invalid transaction would forever be part of the official ledger. Additionally, as laws change to catch up with technology, new government regulations may necessitate a change in record-keeping practices. Immutable systems would not be able to adapt to these changing legal conditions, and would therefore risk violating government standards.
+
+Recognizing the downsides of both mutability and immutability, some DLTs opt for controlled mutability. DLTs with controlled mutability allow records to be changed, but place heavy restrictions upon that pathway.
+
+Controlled mutability is the best of both worlds: no malicious participant or group of participants can alter the records without everyone knowing (tamper-apparent), but the DLT can adapt to bugs and changing regulations. Hedera Hashgraph is one example of a DLT with controlled mutability. Hedera Hashgraph will establish the Hedera Council, a diverse group of businesses across nearly every industry. The council will have the ability, through unanimous vote, to remove illegal or malicious content to abide by local and global regulations. Because the council will be completely transparent and bound by term limits, participants will observe and hold the council accountable for any changes that they may make to the ledger. By having the Hedera Council, Hedera Hashgraph provides a controlled mutability that retains security while allowing the DLT to adapt to changing government standards. To learn more about the Hedera Governing Council, visit: Hedera.com/council
 
 ## How do blockchains work?
 
