@@ -564,7 +564,7 @@ Bitcoin ownership and mining are legal in more countries than not. Some examples
 The risks of mining are that of financial risk and a regulatory one. As mentioned, Bitcoin mining, and mining in general, is a financial risk. One could go through all the effort of purchasing hundreds or thousands of dollars worth of mining equipment only to have no return on their investment. That said, this risk can be mitigated by joining mining pools. If you are considering mining and live in an area that it is prohibited you should reconsider. It may also be a good idea to research your countries regulation and overall sentiment towards cryptocurrency before investing in mining equipment.
 
 
-# WHICH INDUSTRIES HAVE ADOPTED BLOCKCHAIN TECHNOLOGY?
+# Which Industries Have adopted Blockchain Technology?
 
 The majority of people understand Blockchain in relation to cryptocurrency. However, a number of mainstream industries, including finance, supply chain, gaming, and others, have started to use blockchain technology without any digital currencies. Let’s have a look at how such industries are using Blockchain for their operations. 
 
