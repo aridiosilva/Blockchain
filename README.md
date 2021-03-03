@@ -613,9 +613,9 @@ Blockchain can play a significant role in voting as well. It can help in maintai
 
 For example, South Korea has considered moving to the Blockchain for security reasons. Similarly, it was announced that the Indian state of Telangana is developing a blockchain-based electronic voting system to facilitate remote voting. Apart from this, Russia, the United States, and many others have already used a blockchain electronic voting system. 
 
-# How do blockchain mining and transactions work explained in 7 simple steps
+# How do blockchain mining and transactions work 
 
-Here is how a blockchain transaction is processed on a blockchain, in seven steps.
+Here is how a blockchain transaction is processed on a blockchain, in steps:
 
 ### Step 1: 
 
