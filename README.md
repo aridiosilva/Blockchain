@@ -113,7 +113,7 @@ Of course, immutability does come with downsides. In some cases, changing past r
 
 Recognizing the downsides of both mutability and immutability, some DLTs opt for controlled mutability. DLTs with controlled mutability allow records to be changed, but place heavy restrictions upon that pathway.
 
-Controlled mutability is the best of both worlds: no malicious participant or group of participants can alter the records without everyone knowing (tamper-apparent), but the DLT can adapt to bugs and changing regulations. Hedera Hashgraph is one example of a DLT with controlled mutability. Hedera Hashgraph will establish the Hedera Council, a diverse group of businesses across nearly every industry. The council will have the ability, through unanimous vote, to remove illegal or malicious content to abide by local and global regulations. Because the council will be completely transparent and bound by term limits, participants will observe and hold the council accountable for any changes that they may make to the ledger. By having the Hedera Council, Hedera Hashgraph provides a controlled mutability that retains security while allowing the DLT to adapt to changing government standards. To learn more about the Hedera Governing Council, visit: Hedera.com/council
+Controlled mutability is the best of both worlds: no malicious participant or group of participants can alter the records without everyone knowing (tamper-apparent), but the DLT can adapt to bugs and changing regulations. Hedera Hashgraph is one example of a DLT with controlled mutability. 
 
 ## How do blockchains work?
 
