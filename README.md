@@ -503,9 +503,16 @@ In theory, you could achieve the same goal by rolling a 16-sided die 64 times to
 
 The screenshot below, taken from the site Blockchain.info, might help you put all this information together at a glance. You are looking at a summary of everything that happened when block #490163 was mined. The nonce that generated the "winning" hash was 731511405. The target hash is shown on top. The term "Relayed by Antpool" refers to the fact that this particular block was completed by AntPool, one of the more successful mining pools (more about mining pools below). As you see here, their contribution to the Bitcoin community is that they confirmed 1768 transactions for this block. If you really want to see all 1768 of those transactions for this block, go to this page and scroll down to the heading "Transactions."
 
-![blockchaininfo-5bfd7146c9e77c0051baafd0 ]()
+![blockchaininfo-5bfd7146c9e77c0051baafd0 ](https://github.com/aridiosilva/Blockchain/blob/main/dotdash_Final_How_Does_Bitcoin_Mining_Work_Dec_2020-04-2d73080ca35e4e3bab0455cac17026de_.png)
 
+"So how do I guess at the target hash?"
+All target hashes begin with zeros—at least eight zeros and up to 63 zeros. 
 
+There is no minimum target, but there is a maximum target set by the Bitcoin Protocol. No target can be greater than this number:
+
+00000000ffff0000000000000000000000000000000000000000000000000000
+
+Here are some examples of randomized hashes and the criteria for whether they will lead to success for the miner:
 
 
 
