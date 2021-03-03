@@ -182,10 +182,10 @@ Compared to full nodes, masternodes themselves cannot add blocks to the blockcha
 
 To establish a masternode, you will need to lock away a certain sum of funds as collateral. You are expected to be online 24/7 and hosting on a Virtual Private Server is considered good practice. If you’d like to learn more on how to set up your own masternode or which the best masternode coins are, you can check out masternodes.com;
 
-### 
-Lightweight (SPV) Nodes
+### Lightweight (SPV) Nodes
 
 Another type of blockchain nodes, used in day to day crypto operations, is the lightweight node or Simple Payment Verification (SPV) node. You’ve probably come across it already, but you’re most likely familiar with the “light wallet” definition.
+
 These types of nodes communicate with the blockchain while relying on full nodes to provide them with the necessary information. As they don’t store a copy of the chain, they only query the current status for which block is last, and broadcast transactions for processing.
 
 Having in mind the above features, it’s clear to see that running SPV node doesn’t require many resources, but it does sacrifice security for the sake of convenience.
@@ -201,8 +201,6 @@ The way it works is by opening a separate payment channel between entities. Take
 This way, instead of waiting for each transaction to be confirmed and filling the network with space-wasting data, parties can interact between each other and lower the load on the blockchain. Furthermore, if someone else wants to deal with the same party, the lightning network will search for a path with the least number of intermediaries and lowest transfer fees, thus reducing wait times.
 
 This way, instead of waiting for each transaction to be confirmed and filling the network with space-wasting data, parties can interact between each other and lower the load on the blockchain. Furthermore, if someone else wants to deal with the same party, the lightning network will search for a path with the least number of intermediaries and lowest transfer fees, thus reducing wait times.
-
-![ln nodes](https://github.com/aridiosilva/Blockchain/blob/main/lightning-nodes-mobile.svg)
 
 ### What Happens to a Node After a Fork?
 
