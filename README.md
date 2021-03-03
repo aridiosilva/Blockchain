@@ -2,8 +2,7 @@
 
 Refered as Distributed Ledger Technology (DLT)  makes the history of any digital asset unalterable and transparent through the use of descentralization and cryptographic hashing.
 
-## History_of_Blockchain_Technology
-
+## History of Blockchain Technology
 
 Blockchain technology has to be one of the biggest innovations of the 21stcentury given the ripple effect it is having on various sectors, from financial to manufacturing as well as education. Unknown to many, is that the history of Blockchain dates back to the early 1990s.
 
