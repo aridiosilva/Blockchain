@@ -2,6 +2,22 @@
 
 Refered as Distributed Ledger Technology (DLT)  makes the history of any digital asset unalterable and transparent through the use of descentralization and cryptographic hashing.
 
+## Who Is Satoshi Nakamoto?
+
+No one knows who invented bitcoin, or at least not conclusively. Satoshi Nakamoto is the name associated with the person or group of people who released the original bitcoin white paper in 2008 and worked on the original bitcoin software that was released in 2009. In the years since that time, many individuals have either claimed to be or have been suggested as the real-life people behind the pseudonym, but as of January 2021, the true identity (or identities) behind Satoshi remains obscured.7﻿﻿
+
+Although it is tempting to believe the media's spin that Satoshi Nakamoto is a solitary, quixotic genius who created Bitcoin out of thin air, such innovations do not typically happen in a vacuum. All major scientific discoveries, no matter how original-seeming, were built on previously existing research.
+
+There are precursors to bitcoin: Adam Back’s Hashcash, invented in 1997,8﻿﻿ and subsequently Wei Dai’s b-money, Nick Szabo’s bit gold, and Hal Finney’s Reusable Proof of Work. The bitcoin whitepaper itself cites Hashcash and b-money, as well as various other works spanning several research fields. Perhaps unsurprisingly, many of the individuals behind the other projects named above have been speculated to have also had a part in creating bitcoin.
+
+There are a few possible motivations for bitcoin's inventor deciding to keep their identity secret. One is privacy: As bitcoin has gained in popularity—becoming something of a worldwide phenomenon—Satoshi Nakamoto would likely garner a lot of attention from the media and from governments.
+
+Another reason could be the potential for bitcoin to cause a major disruption in the current banking and monetary systems. If bitcoin were to gain mass adoption, the system could surpass nations' sovereign fiat currencies. This threat to existing currency could motivate governments to want to take legal action against bitcoin's creator.
+
+The other reason is safety. Looking at 2009 alone, 32,489 blocks were mined; at the reward rate of 50 bitcoin per block, the total payout in 2009 was 1,624,500 bitcoin. One may conclude that only Satoshi and perhaps a few other people were mining through 2009 and that they possess a majority of that stash of bitcoin.
+
+Someone in possession of that much bitcoin could become a target of criminals, especially since bitcoins are less like stocks and more like cash, where the private keys needed to authorize spending could be printed out and literally kept under a mattress. While it's likely the inventor of bitcoin would take precautions to make any extortion-induced transfers traceable, remaining anonymous is a good way for Satoshi to limit exposure.
+
 ## History of Blockchain Technology
 
 Blockchain technology has to be one of the biggest innovations of the 21stcentury given the ripple effect it is having on various sectors, from financial to manufacturing as well as education. Unknown to many, is that the history of Blockchain dates back to the early 1990s.
