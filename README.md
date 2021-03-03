@@ -8,6 +8,26 @@ Refered as Distributed Ledger Technology (DLT)  makes the history of any digital
 
 Blockchains offer groundbreaking technology with the potential to change the internet and even the world for many reasons. As we dive deeper into how blockchains work, you will find it increasingly easy to understand exactly why.
 
+## Blockchain & distributed ledger origins
+
+In a traditional marketplace, middlemen oversee the exchange of assets. When you receive your paycheck, for example, a bank controls the transaction. The bank validates the check, verifies that the employer holds the required funds in their account, and records the exchange. This record, or ledger, documents the transaction and the resulting change in wealth; you can look at your bank statement and see that you’re a little bit richer. For most transactions, a central entity like a bank has sole power over this ledger.
+
+While giving control of our transactions to a central power requires a great deal of trust, it has historically been the best method for ensuring the security of the ledger. Imagine, for instance, that your employer owned the ledger instead of the bank. Your employer could falsely claim that they paid you and manipulate the records to back up their lie. Because of this security risk, neither participant in the exchange should be given sole control of the ledger. For most of history, the best way to avoid this kind of fraud was to entrust an unbiased intermediary with the ledger and hope that this middleman would faithfully maintain the ledger. In other words, traditionally, two parties who agreed upon a transaction relied on a third-party institution to carry out and record the exchange.
+
+However, central ledgers are no longer the only viable option for exchanging our assets. Now, due to the advent of distributed ledger technologies, we can safely get our paychecks without needing to trust a bank.
+
+## Blockchains & distributed ledgers explained
+
+Distributed ledger technologies, like blockchain, are peer-to-peer networks that enable multiple members to maintain their own identical copy of a shared ledger. Rather than requiring a central authority to update and communicate records to all participants, DLTs allow their members to securely verify, execute, and record their own transactions without relying on a middleman.
+
+While there are a wide variety of DLTs on the market, they are all comprised of the same building blocks: a public or private / permissioned / permissionless distributed ledger, a consensus algorithm (to ensure all copies of the ledger are identical), and a framework for incentivizing and rewarding network participation.
+
+## Public vs. private and permissioned vs. permissionless
+
+Distributed ledgers are categorized as “private” or “public” and “permissioned” or “permissionless” — they can be any combination of any of the two. To achieve full decentralization, Hedera believes distributed ledgers must public permissionless networks.
+
+![path_to_decentralization]()
+
 ## Main Characteristics and Properties of Blockchain 
 
 ### (1) Each node contains a complete image of a blockchain’s network
