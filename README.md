@@ -27,7 +27,7 @@ Ever since Satoshi Nakamoto exited the scene and handed over Bitcoin development
 
 A very common question, when was blockchain invented? we see can say Blockchain was invented in 1991.
 
-![History_of_Blockchain_Technology (1)](https://github.com/aridiosilva/Blockchain/blob/main/History_of_Blockchain_Technology.png)
+![History_of_Blockchain_Technology (1)](https://github.com/aridiosilva/Blockchain/blob/main/History_of_Blockchain_Technology_.png)
 
 ### Blockchain Structure
 
