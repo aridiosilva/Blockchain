@@ -126,13 +126,13 @@ However, central ledgers are no longer the only viable option for exchanging our
 
 ![distributed_ledgers_explained](https://raw.githubusercontent.com/aridiosilva/Blockchain/main/distributed_ledgers_explained.webp)
 
-## Blockchains & distributed ledgers explained
+## Distributed Ledgers (DLTs) explained
 
 Distributed ledger technologies, like blockchain, are peer-to-peer networks that enable multiple members to maintain their own identical copy of a shared ledger. Rather than requiring a central authority to update and communicate records to all participants, DLTs allow their members to securely verify, execute, and record their own transactions without relying on a middleman.
 
 While there are a wide variety of DLTs on the market, they are all comprised of the same building blocks: a public or private / permissioned / permissionless distributed ledger, a consensus algorithm (to ensure all copies of the ledger are identical), and a framework for incentivizing and rewarding network participation.
 
-## Public vs. private and permissioned vs. permissionless
+## Public vs. Private and Permissioned vs. Permissionless
 
 Distributed ledgers are categorized as “private” or “public” and “permissioned” or “permissionless” — they can be any combination of any of the two. To achieve full decentralization, Hedera believes distributed ledgers must public permissionless networks.
 
@@ -234,6 +234,63 @@ In a blockchain, transactions are stored in blocks, with each newly generated bl
 These blocks constitute a chain, hence the name “blockchain”. This chain continues on indefinitely. In the case of blockchains such as Bitcoin, trust is based on technological features such as the fact that all blocks can be viewed by the public. No transaction is added to a block without first being verified by a miner - a special type of computer in the network. This way the community ensures that no fraudulent transaction is recorded in a blockchain. Consequently, a blockchain can even be used by parties who don’t necessarily trust each other to do business because they know their transactions are tamper-proof.
 
 # What is a Node in a Blockchain Network?
+
+Because nodes are a critical component of a blockchain’s infrastructure. Without nodes, a blockchain’s data would not be accessible. You could say that nodes are the blockchain.
+
+A blockchain exists out of blocks of data. These blocks of data are stored on nodes (compare it to small servers). Nodes can be any kind of device (mostly computers, laptops or even bigger servers). Nodes form the infrastructure of a blockchain. All nodes on a blockchain are connected to each other and they constantly exchange the latest blockchain data with each other so all nodes stay up to date. They store, spread and preserve the blockchain data, so theoretically a blockchain exists on nodes. A full node is basically a device (like a computer) that contains a full copy of the transaction history of the blockchain.
+
+# What do Nodes do?
+
+When a miner attempts to add a new block of transactions to the blockchain, it broadcasts the block to all the nodes on the network. Based on the block’s
+legitimacy (validity of signature and transactions), nodes can accept or reject the block. When a node accepts a new block of transactions, it saves and stores it on top
+of the rest of the blocks it already has stored. In short, here is what nodes do:
+
+1) Nodes check if a block of transactions is valid and accept or reject it.
+1) Nodes save and store blocks of transactions (storing blockchain transaction history).
+2) Nodes broadcast and spread this transaction history to other nodes that may need to synchronize with the blockchain (need to be updated on transaction history).
+
+# Difference between a Miner and a Node
+
+A miner always needs to run a full node in order to select valid transactions to form a new block. Without a full node it cannot determine what proposed transactions are valid according to the current blockchain’s transaction history (aka if all balances involved in the transactions are sufficient enough to perform the proposed transactions), because it does not have access to the full blockchain history. Therefore, a miner is always also a full node. A node however, is not necessarily simultaneously a miner. A device can run a full node by receiving, storing and broadcasting all transaction data (much like a server) without actually creating new blocks of transactions itself. In this case it functions more like a pass point with a directory, whereas a miner is the same but simultaneously tries to create new blocks of transactions as well.
+
+#*efinition of a node in blockchain:* **A full node is a full copy of the blockchain transaction history on any device.**
+
+# How Nodes secure the Blockchain
+
+Nodes can be online or offline. Online nodes are receiving, saving and broadcasting all the latest blocks of transactions from and to other nodes, while offline nodes do
+not. When an offline node comes back online, it will need to catch up with the rest of the blockchain first by downloading all blocks that were added to the blockchain
+ever since the node went offline. This process is often referred to as synchronizing with the blockchain.
+
+An entire blockchain can theoretically run on a single node, but since it would be stored on only a single device, it would be extremely vulnerable to things like power 
+outages, hackers or systemic crashes. The more full nodes a blockchain is running on, the better its resilience against such catastrophes is. When the blockchain data
+is spread across so many devices, it will be very hard for a corrupt entity to wipe out all this data at once. Even if a large number of nodes suddenly goes offline and
+becomes inaccessible because of a global crisis, a single node can theoretically keep an entire blockchain operational. And even if all nodes go offline, it only takes one
+node with the full blockchain history to come back online to make all the data accessible again.
+
+# Who can run a Node?
+
+Some blockchains have thousands of nodes simultaneously online. Anyone can runa node by simply downloading the transaction history of a blockchain. Many crypto and blockchain enthusiasts are running nodes voluntarily. They do this to contribute to a blockchains community, its development, security and integrity, but also simply becau se it’s their hobby and makes them feel part of the project. 
+
+Running a node is considered fairly simple for someone slightly tech savvy, and does not require a lot of resources. Some blockchains however, now contain such a large amount of transaction data that it actually requires a lot of memory on a device to run a full node. Many crypto users who just want to use a blockchain therefore use wallet applications. These applications allow them to broadcast transactions from their wallet without being required to download the entire blockchain history on their own device.
+
+# What are Masternodes?
+
+Some blockchains also feature masternodes. Masternodes are usually heavier equipped than normal nodes. Next to validating, saving and broadcasting transactions, masternodes sometimes also facilitate other events on the blockchain dependent on their nature, such as governing voting events, providing execution of protocol operations and enforcing the laws of the according blockchain. 
+
+Masternodes are generally always online (24/7), and facilitate much more memory than normal nodes. You could say a masternode is like hosting a very large server
+on the network. Because hosting a masternode usually requires much more resources (electricity, up-time, maintenance, storage space, memory), hosting one generally provides payment in the form of interest.
+
+# Who can run a Masternode?
+
+Not just anyone can run a masternode though. The power of controlling a masternode can be abused, and therefore it requires the host to deposit a minimum (often quite large) amount of crypto as collateral. This collateral is taken hostage when the masternode host violates the rules of the blockchain. The interest rate a masternode host receives is calculated over their collateral deposit.
+
+Dash (DASH) is one of the most common blockchains that has a masternode feature built in. However, hosting a masternode on the Dash blockchain doesn’t come cheap — the minimum collateral to qualify for hosting a masternode on this blockchain is currently a staggering 1,000 DASH, worth $200,000 at the time of writing. It can still be an attractive investment though, as the DASH blockchain returned a yearly interest rate of 11% in 2016 for example.
+
+At the time of writing, a website screening the live number of masternodes currently running on the DASH network claims there are up to 4,941 masternodes running, of
+which 1284 in the United States and 1038 in the Netherlands. 
+
+
+# Different Types of Blockchain Nodes
 
 There are different types, but each of them shares one specific characteristic – you’ll require specific hardware in order to host or simply connect to one.
 
@@ -337,6 +394,8 @@ One such example is the addition of the Segregated Witness feature to Bitcoin. T
 Whether or not you decide to use a Virtual Private Server is up to personal preference. If you decide to run a masternode, lightning node or even a cold staking node, a VPS will be beneficial as you pay a small fee in return for protection from DDoS attacks, not having to maintain any hardware and not worry about your bandwidth capabilities.
 
 On the other hand, if you don’t take enough security precautions, you risk someone hacking into your server and stealing your funds, provided you’re storing your coins in those wallets. These are the basics, but I’d recommend researching VPS servers in detail before deciding on whether or not to rent one. 
+
+
 
 ## FAQ
 
