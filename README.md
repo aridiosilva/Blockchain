@@ -2,6 +2,115 @@
 
 Refered as Distributed Ledger Technology (DLT)  makes the history of any digital asset unalterable and transparent through the use of descentralization and cryptographic hashing.
 
+## History_of_Blockchain_Technology
+
+
+Blockchain technology has to be one of the biggest innovations of the 21stcentury given the ripple effect it is having on various sectors, from financial to manufacturing as well as education. Unknown to many, is that the history of Blockchain dates back to the early 1990s.
+
+Since its popularity started growing a few years back, a number of applications have cropped up all but underlining the kind of impact it is destined to have as the race for digital economies heat up. In this discussion, we’ll learn about the history of Blockchain with Blockchain evolution.
+
+### History of Blockchain Technology – Timeline Infographic
+
+It is important to know about the history of Blockchain for Blockchain enthusiasts and Blockchain aspirants. So, to help our reader know the Blockchain history and understand the Blockchain evolution, here we bring a detailed guide to the history of blockchain technology with its detailed evolution.
+
+### 1991-2008: Early Years of Blockchain Technology
+
+How did blockchain emerge? Stuart Haber and W. Scott Stornetta envisioned what many people have come to know as blockchain, in 1991. Their first work involved working on a cryptographically secured chain of blocks whereby no one could tamper with timestamps of documents.
+
+In 1992, they upgraded their system to incorporate Merkle trees that enhanced efficiency thereby enabling the collection of more documents on a single block. However, it is in 2008 that Blockchain History starts to gain relevance, thanks to the work one person or group by the name Satoshi Nakamoto.
+
+Satoshi Nakamoto is accredited as the brains behind blockchain technology. Very little is known about Nakamoto as people believe he could be a person or a group of people that worked on Bitcoin, the first application of the digital ledger technology.
+
+Nakamoto conceptualized the first blockchain in 2008 from where the technology has evolved and found its way into many applications beyond cryptocurrencies. Satoshi Nakamoto released the first whitepaper about the technology in 2009. In the whitepaper, he provided details of how the technology was well equipped to enhance digital trust given the decentralization aspect that meant nobody would ever be in control of anything.
+
+Ever since Satoshi Nakamoto exited the scene and handed over Bitcoin development to other core developers, the digital ledger technology has evolved resulting in new applications that make up the blockchain History.
+
+A very common question, when was blockchain invented? we see can say Blockchain was invented in 1991.
+
+![History_of_Blockchain_Technology (1)](https://github.com/aridiosilva/Blockchain/blob/main/History_of_Blockchain_Technology.png)
+
+### Blockchain Structure
+
+In simple terms, Blockchain is a peer-to-peer distributed ledger that is secure and used to record transactions across many computers. The ledger’s contents can only be updated by adding another block linked to the previous block. It can also be envisioned as a peer-to-peer network running on top of the internet.
+
+In layman or businesses term, blockchain is a platform where people are allowed to carry out transactions of all sorts without the need for a central or trusted arbitrator.
+
+The created database is shared among network participants in a transparent manner, whereby everyone can access its contents. Management of the database is done autonomously using peer-to-peer networks and a time stamping server. Each block in a blockchain is arranged in such a way that it references the content of the previous block.
+
+The blocks that form a blockchain hold batches of transactions approved by participants in a network. Each block comes with a cryptographic hash of a previous block in the chain.
+
+Read our previous article Ultimate Blockchain Guide to know more about blockchain technology.
+
+## Evolution of Blockchain: Phase 1- Transactions
+
+### 2008-2013: Blockchain 1.0: Bitcoin Emergence
+
+Most people believe that Bitcoin and Blockchain are one and the same thing. However, that is not the case, as one is the underlying technology that powers most applications of which one of them is cryptocurrencies.
+
+Bitcoin came into being in 2008 as the first application of Blockchain technology. Satoshi Nakamoto in his whitepaper detailed it as an electronic peer-to-peer system. Nakamoto formed the genesis block, from which other blocks were mined, interconnected resulting in one of the largest chains of blocks carrying different pieces of information and transactions.
+
+Ever since Bitcoin, an application of blockchain, hit the airwaves, a number of applications have cropped all of which seek to leverage the principles and capabilities of the digital ledger technology. Consequently, blockchain history contains a long list of applications that have come into being with the evolution of the technology.
+
+> More and more organizations are joining the digital transformation revolution with the adoption of blockchain technology. Read our previous blog to understand how will blockchain change organizations.
+
+Buterin differentiated Ethereum from Bitcoin Blockchain by enabling a function that allows people to record other assets such as slogans as well as contracts. The new feature expanded Ethereum functionalities from being a cryptocurrency to being a platform for developing decentralized applications as well.
+
+Officially launched in 2015, Ethereum blockchain has evolved to become one of the biggest applications of blockchain technology given its ability to support smart contracts used to perform various functions. Ethereum blockchain platform has also succeeded in gathering an active developer community that has seen it establish a true ecosystem.
+
+Ethereum blockchain processes the most number of daily transactions thanks to its ability to support smart contracts and decentralized applications. Its market cap has also increased significantly in the cryptocurrency space.
+
+## Evolution of Blockchain: Phase 2- Contracts
+
+### 2013-2015: Blockchain 2.0: Ethereum Development
+
+In a world where innovation is the order of the day, Vitalik Buterin is among a growing list of developers who felt Bitcoin had not yet reached there, when it came to leveraging the full capabilities of blockchain technology, as one of the first contributors to the Bitcoin codebase.
+
+Concerned by Bitcoin’s limitations, Buterin started working on what he felt would be a malleable blockchain that can perform various functions in addition to being a peer-to-peer network. Ethereum was born out as a new public blockchain in 2013 with added functionalities compared to Bitcoin, a development that has turned out to be a pivotal moment in Blockchain history.
+
+Buterin differentiated Ethereum from Bitcoin Blockchain by enabling a function that allows people to record other assets such as slogans as well as contracts. The new feature expanded Ethereum functionalities from being a cryptocurrency to being a platform for developing decentralized applications as well.
+
+Officially launched in 2015, Ethereum blockchain has evolved to become one of the biggest applications of blockchain technology given its ability to support smart contracts used to perform various functions. Ethereum blockchain platform has also succeeded in gathering an active developer community that has seen it establish a true ecosystem.
+
+Ethereum blockchain processes the most number of daily transactions thanks to its ability to support smart contracts and decentralized applications. Its market cap has also increased significantly in the cryptocurrency space.
+
+## Evolution of Blockchain: Phase 3- Applications
+
+### 2018: Blockchain 3.0: the Future
+
+Blockchain History and evolution does not stop with Ethereum and Bitcoin. In recent years, a number of projects have cropped up all leveraging blockchain technology capabilities. New projects have sought to address some of the deficiencies of Bitcoin and Ethereum in addition to coming up with new features leveraging blockchain capabilities.
+
+Some of the new blockchain applications include NEO, billed as the first open-source, decentralized, and blockchain platform launched in China. Even though the country has banned cryptocurrencies, it remains active when it comes to blockchain innovations. NEO casts itself as the Chinese Ethereum having already received the backing of Alibaba CEO Jack Ma as it plots to have the same impact as Baidu in the country.
+
+In the race to accelerate the development of the Internet of Things, some developers, so it fit, to leverage blockchain technology and in the process came up with IOTA. The cryptocurrency platform is optimized for the Internet of things ecosystem as it strives to provide zero transaction fees as well as unique verification processes. It also addresses some of the scalability issues associated with Blockchain 1.0 Bitcoin.
+
+In addition to IOTA and NEO, other second-generation blockchain platforms are also having a ripple effect in the sector. Monero Zcash and Dash blockchains came into being as a way of addressing some of the security and scalability issues associated with the early blockchain applications. Dubbed as privacy Altcoins, the three blockchain platform seek to provide high levels of privacy and security when it comes to transactions.
+
+The blockchain history discussed above involves public blockchain networks, whereby anyone can access the contents of a network. However, with the evolution of technology, a number of companies have started adopting the technology internally as a way of enhancing operational efficiency.
+
+Large enterprises are investing big in hiring professionals as they seek to gain a head start on the use of technology. Companies like Microsoft and Microsoft appear to have taken the lead when it comes to exploring blockchain technology applications resulting in what has come to be known as private, hybrid, and federated blockchains.
+
+## 2015: Hyperledger
+
+In 2015, the Linux Foundation unveiled an Umbrella project of open-source blockchain. They went on to call it Hyperledger, which until to date acts as collaborative development of distributed ledgers. Under the leadership of Brian Behlendorf, Hyperledger seeks to advance cross-industry collaboration for the development of blockchain and distributed ledgers.
+
+Hyperledger focuses on encouraging the use of blockchain technology to improve the performance and reliability of current systems to support global business transactions.
+
+## 2017: EOS.IO
+
+EOS brainchild of private company block.one came into being in 2017, on the publishing of a white paper detailing a new blockchain protocol powered by an EOS as the native cryptocurrency. Unlike other blockchain protocols, EOS tries to emulate attributes of real computers including CPU and GPU.
+
+For that reason, EOS.IO doubles up as a smart contract platform as well as a decentralized operating system. Its main purpose is to encourage the deployment of decentralized applications through an autonomous decentralized corporation.
+
+## 2020: Blockchain History & The Future
+
+The future of Blockchain technology looks bright, in part, because of the way governments and enterprises are investing big as they seek to spur innovations and applications. It is becoming increasingly clear that one day there will be a public blockchain that anyone can use.
+
+Advocates expect the technology to help in the automation of most tasks handled by professionals in all sectors. The technology is already finding great use in supply management as well as in the cloud computing business. The technology should also find its way into basic items such as search engines on the internet in the future.
+
+As the technology evolves, Gartner Trend Insights expects at least one business built on blockchain to come into being valued at more than $10 billion by 2022. Due to the Blockchain Digital Transformation, the research firm expects the business value to grow to over $176 billion by 2025 and exceed the $3.1 trillion by 2030.
+
+The evolution of Blockchain Technology in recent years has increased the demand for Blockchain professionals. the companies are also implementing Blockchain to get benefits of the Blockchain applications. So, if you are aspiring to build a career in Blockchain, it’s the right time to start it with the Free Blockchain Course.
+
 ## What is a blockchain?
 
 > **A blockchain is a special type of database. Transactions are not governed by a single party, but rather the entire transaction history is recorded in a decentralised, > distributed ledger**.
