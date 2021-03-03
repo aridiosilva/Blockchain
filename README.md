@@ -16,6 +16,8 @@ While giving control of our transactions to a central power requires a great dea
 
 However, central ledgers are no longer the only viable option for exchanging our assets. Now, due to the advent of distributed ledger technologies, we can safely get our paychecks without needing to trust a bank.
 
+![distributed_ledgers_explained](https://raw.githubusercontent.com/aridiosilva/Blockchain/main/distributed_ledgers_explained.webp)
+
 ## Blockchains & distributed ledgers explained
 
 Distributed ledger technologies, like blockchain, are peer-to-peer networks that enable multiple members to maintain their own identical copy of a shared ledger. Rather than requiring a central authority to update and communicate records to all participants, DLTs allow their members to securely verify, execute, and record their own transactions without relying on a middleman.
