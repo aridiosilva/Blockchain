@@ -1,6 +1,6 @@
 # Blockchain
 
-Refered as Distributed Ledger Technology (DLT)
+Refered as Distributed Ledger Technology (DLT)  makes the history of any digital asset unalterable and transparent through the use of descentralization and cryptographic hashing.
 
 ## What is a blockchain?
 
