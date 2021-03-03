@@ -503,9 +503,14 @@ In theory, you could achieve the same goal by rolling a 16-sided die 64 times to
 
 The screenshot below, taken from the site Blockchain.info, might help you put all this information together at a glance. You are looking at a summary of everything that happened when block #490163 was mined. The nonce that generated the "winning" hash was 731511405. The target hash is shown on top. The term "Relayed by Antpool" refers to the fact that this particular block was completed by AntPool, one of the more successful mining pools (more about mining pools below). As you see here, their contribution to the Bitcoin community is that they confirmed 1768 transactions for this block. If you really want to see all 1768 of those transactions for this block, go to this page and scroll down to the heading "Transactions."
 
+![blockchaininfo-5bfd7146c9e77c0051baafd0](https://raw.githubusercontent.com/aridiosilva/Blockchain/main/blockchaininfo-5bfd7146c9e77c0051baafd0.webp)
+
+
+
 ![blockchaininfo-5bfd7146c9e77c0051baafd0 ](https://github.com/aridiosilva/Blockchain/blob/main/dotdash_Final_How_Does_Bitcoin_Mining_Work_Dec_2020-04-2d73080ca35e4e3bab0455cac17026de_.png)
 
-"So how do I guess at the target hash?"
+### "So how do I guess at the target hash?"
+
 All target hashes begin with zeros—at least eight zeros and up to 63 zeros. 
 
 There is no minimum target, but there is a maximum target set by the Bitcoin Protocol. No target can be greater than this number:
@@ -514,11 +519,33 @@ There is no minimum target, but there is a maximum target set by the Bitcoin Pro
 
 Here are some examples of randomized hashes and the criteria for whether they will lead to success for the miner:
 
+### "How do I maximize my chances of guessing the target hash before anyone else does?"
 
+You'd have to get a fast mining rig, or, more realistically, join a mining pool—a group of coin miners who combine their computing power and split the mined bitcoin. Mining pools are comparable to those Powerball clubs whose members buy lottery tickets en masse and agree to share any winnings. A disproportionately large number of blocks are mined by pools rather than by individual miners.
 
+In other words, it's literally just a numbers game. You cannot guess the pattern or make a prediction based on previous target hashes. The difficulty level of the most recent block at the time of writing is about 17.59 trillion, meaning that the chance of any given nonce producing a hash below the target is one in 17.59 trillion. Not great odds if you're working on your own, even with a tremendously powerful mining rig.
 
+### "How do I decide whether bitcoin will be profitable for me?"
 
+Not only do miners have to factor in the costs associated with expensive equipment necessary to stand a chance of solving a hash problem. They must also consider the significant amount of electrical power mining rigs utilize in generating vast quantities of nonces in search of the solution. All told, bitcoin mining is largely unprofitable for most individual miners as of this writing. The site Cryptocompare offers a helpful calculator that allows you to plug in numbers such as your hash speed and electricity costs to estimate the costs and benefits.
 
+## What Are Coin Mining Pools?
+
+Mining rewards are paid to the miner who discovers a solution to the puzzle first, and the probability that a participant will be the one to discover the solution is equal to the portion of the total mining power on the network. Participants with a small percentage of the mining power stand a very small chance of discovering the next block on their own. For instance, a mining card that one could purchase for a couple of thousand dollars would represent less than 0.001% of the network's mining power. With such a small chance at finding the next block, it could be a long time before that miner finds a block, and the difficulty going up makes things even worse. The miner may never recoup their investment. The answer to this problem is mining pools. Mining pools are operated by third parties and coordinate groups of miners. By working together in a pool and sharing the payouts among all participants, miners can get a steady flow of bitcoin starting the day they activate their miner. Statistics on some of the mining pools can be seen on Blockchain.info.
+
+### "I've done the math. Forget mining. Is there a less onerous way to profit from cryptocurrencies?"
+
+As mentioned above, the easiest way to acquire bitcoin is to simply buy it on one of the many exchanges. Alternately, you can always leverage the "pickaxe strategy." This is based on the old saw that during the 1849 California gold rush, the smart investment was not to pan for gold, but rather to make the pickaxes used for mining. Or, to put it in modern terms, invest in the companies that manufacture those pickaxes. In a cryptocurrency context, the pickaxe equivalent would be a company that manufactures equipment used for Bitcoin mining. You may consider looking into companies that make ASICs equipment or GPUs instead, for example.
+
+## Is Bitcoin Mining Legal?
+
+The legality of Bitcoin mining depends entirely on your geographic location. The concept of Bitcoin can threaten the dominance of fiat currencies and government control over the financial markets. For this reason, Bitcoin is completely illegal in certain places.
+
+Bitcoin ownership and mining are legal in more countries than not. Some examples of places where it is illegal are Algeria, Egypt, Morocco, Bolivia, Ecuador, Nepal, and Pakistan.4﻿ Overall, Bitcoin use and mining are legal across much of the globe.
+
+## Risks of Mining 
+
+The risks of mining are that of financial risk and a regulatory one. As mentioned, Bitcoin mining, and mining in general, is a financial risk. One could go through all the effort of purchasing hundreds or thousands of dollars worth of mining equipment only to have no return on their investment. That said, this risk can be mitigated by joining mining pools. If you are considering mining and live in an area that it is prohibited you should reconsider. It may also be a good idea to research your countries regulation and overall sentiment towards cryptocurrency before investing in mining equipment.
 
 
 
