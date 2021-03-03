@@ -26,7 +26,43 @@ While there are a wide variety of DLTs on the market, they are all comprised of 
 
 Distributed ledgers are categorized as “private” or “public” and “permissioned” or “permissionless” — they can be any combination of any of the two. To achieve full decentralization, Hedera believes distributed ledgers must public permissionless networks.
 
-![path_to_decentralization]()
+![path_to_decentralization](https://github.com/aridiosilva/Blockchain/blob/main/path_to_decentralization.webp)
+
+### Private / Permissioned: 
+
+This type of network offers no decentralization. The applications and the network nodes running those application must both be invited to join the network and meet certain criteria or provide a form of identification. Any party can also be removed without warning at any time.
+
+### Private / Permissionless: 
+
+Requires that applications deployed in production be invited to join the network and can be removed without warning at any time. The nodes which constitute the network and run said applications can freely and anonymously join and contribute, typically in exchange for a network’s native cryptocurrency.
+
+### Public / Permissioned: 
+
+Allows applications to be deployed in production or removed, without having to notify anyone, reveal their identity, or meet any application criteria requirements. The nodes which constitute the network and run said applications must be invited to join the network.
+
+### Public / Permissionless: 
+
+This type of network is the most decentralized. Applications can be deployed in production or removed, without having to notify anyone, reveal their identity, or meet any application criteria requirements. Additionally, the nodes which constitute the network can freely and anonymously join and contribute, typically in exchange for a network’s native cryptocurrency.
+
+## Reaching consensus
+
+Although every node on a permissioned or permissionless distributed ledger maintains and updates their own copy of the ledger, it is imperative that each of these ledgers remains identical. Imagine, for instance, that your copy of the ledger reveals that you have $100 in your account, while the cashier’s ledger holds that you have $1. This discrepancy would make it very difficult, if not impossible, to buy a candy bar. Without identical ledgers, participants in the network could not make transactions.
+
+In order to keep the distributed ledger consistent, DLTs must have a consensus algorithm, or a method of ensuring that all copies of the ledger agree. A consensus algorithm is a method of synchronizing the data across a distributed system. In the case of a DLT, the consensus algorithm ensures that all copies of the ledger are identical.
+
+There are many different consensus algorithms on the market, each with different advantages. Perhaps the most intuitive algorithm is a simple vote. According to this algorithm, each node independently calculates how they think they should update their ledger based on the information available to them. Then, each node sends this information to every other node. At this point, every node in the network has access to their decision and every other node’s decision. The nodes then calculate the majority or plurality vote, and they all update their ledgers according to this democratic consensus.
+
+Although the simple vote is effective and intuitive, it is not efficient at scale. Because every node must send their vote to every other node, the bandwidth and processing power required to come to consensus grows exponentially with the size of the network. In other words, every additional node dramatically decreases the efficiency of the network. Because DLTs become more secure and transparent when more nodes are added to the network, many other consensus algorithms have been developed to better suit the need for large, efficient, and reliable peer-to-peer networks.
+
+If you are curious about other consensus algorithms, you can learn about them by visiting the following pages within the learning center: voting-based consensus, economy-based consensus, and more coming soon.
+
+## Cryptocurrency and compensating network participants
+
+To carry out their consensus algorithms, DLTs require a significant amount of processing power per transaction. Just as DLTs distribute the responsibility of maintaining the ledger to each participant, so do they divide this computational burden. Every node must donate computing power to run the consensus algorithm and process transactions. Of course, computing power is not free.
+
+To compensate participants for their work, and incentivize further participation, DLTs typically reward active membership with cryptocurrency. Cryptocurrency is a virtual, encrypted token which can be exchanged using across a decentralized network. These coins can be exchanged, purchased, or earned by participating in the network.
+
+While cryptocurrencies have no inherent value (much like fiat currency), they may be valuable to participants in a network because they are necessary for performing actions quickly, securely, and cost effectively across the decentralized network. Their usefulness as currency generates a demand for these coins. Therefore, participants have an incentive to contribute computational resources to the network. Not only is their work rewarded in cryptocurrency, the value of that currency may rise as the network grows and more build useful applications on the distributed ledger platform.
 
 ## Main Characteristics and Properties of Blockchain 
 
@@ -42,6 +78,12 @@ Instead of one central party such as a company, government or bank, the entire b
 
 This certainty creates mutual trust. In other words, participants of a blockchain network don’t even have to trust each other because no single user can cheat the system as a whole. Blockchain technology is suitable for transactions between parties that need to be verifiable and permanent, such as contracts, ownership of intellectual property, 
 identification, and, of course, cryptocurrencies like Bitcoin.
+
+## Why are distributed ledger technologies useful?
+
+Distributed ledger technologies allow businesses and individuals alike to quickly carry out secure transactions without needing to rely on a middleman. By avoiding intermediaries, distributing control of the ledger, and providing a tamper-apparent network, DLTs present a more cost-efficient, accessible, and reliable transaction platform than centralized ledger systems.
+
+![]()
 
 ## How do blockchains work?
 
