@@ -4,7 +4,7 @@ Refered as Distributed Ledger Technology (DLT)  makes the history of any digital
 
 ## Who Is Satoshi Nakamoto?
 
-No one knows who invented bitcoin, or at least not conclusively. Satoshi Nakamoto is the name associated with the person or group of people who released the original bitcoin white paper in 2008 and worked on the original bitcoin software that was released in 2009. In the years since that time, many individuals have either claimed to be or have been suggested as the real-life people behind the pseudonym, but as of January 2021, the true identity (or identities) behind Satoshi remains obscured.7﻿﻿
+No one knows who invented bitcoin, or at least not conclusively. Satoshi Nakamoto is the name associated with the person or group of people who released the original bitcoin white paper in 2008 and worked on the original bitcoin software that was released in 2009. In the years since that time, many individuals have either claimed to be or have been suggested as the real-life people behind the pseudonym, but as of January 2021, the true identity (or identities) behind Satoshi remains obscured.
 
 Although it is tempting to believe the media's spin that Satoshi Nakamoto is a solitary, quixotic genius who created Bitcoin out of thin air, such innovations do not typically happen in a vacuum. All major scientific discoveries, no matter how original-seeming, were built on previously existing research.
 
