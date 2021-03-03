@@ -564,8 +564,49 @@ Bitcoin ownership and mining are legal in more countries than not. Some examples
 The risks of mining are that of financial risk and a regulatory one. As mentioned, Bitcoin mining, and mining in general, is a financial risk. One could go through all the effort of purchasing hundreds or thousands of dollars worth of mining equipment only to have no return on their investment. That said, this risk can be mitigated by joining mining pools. If you are considering mining and live in an area that it is prohibited you should reconsider. It may also be a good idea to research your countries regulation and overall sentiment towards cryptocurrency before investing in mining equipment.
 
 
+# WHICH INDUSTRIES HAVE ADOPTED BLOCKCHAIN TECHNOLOGY?
 
+The majority of people understand Blockchain in relation to cryptocurrency. However, a number of mainstream industries, including finance, supply chain, gaming, and others, have started to use blockchain technology without any digital currencies. Let’s have a look at how such industries are using Blockchain for their operations. 
 
+## Finance 
+
+Finance is one of the most crucial applications of Blockchain. In fact, it is easy to see how Blockchain’s properties make it ideal for financial applications. Banks and other financial institutions are already using Blockchain for seamless cross-border payments, clearing settlements, digital identity management, and for other varying purposes. By offering decentralization, immutability transparency, and security, it can facilitate international payments and help perform worldwide financial transactions. By removing irrelevant intermediaries, it can simplify the entire transaction process and allow instant payment solutions globally. 
+
+* AIB, Bank of Cyprus, China Banking Association, DNB, and many others are using Blockchain. 
+
+## Supply Chain 
+
+As various top companies have started realizing the potential of Blockchain, they have started implementing it for real-time data access, privacy, traceability, and auditability for their supply chain management.
+
+For instance, Walmart, a well-known American multinational retail corporation, is utilizing Blockchain technology to add transparency, reliability, and traceability to its food supply ecosystem by digitizing the entire food supply chain process. Similarly, De Beers, the world’s biggest diamond producer by the value of its gems, is using Blockchain to track every natural diamond from the mine to the retail counter.
+
+Apart from this, FedEx, United Parcel Service(UPS), and others are using this technology for their efficient supply chain.
+
+According to the WEF study, Blockchain could contribute to a $365 billion savings by reducing food loss and waste in the food supply chain by 2030. 
+
+As demand for Blockchain professionals is increasing in the Supply Chain Industry, become a Certified Blockchain & Supply Chain Professional today!
+
+## Gaming Industry 
+
+Blockchain has entered the gaming industry as well, and it is positively profiting both developers and gamers by providing a reliable and secure environment for developers with encryption techniques to secure crypto transactions. Also, with the concept of tokenization, it is enabling gamers to buy and sell game assets securely. Moreover, smart contract functionalities enable players to transfer all their in-game assets to their public addresses, thus providing complete control over digital assets.
+
+Unlike traditional games, where powers are in the hands of players where they can abruptly shut down games, blockchain-based games give much access and control to players over their games.  
+
+Age of Rust, Crypto Space Commander, CryptoWars, Gods Unchained are some of the interesting Blockchain-based games. 
+
+## Pharmaceuticals
+
+Blockchain technology continues to attract attention in the pharmaceutical domain. Amid the COVID-19 pandemic, government institutions globally have incorporated Blockchain technology. Blockchain can help in maintaining a supply chain visibility, providing real-time logging and data visualization of disease spread, early detection of epidemics, verifying communities and workplaces that are risk-free from the coronavirus outbreak, and much more. 
+
+In 2020, several government institutions made announcements regarding plans to adopt DLT for multiple use cases, including the healthcare space. For instance, recently, it was announced that Cyprus’s Mediterranean Hospital utilizes the VeChain platform to store its COVID-19 vaccination records. Similarly, in November 2020, it was announced that South Korean hospitals aim to usher in the new healthcare era by utilizing Blockchain technology. 
+
+Looking for the best Blockchain Certification? Get enrolled and become a Certified Blockchain & Healthcare Professional now!
+
+## Voting 
+
+Blockchain can play a significant role in voting as well. It can help in maintaining digital identity, prevents hacking and fraud, and allows anonymous voting. Moreover, Blockchain-based voting eliminates electoral malpractices like manipulations, tampering, recording errors, etc.
+
+For example, South Korea has considered moving to the Blockchain for security reasons. Similarly, it was announced that the Indian state of Telangana is developing a blockchain-based electronic voting system to facilitate remote voting. Apart from this, Russia, the United States, and many others have already used a blockchain electronic voting system. 
 
 
 
