@@ -402,7 +402,7 @@ Another way of introducing changes to a network is via a soft fork. Contrary to 
 
 One such example is the addition of the Segregated Witness feature to Bitcoin. To this day, transactions can be made on BTC’s blockchain with or without using this feature. Once 95% of clients on the network are updated to the version that supports SegWit, the consensus will automatically change and refuse any old transactions without it. This way, we have a smoother transition that does not force users to immediately update.
 
-![Soft Fork](https://github.com/aridiosilva/Blockchain/blob/main/soft-fork-mobile.svg)
+![Soft Fork](https://github.com/aridiosilva/Blockchain/blob/main/soft-fork-mobile.jpg)
 
 ### Virtual Private Servers (VPS) and Their Usage with Nodes
 
