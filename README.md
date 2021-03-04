@@ -32,6 +32,23 @@ Businesses who set up a private blockchain will generally set up a permissioned 
 
 Multiple organizations can share the responsibilities of maintaining a blockchain. These pre-selected organizations determine who may submit transactions or access the data. A consortium blockchain is ideal for business when all participants need to be permissioned and have a shared responsibility for the blockchain.
 
+# Types of Blockchain Consortium
+
+## Business-Focused
+
+These tend to develop blockchain solutions for a specific business issue. Mainly all the solutions are for business purpose only. Example: Tradelens
+
+## Technology-Focused
+
+These offer reusable blockchain platforms, solutions based on technical standards. Mainly these have multipurpose use cases. Ex: Hyperledger
+
+## Dual-Focused
+
+Here, they focus on both technology and business when offering a platform or solution: EX: RS
+
+![Top-Blockchain-Consortuim]()(https://github.com/aridiosilva/Blockchain/blob/main/Top-Blockchain-Consortuim.png)
+
+
 # History of Blockchain Technology
 
 Blockchain technology has to be one of the biggest innovations of the 21stcentury given the ripple effect it is having on various sectors, from financial to manufacturing as well as education. Unknown to many, is that the history of Blockchain dates back to the early 1990s.
