@@ -209,7 +209,7 @@ identification, and, of course, cryptocurrencies like Bitcoin.
 
 Distributed ledger technologies allow businesses and individuals alike to quickly carry out secure transactions without needing to rely on a middleman. By avoiding intermediaries, distributing control of the ledger, and providing a tamper-apparent network, DLTs present a more cost-efficient, accessible, and reliable transaction platform than centralized ledger systems.
 
-![distributed_ledger_uses](https://github.com/aridiosilva/Blockchain/blob/main/distributed_ledger_uses.webp)
+![distributed_ledger_uses](https://github.com/aridiosilva/Blockchain/blob/main/distributed_ledger_uses.png)
 
 ## Remove the middleman
 
