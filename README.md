@@ -2,6 +2,10 @@
 
 Refered as Distributed Ledger Technology (DLT)  makes the history of any digital asset unalterable and transparent through the use of descentralization and cryptographic hashing.
 
+# What is blockchain technology?
+
+Blockchain is a shared, immutable ledger for recording transactions, tracking assets and building trust. Discover why businesses worldwide are adopting it.
+
 # Blockchain overview
 
 ## Blockchain defined:
