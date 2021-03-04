@@ -28,7 +28,27 @@ The other reason is safety. Looking at 2009 alone, 32,489 blocks were mined; at 
 
 Someone in possession of that much bitcoin could become a target of criminals, especially since bitcoins are less like stocks and more like cash, where the private keys needed to authorize spending could be printed out and literally kept under a mattress. While it's likely the inventor of bitcoin would take precautions to make any extortion-induced transfers traceable, remaining anonymous is a good way for Satoshi to limit exposure.
 
-## History of Blockchain Technology
+# Types of blockchain networks
+
+There are several ways to build a blockchain network. They can be public, private, permissioned, or built by a consortium.
+
+## Public blockchain networks
+
+A public blockchain is one that anyone can join and participate in, such as Bitcoin. Drawbacks might include substantial computational power required, little or no privacy for transactions, and weak security. These are important considerations for enterprise use cases of blockchain.
+
+## Private blockchain networks
+
+A private blockchain network, similar to a public blockchain network, is a decentralized peer-to-peer network. However, one organization governs the network, controlling who is allowed to participate, execute a consensus protocol and maintain the shared ledger. Depending on the use case, this can significantly boost trust and confidence between participants. A private blockchain can be run behind a corporate firewall and even be hosted on premises.
+
+## Permissioned blockchain networks
+
+Businesses who set up a private blockchain will generally set up a permissioned blockchain network. It is important to note that public blockchain networks can also be a permissioned. This places restrictions on who is allowed to participate in the network and in certain transactions. Participants need to obtain an invitation or permission to join.
+
+## Consortium blockchains
+
+Multiple organizations can share the responsibilities of maintaining a blockchain. These pre-selected organizations determine who may submit transactions or access the data. A consortium blockchain is ideal for business when all participants need to be permissioned and have a shared responsibility for the blockchain.
+
+# History of Blockchain Technology
 
 Blockchain technology has to be one of the biggest innovations of the 21stcentury given the ripple effect it is having on various sectors, from financial to manufacturing as well as education. Unknown to many, is that the history of Blockchain dates back to the early 1990s.
 
