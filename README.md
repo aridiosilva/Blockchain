@@ -269,7 +269,7 @@ of the rest of the blocks it already has stored. In short, here is what nodes do
 
 A miner always needs to run a full node in order to select valid transactions to form a new block. Without a full node it cannot determine what proposed transactions are valid according to the current blockchain’s transaction history (aka if all balances involved in the transactions are sufficient enough to perform the proposed transactions), because it does not have access to the full blockchain history. Therefore, a miner is always also a full node. A node however, is not necessarily simultaneously a miner. A device can run a full node by receiving, storing and broadcasting all transaction data (much like a server) without actually creating new blocks of transactions itself. In this case it functions more like a pass point with a directory, whereas a miner is the same but simultaneously tries to create new blocks of transactions as well.
 
-#*efinition of a node in blockchain:* **A full node is a full copy of the blockchain transaction history on any device.**
+# Definition of a node in blockchain:* **A full node is a full copy of the blockchain transaction history on any device.**
 
 # How Nodes secure the Blockchain
 
@@ -305,7 +305,6 @@ Dash (DASH) is one of the most common blockchains that has a masternode feature 
 At the time of writing, a website screening the live number of masternodes currently running on the DASH network claims there are up to 4,941 masternodes running, of
 which 1284 in the United States and 1038 in the Netherlands. 
 
-
 # Different Types of Blockchain Nodes
 
 There are different types, but each of them shares one specific characteristic – you’ll require specific hardware in order to host or simply connect to one.
@@ -328,7 +327,7 @@ The most common threat to a blockchain is the 51% attack, where more than half t
 
 In a nutshell, there are two main types of nodes – full nodes and light nodes. Another term to describe nodes is clients which supply wallet functions. Full ones contain а copy of the blockchain’s history, including all blocks created. Light nodes or SPV (Simple Payment Verification) nodes are all wallets that download only the headers of blocks and save hard drive space for users. Let us explore the different sub-kinds in detail.
 
-![bitcoin nodes](https://github.com/aridiosilva/Blockchain/blob/main/Types%20of%20Nodes%20in%20a%20Blockchain%20Network.jpg)
+![bitcoin nodes](https://github.com/aridiosilva/Blockchain/blob/main/Types%20of%20Nodes%20in%20a%20Blockchain%20Network_.jpg)
 
 
 ### Full Nodes
