@@ -152,7 +152,7 @@ While there are a wide variety of DLTs on the market, they are all comprised of 
 
 Distributed ledgers are categorized as “private” or “public” and “permissioned” or “permissionless” — they can be any combination of any of the two. To achieve full decentralization, Hedera believes distributed ledgers must public permissionless networks.
 
-![path_to_decentralization](https://github.com/aridiosilva/Blockchain/blob/main/path_to_decentralization.png)
+![path_to_decentralization](https://github.com/aridiosilva/Blockchain/blob/main/path_to_decentralization_.png)
 
 ### Private / Permissioned: 
 
