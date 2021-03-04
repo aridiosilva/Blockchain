@@ -4,7 +4,7 @@ Refered as Distributed Ledger Technology (DLT)  makes the history of any digital
 
 # What is blockchain technology?
 
-Blockchain is a shared, immutable ledger for recording transactions, tracking assets and building trust. Discover why businesses worldwide are adopting it.
+Blockchain is a shared, immutable ledger for recording transactions, tracking assets and building trust. 
 
 # Blockchain overview
 
