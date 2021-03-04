@@ -48,6 +48,31 @@ Here, they focus on both technology and business when offering a platform or sol
 
 ![Top-Blockchain-Consortuim](https://github.com/aridiosilva/Blockchain/blob/main/Top-Blockchain-Consortuim.png)
 
+# What Would Blockchain Consortium Offer 
+
+## Cutting the costs
+
+Blockchain industry consortium architecture would help you cut all the expenses quite effortlessly. As these are mainly suited for industrial purposes, you can easily link these up with your existing network more efficiently than public or private Blockchain.
+
+So, investing in this kind of blockchain industrial consortium would be highly beneficial for your enterprise.
+
+## Very Low Transaction Fees
+
+Another significant aspect of this blockchain industry consortium is that they can give a lower transactional fee. You have to know that public blockchains do claim to offer similar features; however, the reality is quite far from it.
+
+In reality, when many users start to use the network, it starts to slow down drastically. Thus, transaction processing becomes harder than usual. When something like this happens, the transactional fee rises.
+
+You have to know that in terms of the consortium, this is not the issue. It’s a more controlled environment, and only permissioned people can get in. So, that means it would be much more stable and can handle any pressure.
+
+## Regulatory Environment
+
+Enterprises need regulations to function properly. And most importantly, as many organizations would work here together, there need to be certain rules. Thus, a blockchain industry consortium can help you flourish in a regulated environment and also give them freedom of decentralization.
+
+## No Criminal Entry
+
+Obviously, you would want to stay far away from criminals in a collaborative environment. Unlike a public blockchain, only authorized persons can get into this kind of network. And so, every node would be authenticated and wouldn’t leave any scope for criminals.
+
+
 
 # History of Blockchain Technology
 
