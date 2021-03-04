@@ -18,15 +18,15 @@ Business runs on information. The faster it’s received and the more accurate i
 
 # Key elements of a blockchain
 
-## Distributed ledger technology
+### a) Distributed ledger technology
 
 All network participants have access to the distributed ledger and its immutable record of transactions. With this shared ledger, transactions are recorded only once, eliminating the duplication of effort that’s typical of traditional business networks.
 
-## Immutable records
+### b) Immutable records
 
 No participant can change or tamper with a transaction after it’s been recorded to the shared ledger. If a transaction record includes an error, a new transaction must be added to reverse the error, and both transactions are then visible.
 
-## Smart contracts
+### c) Smart contracts
 
 To speed transactions, a set of rules — called a smart contract — is stored on the blockchain and executed automatically. A smart contract can define conditions for corporate bond transfers, include terms for travel insurance to be paid and much more.
 
@@ -34,15 +34,15 @@ To speed transactions, a set of rules — called a smart contract — is stored 
 
 There are several ways to build a blockchain network. They can be public, private, permissioned, or built by a consortium.
 
-## A) Public blockchain networks
+## a) Public blockchain networks
 
 A public blockchain is one that anyone can join and participate in, such as Bitcoin. Drawbacks might include substantial computational power required, little or no privacy for transactions, and weak security. These are important considerations for enterprise use cases of blockchain.
 
-## B) Private blockchain networks
+## b) Private blockchain networks
 
 A private blockchain network, similar to a public blockchain network, is a decentralized peer-to-peer network. However, one organization governs the network, controlling who is allowed to participate, execute a consensus protocol and maintain the shared ledger. Depending on the use case, this can significantly boost trust and confidence between participants. A private blockchain can be run behind a corporate firewall and even be hosted on premises.
 
-## C) Permissioned blockchain networks
+## c) Permissioned blockchain networks
 
 Businesses who set up a private blockchain will generally set up a permissioned blockchain network. It is important to note that public blockchain networks can also be a permissioned. This places restrictions on who is allowed to participate in the network and in certain transactions. Participants need to obtain an invitation or permission to join.
 
