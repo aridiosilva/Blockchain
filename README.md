@@ -42,8 +42,6 @@ Ever since Satoshi Nakamoto exited the scene and handed over Bitcoin development
 
 A very common question, when was blockchain invented? we see can say Blockchain was invented in 1991.
 
-![History_of_Blockchain_Technology (1)](https://github.com/aridiosilva/Blockchain/blob/main/History_of_Blockchain_Technology.png)
-
 ### Blockchain Structure
 
 In simple terms, Blockchain is a peer-to-peer distributed ledger that is secure and used to record transactions across many computers. The ledger’s contents can only be updated by adding another block linked to the previous block. It can also be envisioned as a peer-to-peer network running on top of the internet.
