@@ -72,6 +72,181 @@ Enterprises need regulations to function properly. And most importantly, as many
 
 Obviously, you would want to stay far away from criminals in a collaborative environment. Unlike a public blockchain, only authorized persons can get into this kind of network. And so, every node would be authenticated and wouldn’t leave any scope for criminals.
 
+# What Benefits Should You Expect from Blockchain Consortium?
+
+There are certain benefits that you should expect from the federated Blockchain. Let’s see what these are –
+
+## Cost Savings
+
+You need to consider whether the federated Blockchain would save your costing. The basic idea of being a member is to cut expenses. So, choose the one that offers the most cost-saving features for your industry.
+
+## Accelerate Learning
+
+Another great benefit to expect from the federated Blockchain. To grow in the blockchain niche, you’d need full support in learning. So, expecting to accelerate learning methods would be beneficial. Many consortia offer training and other development support form experts. Opportunities like that can really nurture your team, as well.
+
+## Sharing Risk
+
+Well, another benefit of federated Blockchain is to share risk. So, you would definitely want a platform where every single company would share the risk in case of a new blockchain solution. As Blockchain is still new, there’s a lot of risks associated with it in the marketplace. But if members collaborate, then the overall risk is much lower whether the solutions fail or succeed.
+
+## Build Critical Mass of Adoption
+
+Just building only one single solution shouldn’t be the case for federated Blockchain. Taking it on a mass adoption level would help your company to reach a new height easily. Without mass adoption, reaching the global marketplace would become tough.
+
+## Maintaining Relevance/Lifespan
+
+Your consortium needs to offer a relevant solution or roadmap plan. As the technology keeps changing, staying relevant in the field is extremely tough. Thus, as the time will change, you should expect your consortium to change their plan according to that as well.
+
+## Influencing Standards
+
+Lastly, you should expect the consortium to offer influencing standards. According to the market, Blockchain would soon reach interoperability. You would need to influence standards to mark your place in that trillion dollars’ worth industry.
+
+# Major Blockchain Consortia and Networks
+
+These are some of the major Blockchain Consortia and Networks in the market. All these consortia seem to have a lot of companies using blockchain technology. So, let’s check out how what these consortia are:
+
+## 1) Hyperledger
+
+Let’s start with Hyperledger. Hyperledger blockchain is one of the most prominent blockchain consortia in the market right now. Just starting its journey back in 2016, Linux founded Hyperledger. In reality, this consortium can be one of the best open-source platforms for enterprises.
+
+Why? Well, it’s because Hyperledger offers tons of solutions, and they’re mainly focused on providing technological support for the blockchain revolution. At present, they have a large number of projects, including tools, platforms, libraries, and many more.
+
+Using these, you can quickly develop your very own blockchain platforms at ease. At present, they have 260+ members in their consortium.
+
+## 2) Enterprise Ethereum Alliance
+
+It’s another worthy consortium for our blockchain consortium list. Vitalk Buterin actually is the original founder of Ethereum. However, as the original Ethereum is a public blockchain, they decided to roll out an enterprise-grade one as well.
+
+Furthermore, this new one would let you get privacy in terms of transactions and many added facilities. At present, Enterprise Ethereum has over 250+ members collaborating together. Innovation is their main priority, and they tend to offer a great environment for nurturing as well.
+
+## 3) R3
+
+Blockchain consortium r3 is actually the oddball in the blockchain consortium list. How? Well, this is one of the dual-focused consortia at present. Not only blockchain consortium r3 have an open-source version of their platform Corda, but they also offer a commercial one for enterprises.
+
+Another great deal is that both platforms are compatible with each other. So, switching between them would be an easy task. At present, blockchain consortium r3 has an ecosystem of 200+ members and growing. However, we have to say, their tech is more geared for financial niches. But blockchain consortium r3 is slowly trying to reach other use cases as well.
+
+Many major names are already pursuing blockchain consortium r3 at present.
+
+## 4) BankChain
+
+BankChain is actually a banking blockchain consortium where they are implementing, building, and exploring different blockchain solutions. However, the formation of this blockchain consortia started from Primechain technologies.
+
+In reality, they are the ones responsible for maintaining, governing, and operating the system. Furthermore, they started their journey back in 2017 with 9 live projects and 34 members. Some of their products include – Invoice discounting, Bank guarantees & Documentary Credits, Corporate KYC and Charge Registry, and many more.
+
+# 5) B3i
+
+B3i is the next one on our banking blockchain consortium list. In 2016, the Blockchain Insurance Industry Initiative started its journey with reinsurers and insurers. At that time, they only wanted to explore the Distributed Ledger Technology and figure out the potential benefits.
+
+However, they later expanded its product line and now offer a lot of insurance-based solutions. One of them is – Property Cat XOL contract. At present, they have about 18 members.
+
+## 6) IBM Food Trust
+
+A large part of our lives revolves around food, and Blockchain can help bring safety in this field. Apparently, IBM Food Trust offers the largest ecosystem of suppliers, producers, manufacturers, retailers, and many more.
+
+At present, they have over 80 members on their list, and there are some major giant names such as Walmart, Nestle, Unilever, and many more. And so, with help from their platforms, enterprises can track their food supply chain from the very suppliers to consumers.
+
+## 7) China Ledger
+
+China Ledger is a blockchain consortium launched in China. In reality, they launched the consortium to explore and understand this tech’s impact on their economy. Moreover, they are also exploring different encryption algorithms, sidechains, private chains, and many other network techs.
+
+Wanxiang Blockchain Labs is leading the alliance now. It also consists of eleven other commodity exchanges, financial asset exchanges, and equity exchanges.
+
+More so, they want to build solutions and platforms for their very own financial sectors in China later in the future.
+
+## 8) FISCO – Financial Blockchain Shenzhen Consortium
+
+Established on May 31, 2016, Financial Blockchain Shenzhen Consortium now has over 100 members in their consortium. As you can see by the name, they focus mainly on financial industries. And so, all of their members consist of financial information services companies and institutions.
+
+More so, FISCO already has projects in equity, credit, insurance, cloud service, loyalty points system, digital assets, and many more. However, the platform is actually open-source. China is starting to catch up in the blockchain niche, and FISCO happens to be the result of that. So, this is another blockchain for insurance consortium.
+
+## 9) Global Shipping Business Network
+
+Global Shipping Business Network formed a group of nine terminal operators and ocean carriers. After that, they launched their open platform based on Blockchain. In reality, CargoSmart is the first to initiate this consortium.
+
+At present they have –
+
+OOCL, PSA International and Shanghai International Port, Evergreen Marine, COSCO Shipping Lines, Hutchison Ports, DP World, Yang Ming, and CMA CGM.
+
+CargoSmart is actually a solution provider. Moreover, the solution would offer a digital platform to connect shippers, custom agencies, logistics, carriers, and many more. So, it’s also a blockchain for supply chain consortium.
+
+## 10) Tradelens
+
+Tradelens is the next one on our supply chain blockchain consortium list. They are here to revolutionize the supply chain management world. It’s actually a neutral and open industry platform based on Blockchain, and many major players in the market are backing it up.
+
+At present, they have over 100 enterprises in their ecosystem. More so, it mainly includes ports, carriers, shippers, 3PLs, terminal operators, and freight forwarders. Thus, coming together under a single platform, they digitise everything related to the supply chain.
+
+If you are curious about how Blockchain can positively impact the world of the supply chain and management operations, you must enroll in our enterprise blockchains and supply chain management course now!
+
+## 11) Energy Web Foundation
+
+The Energy Web Foundation is taking the lead in the energy sector of a blockchain consortium. More so, they claim to be the pioneer for this enterprise blockchain for ensuring the sector’s market, operational, and regulatory needs.
+
+At present, they have over 100+ members in their ecosystem. If you’re in the energy sector, then you can definitely check it out. Energy Web Foundation also offers a lot of flexible opportunities for the members.
+
+## 12) Hashed Health Collective
+
+When all the other consortia are taking over the marketplace, why would the healthcare sector be left behind, right? Thus, comes the Hashed Health Collective. This Blockchain for healthcare consortia is a global community of developers, consumers, healthcare organizations, or anyone who is working in the healthcare niche.
+
+It’s an open platform and nonprofit community where they nurture new innovations and ideas based on Blockchain. Anyhow, we couldn’t find the exact number of members of their ecosystem; however, ODH, Change Healthcare, Accenture, PLC, Altarum Institute, and many more happen to be on the list.
+
+## 13) Health Utility Network
+
+Even though it’s fairly new, till Health Utility Network is creating a lot of hype in the market. In reality, IBM, Aetna, PNC Bank, Anthem, and Health Care Service Corporation (HCSC) is collaborating to create this consortium ecosystem for healthcare sectors.
+
+Moreover, their primary goal is to improve the traceability and interoperability of the healthcare industry. As IBM is in the mix, we can safely assume that the platform would be based on Hyperledger Fabric. Anyhow, according to the, they’ll be launching a series of solutions to help grow the sector.
+
+## 14) Contour
+
+Contour blockchain is one of the pioneers of blockchain consortia. In reality, their project is focused on financial sectors. More so, they’ll be using R3’s technology to back up their blockchain platform. The primary goal is to digitize every single document in the financial sectors. After that, they can start to launch a series of solutions.
+
+At present, they have twelve banks in their ecosystem. They include –
+
+Mizuho, Scotiabank, BNP Paribas, CTBC bank, Bangkok Bank, ING, Intesa Sanpaolo, Natwest, SEB, U.S Bank, BBVA, and HSBC.
+
+## 15) Marco Polo
+
+Marco Polo is another great one in our blockchain consortium list. They launched in 2017 and mainly focused on the trade finance blockchain niche. Primarily, they are aiming to offer capital finance availability in their solution TradeIX platform. More so, they are building the solution of r3 Corda.
+
+Multiple financial sectors such as SMBC, Bangkok Bank, ING, Standard Chartered Bank, BNP Paribas, Forfaiting Association (ITFA), NatWest, OP Financial Group, Natixis, Commerzbank, DNB, and International Trade is a major part of the ecosystem.
+
+## 16) We.trade
+
+We.trade, making it easy for consumers to connect with potential sellers and vendors and manage all the payments and orders. Furthermore, every single business on the Blockchain is KYC. So, there’s no issue of fraud or corruption.
+
+Another great aspect of this blockchain consortium is that it helps to select different banking products as well. The banks within the ecosystem also offer guarantees of payments. At present, they have eight banks under the platform.
+
+Batavia was one of the smallest blockchain consortia so far. They have only five members in their ecosystem. For their technological backup, they are seeking help from IBM. These five banks are –
+
+## 17) Commerzbank, Bank of Montreal, Erste Group, UBS, and CaixaBank.
+
+Batavia focuses on border blockchain applications, such as using smart contract features for any financial solution. With the help, you can track your cross-border payment and send or receive payments at ease. However, Batavia has merged with We.Trade and doesn’t exist anymore now.
+
+## 18) MOBI
+
+Mobility Open Blockchain Initiative is a nonprofit consortium based on Blockchain. It consists of forward-thinking NGOs, companies, and governments to ensure mobility services that are safe and affordable.
+
+Additionally, they also offer greener, efficient, and less congested solutions with the typical standards of Blockchain. They started with vehicle identities and would soon cover other mobility sectors as well. At present, they have 87 members.
+
+## 19) Trusted IoT Alliance (TIA)
+
+The IoT sector is in greater need of trust. Thus, came the Trusted IoT Alliance to save the day. In reality, they aim to make the IoT industry more reliable and induce readability. That’s why they are incorporating IoT sensors with smart contracts to facilitate a digital tracing environment.
+
+Another great benefit is that they offer full freedom when it comes to innovations. So, you’ll get the best tools to develop your new project. At present, they have 42 members.
+
+## 20) Japan Exchange Group — JPX
+
+Various Japanese financial and IT institutions formed this blockchain consortium called Japan Exchange Group. Currently, they have 44 members, and all of them are financial or IT companies. But what is the primary goal?
+
+Well, they want to develop solutions for the capital markets. Furthermore, some of their projects are underway. These include –
+
+KYC Operations, Trade Matching Processes, Pre-Settlement Process of Cross-Border Securities Trade and etc.
+
+## Concluding Thoughts about Blockchain Consortia
+
+In the end, blockchain consortia are really changing the way the marketplace operated all these years. Instead of competition, they are collaborating to make the world a better place. In case you want to develop your very own enterprise solution, you can start by joining a consortium where your ideas would be nurtured.
+
+In this guide, we’ve listed the top 20 blockchain consortium. Check them out and pick the one that suits your needs. If you want to learn about this type of Blockchain in more depth, then we recommend starting with our free blockchain course.
+
+
 
 
 # History of Blockchain Technology
