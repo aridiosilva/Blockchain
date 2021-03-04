@@ -140,7 +140,7 @@ While giving control of our transactions to a central power requires a great dea
 
 However, central ledgers are no longer the only viable option for exchanging our assets. Now, due to the advent of distributed ledger technologies, we can safely get our paychecks without needing to trust a bank.
 
-![distributed_ledgers_explained](https://raw.githubusercontent.com/aridiosilva/Blockchain/main/distributed_ledgers_explained.webp)
+![distributed_ledgers_explained](https://github.com/aridiosilva/Blockchain/blob/main/distributed_ledgers_explained.png)
 
 ## Distributed Ledgers (DLTs) explained
 
