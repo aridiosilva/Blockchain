@@ -50,7 +50,7 @@ These offer reusable blockchain platforms, solutions based on technical standard
 
 Here, they focus on both technology and business when offering a platform or solution: EX: RS
 
-![Top-Blockchain-Consortuim](https://github.com/aridiosilva/Blockchain/blob/main/Top-Blockchain-Consortuim.png)
+![Top-Blockchain-Consortuim](https://github.com/aridiosilva/Blockchain/blob/main/Top-Blockchain-Consortuim_.png)
 
 # What Would Blockchain Consortium Offer 
 
