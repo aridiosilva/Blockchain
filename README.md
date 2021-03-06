@@ -1000,7 +1000,7 @@ Example of some of the best Bitcoin Mining Software o far are:
 
 - Best Overall: [**CGMiner**](https://github.com/ckolivas/cgminer)
 - Best for Customization: [**BFGMiner**](http://bfgminer.org/)
-- Best for Ease of Use: [**MultiMiner](https://nwoolls.github.io/MultiMiner/)
+- Best for Ease of Use: [**MultiMiner**](https://nwoolls.github.io/MultiMiner/)
 - Best Centralized Management: [**Awesome Miner**](https://www.awesomeminer.com/)
 
 
