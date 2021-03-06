@@ -992,7 +992,16 @@ To help you make sense of this complicated landscape we applied a simple SWOT an
 ![swot analysis](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Blockchain%20SWOT%20Analysis%20of%20BLOCKCHAIN%20TECHNOLOGY__.png)
 
 
+# Blockchain Mining Software
 
+While some dismiss Bitcoin as a passing fad, many more are beginning to see it as the future of commerce. A 2020 survey showed that 36% of small and mid-sized businesses already accept cryptocurrency, as do many larger businesses and organizations including Microsoft, AT&T, and Wikipedia. While Bitcoin can be purchased with real cash, it’s more commonly “mined” using a combination of specialized hardware and software. In this article, we review the best bitcoin mining software based on reputation, features, ease of use, and more. Here are our top four picks.   
+
+Example of some of the best Bitcoin Mining Software o far are:
+
+- Best Overall: [**CGMiner**](https://github.com/ckolivas/cgminer)
+- Best for Customization: [**BFGMiner**](http://bfgminer.org/)
+- Best for Ease of Use: [**MultiMiner](https://nwoolls.github.io/MultiMiner/)
+- Best Centralized Management: [**Awesome Miner**](https://www.awesomeminer.com/)
 
 
 
