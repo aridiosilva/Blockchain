@@ -972,7 +972,7 @@ Whilst we have to admit that blockchain is still in its infancy. Many issues lik
 
 To help you make sense of this complicated landscape we applied a simple SWOT analysis to the blockchain and integrated our iOlite’s solutions in this analysis.
 
-![swot analysis](https://github.com/aridiosilva/Blockchain/blob/main/Blockchain%20SWOT%20Analysis%20of%20BLOCKCHAIN%20TECHNOLOGY.png)
+![swot analysis](https://github.com/aridiosilva/Blockchain/blob/main/Blockchain%20SWOT%20Analysis%20of%20BLOCKCHAIN%20TECHNOLOGY_.png)
 
 
 
