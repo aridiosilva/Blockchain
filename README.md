@@ -964,11 +964,18 @@ There are precursors to bitcoin: Adam Back’s Hashcash, invented in 1997,8﻿�
 
 There are a few possible motivations for bitcoin's inventor deciding to keep their identity secret. One is privacy: As bitcoin has gained in popularity—becoming something of a worldwide phenomenon—Satoshi Nakamoto would likely garner a lot of attention from the media and from governments.
 
-Another reason could be the potential for bitcoin to cause a major disruption in the current banking and monetary systems. If bitcoin were to gain mass adoption, the system could surpass nations' sovereign fiat currencies. This threat to existing currency could motivate governments to want to take legal action against bitcoin's creator.
+# SWOT Analysis of Blockchain Technology
 
-The other reason is safety. Looking at 2009 alone, 32,489 blocks were mined; at the reward rate of 50 bitcoin per block, the total payout in 2009 was 1,624,500 bitcoin. One may conclude that only Satoshi and perhaps a few other people were mining through 2009 and that they possess a majority of that stash of bitcoin.
+In a world filled with emerging technologies, the blockchain technology is arguably one of the most exciting, being labeled as ‘disruptive’ and ‘innovative’ by many. Despite often being associated abundantly with Bitcoin and other cryptocurrencies, the underlying technology, this distributed ledger, the ‘blockchain’ has been receiving attention from a variety of industries. The concept of recording transactions in a secure, stable and chronological way, has led to possible applications in many areas.
 
-Someone in possession of that much bitcoin could become a target of criminals, especially since bitcoins are less like stocks and more like cash, where the private keys needed to authorize spending could be printed out and literally kept under a mattress. While it's likely the inventor of bitcoin would take precautions to make any extortion-induced transfers traceable, remaining anonymous is a good way for Satoshi to limit exposure.
+Whilst we have to admit that blockchain is still in its infancy. Many issues like unwanted centralization, slow transaction verification times and low throughput aren’t easy to solve. We have to try and find the balance between security and speed.
+
+To help you make sense of this complicated landscape we applied a simple SWOT analysis to the blockchain and integrated our iOlite’s solutions in this analysis.
+
+![swot analysis](https://github.com/aridiosilva/Blockchain/blob/main/Blockchain%20SWOT%20Analysis%20of%20BLOCKCHAIN%20TECHNOLOGY.png)
+
+
+
 
 
 
