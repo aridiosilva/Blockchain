@@ -8,6 +8,19 @@ Refered as Distributed Ledger Technology (DLT)  makes the history of any digital
 
 - [Blockchan simply explained in this video](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 
+# Blockchain Applications and Services 
+
+There are also applications and services associated with blockchains and distributed ledgers that add to their usefulness for recordkeeping. These include blockchain applications that run over blockchain networks and permit participants to easily interact with these networks.
+
+## Smart Contracts
+
+According to Nick Szabo in his “The Idea of Smart Contracts,” smart contracts are blockchain applications that express business logic associated with a transaction and execute on a blockchain platform. Smart contract code determines what transactions are recorded into the blockchain and the information they will contain. Through the use of smart contracts, many kinds of contractual clauses may be made partially or fully self-executing and self-enforcing. Asset registries link digital currencies to other assets or records on top of a distributed ledger, according to InterPARES Trust Terminology Project: “Key Blockchain Terms and Definitions.”
+
+## Off-Chain Services
+
+Off-chain services provide secure means to access capabilities outside a blockchain system, such as trusted data sources or functions. Sidechains are physically separate blockchains associated with a main blockchain, and they can participate in transactions with it, typically in both directions. In contrast, subchains are logically separate
+chains that form part of a blockchain. Each subchain may be owned by a different entity and may be accessible to a different set of users. Nodes may be set up so that some nodes participate in certain subchains and not in others. The result of this configuration is that the ledger on some nodes contains transactions for that subchain while the ledgers on other nodes do not.
+
 # What is blockchain technology?
 
 Blockchain is a shared, immutable ledger for recording transactions, tracking assets and building trust. 
