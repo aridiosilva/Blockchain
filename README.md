@@ -8,6 +8,10 @@ Refered as Distributed Ledger Technology (DLT)  makes the history of any digital
 
 - [Blockchan simply explained in this video](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 
+# Main Elements of Blochchain
+
+![main elements](https://github.com/aridiosilva/Blockchain/blob/main/Main%20Elements%20of%20blockchain.jpg)
+
 # Blockchain Applications and Services 
 
 There are also applications and services associated with blockchains and distributed ledgers that add to their usefulness for recordkeeping. These include blockchain applications that run over blockchain networks and permit participants to easily interact with these networks.
