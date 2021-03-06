@@ -994,14 +994,89 @@ To help you make sense of this complicated landscape we applied a simple SWOT an
 
 # Blockchain Mining Software
 
+## What Is Bitcoin Mining Software?
+
+Bitcoin mining software is essentially what makes Bitcoin work. By tracking and securing transactions known as blockchains, users are able to earn bitcoins rather than having to pay for them with actual currency.
+
+Bitcoin mining software can only be used by specialized hardware that is powerful enough to run the complex calculations required to create new secure blocks. The software connects to the hardware to either mine bitcoins directly or, more often, to a mining pool where multiple users share their hardware’s power and earn shares of bitcoins.  
+
+## How Long Does It Take to Mine One Bitcoin? 
+
+In general, it takes about 10 minutes to mine one bitcoin. However, this assumes an ideal hardware and software setup which few users can afford. A more reasonable estimate for most users who have large setups is 30 days to mine a single bitcoin.    
+
+## Can You Mine Bitcoin for Free?
+
+Although bitcoin mining software is free, there are tremendous costs involved in both hardware and electricity costs. The specialized mining hardware can cost between a few hundred dollars to $10,000. 
+
+Mining equipment is also very power-hungry. Depending on the cost of electricity in a miner’s area, it could potentially cost $73,000 to process one bitcoin in a month’s time.2﻿ One way to reduce this cost is to join a mining pool that harnesses the computational power of hardware owned by multiple miners. The drawback is that each miner only receives a small portion of each mined bitcoin.    
+
 While some dismiss Bitcoin as a passing fad, many more are beginning to see it as the future of commerce. A 2020 survey showed that 36% of small and mid-sized businesses already accept cryptocurrency, as do many larger businesses and organizations including Microsoft, AT&T, and Wikipedia. While Bitcoin can be purchased with real cash, it’s more commonly “mined” using a combination of specialized hardware and software. In this article, we review the best bitcoin mining software based on reputation, features, ease of use, and more. Here are our top four picks.   
 
-Example of some of the best Bitcoin Mining Software o far are:
+# Some of the best Bitcoin Mining Software
 
 - Best Overall: [**CGMiner**](https://github.com/ckolivas/cgminer)
 - Best for Customization: [**BFGMiner**](http://bfgminer.org/)
 - Best for Ease of Use: [**MultiMiner**](https://nwoolls.github.io/MultiMiner/)
 - Best Centralized Management: [**Awesome Miner**](https://www.awesomeminer.com/)
 
+## GMiner
+
+As one of the oldest bitcoin mining software, CGMiner is our choice as the best overall due to its open-source build, ability to run on any computer, and compatibility with multiple mining hardware. This is a multi-threaded multi-pool FPGA and ASIC miner for bitcoin. This code is provided entirely free of charge by the programmer in his spare time so donations would be greatly appreciated. Please consider donating to the address below. Driver development for new ASIC only bitcoin hardware can be suitably sponsored. 
+
+> - **Pros** :  Open source,  Runs on Mac, Windows, and Linux, Compatible with ASIC, GPU, and FPGA
+> - **Cons** :  Better for advanced users,  Obscure command-line interface,  Hard to install on Windows 10 computers.
+
+CGMiner was developed in 2011 by Australian anesthetist and programmer Con Kolivas for mining cryptocurrencies such as Bitcoin and Litecoin. It’s widely regarded as one of the best bitcoin mining software available due to its open-source nature, simple interface with direct controls, and cross-platform and cross-hardware compatibility.  
+
+CGMiner uses a command-line interface that allows users to mine their rigs remotely and control fan speeds and other settings with simple keyboard commands. The software also offers advanced detection of new blocks and makes it easy to scale up hashing power without delays. 
+
+Although it’s Linux-based, CGMiner is cross-platform compatible and can run on Mac and Windows computers. It’s also open-source and written in C, making it easy for anyone to verify the software’s code. In addition to being cross-platform compatible, CGMiner works with a variety of mining hardware besides ASICs, including FPGAs, GPUs, and CPUs.     
+
+CGMiner’s lack of a graphical user interface may be daunting to beginners, making it a better choice for advanced users. The software has been known to be difficult to install on computers running Windows 10. Antivirus software including Windows Defender can also give users a difficult time. CGMiner is free to download and use and is available on GitHub.
+
+##  BFGMiner
+
+Designed for FPGA and ASIC mining, BFGMiner offers advanced users the opportunity to tweak many aspects of their mining process, with dynamic clocking, monitoring, and remote mining rig interface, making the software our pick as the best for customization.
+
+> - **Pros**:  Mines multiple cryptocurrencies simultaneously,  Runs on Mac, Windows, and Linux,  Compatible with ASIC and FPGA
+> - **Cons**:  Better for more advanced users,  Not compatible with GPU
+
+Released in 2012 by developer Luke Dashjr, BFGMiner has become one of the most popular mining software available, second only to CGMiner. It allows users to monitor hardware temperature, detect and start idle threads, and manage rigs remotely, putting it squarely in the category of the best software for customization.    
+
+Because BFGMiner was originally created to add FPGA support to a popular GPU miner at the time it was developed, the software is only compatible with FPGA and ASIC. Like CGMiner, the software is written in C and runs on Linux, Mac, and Windows machines and even offers an option to install on Raspberry Pi.   
+
+One of BFGMiner’s most popular features is its support for mining multiple cryptocurrencies at the same time. By simultaneously hashing on mining algorithms like Scrypt and SHA256d, the software lets users mine, hedge, and redistribute their risk with multiple cryptocurrencies.   
+
+Like CGMiner, BFGMiner uses a command-line interface with customizable hotkeys. While easy to use for advanced users, the lack of a GUI may make the software impenetrable to beginners. BFGMiner is also free to download and use.
+
+## MultiMiner
+
+Developed using the mining engine of BFGMiner, MultiMiner features a clean GUI, automated hardware detection and mining features, and cross-platform compatibility, making it our clear choice as the best for ease of use.
+
+> - **Pros**:  Graphical user interface, Automated mining features, Optimized for Windows computers
+> - **Cons**:  Additional software required for Linux and MacOS
+
+MultiMiner was developed in 2013 by BFGMiner developer Nate Woolls. Although it’s built on the BFGMiner engine, the software features an easy-to-use GUI and quick-start mining features, making it our favorite choice as the best for ease of use.
+
+While most mining software requires some coding skills, novices can get started with MultiMiner with no technical skills. The software walks users through the installation process and then scans the details of the hardware, including average hashing power and the linked pool. 
+
+MultiMiner goes even further and shows users exactly how to connect to a pool, including where to enter the information associated with the pool. The software also offers users remote access to their mining rigs, lets them choose their mining strategy, and automatically mines the most profitable or lowest-difficulty cryptocurrency with a display of estimated profits.
+
+MultiMiner installs easily on Windows computers, but users will need to install additional software for Mac and Linux machines. The software also makes it easy to switch mining rigs, including GPUs, ASICs, and FPGAs. Despite its appeal to beginners, power users can also access MultiMiner’s advanced features, including direct access to API settings and engine arguments. The software is also free to download and us.
+
+# Awesome Miner
+
+Awesome Miner is a powerful mining software that lets users manage multiple mining rigs and miner’s pools, all from one dashboard. As a result, it tops our list as the best centralized management software.
+
+> - **Pros**:  Supports more than 25 mining engines, Customized triggers and actions, Access from any computer, tablet, or smartphone
+> - **Cons**:  No MacOS software, Not for novice users
+
+Awesome Miner was developed by Swedish software company IntelliBreeze in 2014 as a cryptocurrency mining management application for Windows machines. It supports large-scale mining with a dashboard that lets users manage multiple mining engines and pools in one operation, making it the best software for centralized management.
+
+Awesome Miner offers a number of powerful features to help users maximize profit and minimize downtime. The software can handle multiple mining hardware types at the same time (including ASICs and FPGAs), supports more than 25 mining engines (cgminer, bfgminer, xmrig, srbminer, etc.), and is compatible with popular mining algorithms (SHA-256, Scrypt, X11, Ethereum, and Zcash).  
+
+Awesome Miner also makes it easy for users to add, switch, and manage multiple miner pools with one click so they can start mining in less time. All of this is managed in Awesome Miner’s comprehensive dashboard, which also displays hardware properties like fan speed, temperature, etc. The software features a built-in C# script engine miners can use to make customized triggers and actions.
+
+Although Awesome Miner is designed for Windows and Linux, the web version of the software can be accessed on any computer or browser. Awesome Miner is free to download and use.
 
 
