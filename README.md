@@ -11,11 +11,12 @@ Blockchain is a distributed ledger—write once and never erase. Although origin
 
 # Architecture of Blockchain System
 
-![distributed ledger technologies](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Illustrative%20Distributed%20Ledger%20Technologies%20(source%20KPMG)%20001.jpg)
+![architecture](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20-%20Architecture%20of%20Blockchian%20System%20-%20The%20Layers.jpg)
 
 # Distributed Ledger Tecnologies
 
-![https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Illustrative%20Distributed%20Ledger%20Technologies%20(source%20KPMG)%20001.jpg)
+![distributed ledger technologies](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Illustrative%20Distributed%20Ledger%20Technologies%20(source%20KPMG)%20001.jpg)
+
 
 # Main Elements of Blochchain
 
