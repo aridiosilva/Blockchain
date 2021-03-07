@@ -129,7 +129,7 @@ Decred is the only coin right now using a variation of proof of activity.
 > 
 > - **Comparison of Main Consensus Protocols**
 >  
-> ![comparison consensus Mechanisms](https://github.com/aridiosilva/Blockchain/blob/main/Table%207%20-%20Comparison%20Consensus%20Mechanismos%20os%20Blockchain001.png)
+> ![comparison consensus Mechanisms](https://github.com/aridiosilva/Blockchain/blob/main/Table%207%20-%20Comparison%20Consensus%20Mechanismos%20os%20Blockchain001_.png)
 >
 > ![table Comparison Consensus Protocols](https://github.com/aridiosilva/Blockchain/blob/main/Table%201%20-%20%20Main%20Concensus%20Protocols%20Comparison_5_Cases_.jpg)
 >
