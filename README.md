@@ -62,11 +62,36 @@ must be open-source too.
 # Summary of Blockchain Platforms
 
 > - **Bitcoin** 
+> 
+>    Bitcoin, the first well-known and widely used distributed cryptocurrency, operates a peer-to-peer network without central authority or banks, and introduced the blockchain technology and platform to the world.68 The management of transactions and the issuance of coins are carried out collectively by the blockchain network.68 Bitcoin
+uses PoW as its consensus protocol to verify transactions, and thus consumes a lot of energy.1 Owing to the success of Bitcoin, many other alternative cryptocurrencies and consensus protocols.
+>
 > - **Ethereum**
+> 
+>   Ethereum is a platform that lets anyone build and use smartcontract-based decentralized applications that run on blockchain technology.69 Ethereum focuses on the capability of automatic digital asset management, and, to do so, it supports smart contracts or properties (Supplementary Appendix S1), making the creation of the asset managing programs easier than when using the scripting language in the Bitcoin Blockchain.25 Ethereum also adapts the PoW consensus protocol.
+>
 > - **Zcash**
+> 
+>   Zcash is a decentralized and open-source cryptocurrency that offers privacy and anonymity of transactions.70 A challenge of the Bitcoin Blockchain is that, although the senders and recipients are represented with a hashed address, given enough transaction data, the transactions may still be linked or traced through careful analysis and
+inspection. To improve this, Zcash uses a zero-knowledge proof algorithm known as zk-SNARK, to ensure that the sender, recipient, and amount of a transaction remain private even on a publicly available blockchain network, and thus improves the privacy or anonymity of the transactions, while verifying the transactions privately to avoid
+the double spending problem. This level of privacy or anonymity is also highly desirable in healthcare applications. Also, Zcash addresses the mining centralization issue. However, as many health-related applications may be run on permissioned networks, platforms like Zcash that use PoW are less attractive
+than others that use different protocols.
+>
 > - **Litecoin**
+>
+>   Litecoin is a decentralized global payment network.77 The major change of Litecoin, compared with Bitcoin, is that Litecoin has a faster transaction speed (4 times quicker) at the expense of 4 times smaller storage space and reduced security.77 Also, Litecoin adopts the “Scrypt” hash algorithm77 for the PoW to mitigate the mining centralization issue (Supplementary Appendix S3). Speed could become important in healthcare applications in which immediate decisions are needed, but, so far, we have not seen examples of
+blockchain-based applications in health sciences in which this was a critical factor. For example, we have not encountered situations in which a healthcare blockchain needed to accommodate as many transactions per minute as credit cards or major retailers’ websites do.
+>
 > - **Dash**
+> 
+>   Dash (or Digital Cash) is a privacy-centric digital currency with instant transactions.78 It is based on the Bitcoin software, and adds an additional “Masternode” network tier on top of the Bitcoin Blockchain network.79 The Masternode network is composed of nodes that are willing to put “collateral,” such as 1000 DASH coins, to serve as the full nodes to validate the transactions. The Masternode offers additional privacy or anonymity to the users via “Darksend” (based on the “CoinJoin” technology,79 a process of merging multiple transactions together so that the attacker cannot link the transactions using histories).78,79 Also, the relatively few collateral nodes in the Masternode network can speed-up the validation process, providing an instant transaction mechanism known as “InstantX.” The additional privacy for the users is attractive to healthcare applications but the centralization introduced by Masternode is a downside.
+>
 > - **Peercoin**
+> 
+>   Peercoin was derived from Bitcoin to reduce the energy required for the coin mining process.83 That is, Bitcoin’s PoW algorithm depends on energy consumption1,2 that, in the long run, will result in lower motivation for miners to keep building blocks unless transactions fees rise to high enough levels to sustain the high energy consumption.
+83 To avoid this situation, Peercoin proposed to initially adopt PoW and eventually switch to Proof of Stake (PoS) (see Supplementary Appendix S4). While more appropriate for health-related applications than PoW, PoS may also not be necessary, particularly when operating in permissioned networks, as the threat of “fake” blocks
+is less severe. However, for public networks, Peercoin may offer a good compromise by supporting PoS. 
+>
 > - **Ripple**
 > - **Monero**
 > - **MultiChain**
