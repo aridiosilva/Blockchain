@@ -46,7 +46,7 @@ The different from PoW is that nodes do not need to adjust nonce for many times,
 > 
 > ![DPoW](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%203.%20Flow%20of%20DPoS..jpg)
 > 
-> - ** PBFT (Practical Byzantine Fault Tolerance)**:
+> - **PBFT (Practical Byzantine Fault Tolerance)**:
 > 
 >  PBFT is a Byzantine Fault Tolerance protocol with low algorithm complexity and high practicality in distributed systems [11]. PBFT contains five phases: request, pre-prepare, prepare, commit and reply. Fig. 4 describes how PBFT works. The primary node forwards the message sent by the client to the other three nodes. In the case that node 3 is crashed, one message goes through five phases to reach a consensus among these nodes. Finally, these nodes reply to the client to complete a round of consensus. PBFT guarantees nodes maintain a common state and take a consistent action in each round of consensus. PBFT achieves the goal of strong consistency, thus it is an absolute-finality consensus protocol. As mentioned before, EOS takes a combined consensus protocol. EOS leverages PBFT to simultaneously work with the block validation and creation in DPoS, greatly reducing the time required for a round of consensus [10]. A new protocol called Stellar is an improvement of PBFT. Stellar adopts FBA (Federated Byzantine Agreement) protocol, in which nodes can choose the federation they trust to conduct the consensus process [12].
 >
