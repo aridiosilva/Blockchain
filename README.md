@@ -32,7 +32,13 @@ Another technique to reduce the need for each user to keep the full history of t
 ## F2 - Consensus Protocol
 
 > - **Proof of Work (PoW)**: A compute-intensive protocol with proof of security; suitable for permission-less blockchain networks but can also be used in permissioned blockchain networks to increase security. The Bitcoin blockchain uses this protocol: unfortunately, many people mistakenly believe that all blockchain networks need to use this typically high-energy consumption protocol, which is not true.
+>  
+>  ![PoW](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%201.%20Flow%20of%20PoW.jpg) 
+>
 > - **Proof of Stake (PoS)**: A low-energy consumption protocol that is suitable for healthcare applications operating on permission-less or permissioned blockchain networks.
+>  
+>  ![PoS](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%202.%20Flow%20of%20PoS.jpg) 
+>
 > - **Mining Diversity**: A round-robin, low-energy consumption protocol specifically designed for permissioned healthcare applications.31 Variations can be designed to suit various needs.
 > - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
 > - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network with many nodes while needing more time to reach consensus.
