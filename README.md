@@ -61,6 +61,8 @@ must be open-source too.
 
 # Summary of Blockchain Platforms
 
+As we can see described below a brief summaries, no platform is perfect, and in the future the best features may be adopted by the platforms that remain in the market. It is unlikely that more than 3 or 4 platforms will become very relevant in specific business domains than others. For example, in terms of platforms likely to continue to be used for healthcare applications, Ethereum, Hyperledger and MultiChain are at the top of the list because they combine the most relevant features at the moment.
+
 > - **Bitcoin** 
 > 
 >    Bitcoin, the first well-known and widely used distributed cryptocurrency, operates a peer-to-peer network without central authority or banks, and introduced the blockchain technology and platform to the world.68 The management of transactions and the issuance of coins are carried out collectively by the blockchain network.68 Bitcoin
@@ -93,9 +95,25 @@ blockchain-based applications in health sciences in which this was a critical fa
 is less severe. However, for public networks, Peercoin may offer a good compromise by supporting PoS. 
 >
 > - **Ripple**
+>  
+>   Ripple is a low-latency blockchain network that atomically settles and records transactions on a secure distributed database, the Ripple Consensus Ledger.84 Ripple applies the Ripple Consensus Protocol Algorithm, an alternative algorithm to the high-latency Bitcoin Blockchain PoW, for handling the Byzantine Generals’ Problem and the Sybil Attack.85,86 The blocks are only validated by the relatively few “Chosen Validators” to enable low-latency transactions. While reaching consensus, the current distributed ledger is “closed” and considered the most recent one. Also, Ripple coins are “pre-mined” and cannot be created during the consensus process.87 Again, if we consider that most healthcare applications will use permissioned networks, the advantages of using alternative consensus protocols are diminished.
+>
 > - **Monero**
+> 
+>   Monero is a secure, private, and untraceable cryptocurrency. Monero offers privacy or anonymity to its users by using the “Ring Confidential Transactions” (a ring signature algorithm based on CryptoNote89 that generates a group signature and in which the actual signer cannot be identified) and the “Stealth Address” (an onetime
+address for each transaction) technologies, to obfuscate the origins, destinations, and amounts of all transactions.88 Therefore, the ability to “hide the destination and origin of transactions”90 is an important feature of Monero. This platform might be considered in applications in which the privacy or anonymity of patient or participant
+users is at stake, although it only supports the high energy consumption PoW protocol.
+> 
 > - **MultiChain**
+>
+>   MultiChain is a blockchain platform to create and deploy permissioned or private blockchain networks.31 As a fork of the Bitcoin Blockchain, MultiChain focuses on providing features such as integrating user permission management and improve the data ledger functions.34 Also, MultiChain supports both Bitcoin Blockchain PoW and “Mining Diversity,” a round-robin-based consensus protocol.  31 The basic idea of Mining Diversity is that, within a private blockchain network, the participants are already “trusted” to some
+extent because they are identifiable entities.31 Therefore, Mining Diversity can provide consensus and mining securely on the private blockchain network without the need for the computationally intensive PoW algorithm.31 However, MultiChain does not provide additional privac
+>
 > - **Hyperledger**
+> 
+>   Hyperledger is an open-source collaborative effort created to advance permissioned or private, cross-industry blockchain technologies. 91 As the use of blockchain must respond to different needs, Hyperledger provides an infrastructure to include a range of modules, such as various smart contract engines.43 Specifically, Hyperledger
+includes differentiated blockchain frameworks and tools. Each framework supports different types of consensus protocols. Hyperledger does not support PoW43 and the additional privacyprotection is yet to be included. It should also be noted that Hyperledger has global collaborations with various companies.  
+>
 
 # Blockchain Applications and Services 
 
