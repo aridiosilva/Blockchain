@@ -31,6 +31,9 @@ Another technique to reduce the need for each user to keep the full history of t
 
 ## F2 - Consensus Protocols
 
+Consensus Mechanism is a method of autenticating and validating a value or transaction on a Blockchain or a Dsitributer Ledge without the need to trust or rely on a central authority. Consensus mechanisms are central to the functioning of any blockchain or distributer ledger.
+
+
 >   Many blockchain platforms operate as a distributed computing system, often with orders of magnitude more nodes than their traditional counterpart. How these nodes communicate with one another and maintain truth in the presence of faults is known as consensus. First, consensus relevant to distributed computing is described, followed by the present-day case of blockchains. One strategy to handle updating the state involves replicating the database across multiple instances and comparing the information. The state of the system is a sequential list of commands that is replicated between all nodes in the network. Coming to consensus on the state means every node executes the linearly ordered log arriving at the same result. A consensus algorithm must maintain consistent copies of the state across all nodes and process updates proposed by any of those nodes.  Figure below illustrates consensus as a state diagram that seeks to identify who is proposing an update and how agreement is to be achieved all:
 >
 >  ![consensus scope](https://github.com/aridiosilva/Blockchain/blob/main/Figure%2001%20Consensus%20Scope%20Blockchain.jpg)
