@@ -33,7 +33,8 @@ Another technique to reduce the need for each user to keep the full history of t
 
 Consensus Mechanism is a method of autenticating and validating a value or transaction on a Blockchain or a Dsitributer Ledge without the need to trust or rely on a central authority. Consensus mechanisms are central to the functioning of any blockchain or distributer ledger.
 
-How Concensus Mechanisms work
+### How Concensus Mechanisms work
+
 Basic parameters that define a consensus mechanism are:
 
 -	**Decentralized Governance** – A single central authority cannot provide transaction finality
