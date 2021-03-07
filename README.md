@@ -63,8 +63,30 @@ The different from PoW is that nodes do not need to adjust nonce for many times,
 > - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
 > 
 > - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network with many nodes while needing more time to reach consensus.
-> 
+>
+> - ** Comparison of Main Consensus Protocols
+>  
 > ![table Comparison Consensus Protocols](https://github.com/aridiosilva/Blockchain/blob/main/Table%201%20-%20%20Main%20Concensus%20Protocols%20Comparison_5_Cases_.jpg)
+>
+> i) Fault tolerance
+> 
+>  PoW, PoS and DPoS are probabilistic-finality protocols, and attackers need to accumulate a large amount of computational power or coins (stake) to create a long private chain to replace a valid chain. For instance, in Bitcoin, a  fraction of the computational power is sufficient for an attacker to create a longer private chain to successfully complete a double-spend attack [1]. Hence, if attacker’s fraction of the computational power is more than or equal to , the blockchain network will be undermined. Like PoW, PoS and DPoS can only allow the existence of the stakeholder with less than  of the held stake. In PBFT, if there are a total of  nodes in the network, the number of normal nodes must exceed , which means that the number of malicious or crashed nodes must be less than . Therefore, the fault tolerance of PBFT is 1/3 [11]. The fault tolerance of Ripple is only , i.e., Ripple can tolerate Byzantine Problem in  of nodes in the entire network without affecting the correct result of consensus [13].
+>
+> ii) Limitation
+> 
+> There is no doubt that PoW consumes the most computational power among these consensus protocols, and the transaction throughput per second (TPS) of Bitcoin adopting PoW is only 3–7, which greatly limits the application prospect of PoW in actual payment. PoS and DPoS have similar shortcomings, although they can greatly reduce the consumption of the computational power, only the stakeholders can get the block reward, which leads to the great reduction in the liquidity of coins in DPoS, the poorer the poor and the richer the rich. PBFT requires each node communicating with other nodes to exchange messages in each round of the consensus, PBFT thus has extremely high performance requirements for the network. Moreover, the identity of each node participating in the consensus is known, so there is no guarantee on the anonymity. In Ripple, a round of consensus process is completed in a few seconds, which is suitable for the actual payment scenario. However, Ripple is managed and controlled by a few organizations, which does not satisfy the decentralization nature of blockchain.
+>
+> iii - Scalability
+> 
+PoW, PoS and DPoS all have good scalability. Although TPS of them is not very high, there are some ways that can help improve the scalability. For instances, Bitcoin adopts lightning network to provide an off-chain payment to improve the scalability [14]. Ethereum proposed the sharding technology and Plasma, which are layer 1 and layer 2 scaling solutions, respectively [15]. The scalability of PBFT is limited since PBFT is suitable for a high performance network with a small number of nodes. Unlike PBFT, Ripple can be suitable for a large scale network, and TPS of Ripple is over 1500, hence Ripple has strong scalability.
+>
+> iv - Scenarios
+> 
+As mentioned before, current blockchain systems can be categorized into three types. In public blockchain, everyone can take part in the consensus process and the distributed ledger is visible to the public. PoW, PoS, and DPoS can be applied to public blockchain. Private blockchain and consortium blockchain belong to the permissioned blockchain as only permitted nodes can participate in the consensus process. The identity of each node is known to the public in PBFT and Ripple, thus they are all suitable for private blockchain or consortium blockchain. Although private blockchain and consortium blockchain are not as decentralized as public blockchain, due to the strong consistency and high efficiency of consensus, they are more suitable for some commercial and medical scenarios.
+>
+> v - Conclusion]
+> 
+> The consensus protocol is the guarantee for the stable operation of blockchain systems. Nodes agree on a certain value or transaction through the consensus protocol. In this paper, we introduced some popular blockchain consensus protocols and found their strengths, weaknesses and application scenarios through analysis and comparison. We concluded that designing a good consensus protocol should consider not only good fault tolerance but also how to make the best use of it in the appropriate application scenario.
 
 
 ## F3 - Special Hardware Requirement 
