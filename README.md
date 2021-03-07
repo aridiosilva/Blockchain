@@ -45,20 +45,20 @@ Business runs on information. The faster it’s received and the more accurate i
 
 All network participants have access to the distributed ledger and its immutable record of transactions. With this shared ledger, transactions are recorded only once, eliminating the duplication of effort that’s typical of traditional business networks.
 
-The major advantages of a distributed system over single computers are:
+**Some advantages** of a distributed system over single computers are:
 
-• Higher computing power
-• Cost reduction
-• Higher reliability
-• Ability to grow naturally
+> - Higher computing power
+> - Cost reduction
+> - Higher reliability
+> - Ability to grow naturally
 
-The disadvantages of distributed systems compared to single computers are:
+**Some disadvantages** of distributed systems compared to single computers are:
 
-• Coordination overhead
-• Communication overhead
-• Dependency on networks
-• Higher program complexity
-• Security issues
+> - Coordination overhead
+> - Communication overhead
+> - Dependency on networks
+> - Higher program complexity
+> - Security issues
 
 ### b) Peer-to-Peer Systems (P2P)
 
