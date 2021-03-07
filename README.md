@@ -96,7 +96,7 @@ The different from PoW is that nodes do not need to adjust nonce for many times,
 >
 > - **Proof of Elapsed Time (PoET)**:
 > 
->   Proof of Elapsed time is a network consensus protocol invented and developed by the Intel Corporation in 2016. The algorithm is predominantly used in permissioned blockchain ledgers. The hardware used in PoET is specially designed for this protocol. For example, Intel Software Guarded Extension (SGX) is used in networks using PoET. This consensus protocol is used to allocate blocks to miners on the network. In permissioned blockchain systems, the miners’ identity is determined before allowing access int o the network. Therefore, anonymity is not a feature in this protocol. Each node in the network is assigned a random waiting time. The first node to complete the randomly chosen period validates the new block. The specialized hardware puts the processor to sleep during the wait time—this repeats over all the blocks in the network. he major disadvantage of this algorithm is its dependency on specialized hardware. This exposes it to various security vulnerabilities due to the lack of standardized and tried and tested protocols. IBMs Hyperledger Sawtooth supports PoET mechanism for custom blockchain applications development.
+>   Proof of Elapsed time is a network consensus protocol invented and developed by the Intel Corporation in 2016. A lottery-based, low-energy consumption protocol that can scale well for a network with many nodes while needing more time to reach consensus. The algorithm is predominantly used in permissioned blockchain ledgers. The hardware used in PoET is specially designed for this protocol. For example, Intel Software Guarded Extension (SGX) is used in networks using PoET. This consensus protocol is used to allocate blocks to miners on the network. In permissioned blockchain systems, the miners’ identity is determined before allowing access int o the network. Therefore, anonymity is not a feature in this protocol. Each node in the network is assigned a random waiting time. The first node to complete the randomly chosen period validates the new block. The specialized hardware puts the processor to sleep during the wait time—this repeats over all the blocks in the network. he major disadvantage of this algorithm is its dependency on specialized hardware. This exposes it to various security vulnerabilities due to the lack of standardized and tried and tested protocols. IBMs Hyperledger Sawtooth supports PoET mechanism for custom blockchain applications development.
 >   
 >   Proof of Elapsed Time (PoET), a lottery style blockchain network consensus mechanism, has a similar workflow like that of the PoW mechanism, but it requires far less
 computational resources, i.e., it eradicates the need for mining-intensive processes, thus preventing high energy consumption and resource utilization. In PoET, a separate
@@ -127,9 +127,7 @@ Decred is the only coin right now using a variation of proof of activity.
 > 
 > - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
 > 
-> - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network with many nodes while needing more time to reach consensus.
->
-> - ** Comparison of Main Consensus Protocols
+> - **Comparison of Main Consensus Protocols**
 >  
 > ![table Comparison Consensus Protocols](https://github.com/aridiosilva/Blockchain/blob/main/Table%201%20-%20%20Main%20Concensus%20Protocols%20Comparison_5_Cases_.jpg)
 >
