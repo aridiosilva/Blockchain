@@ -26,41 +26,32 @@ Another technique to reduce the need for each user to keep the full history of t
 
 ## F1 - Network Permission
 
-> - **Permission-less network**: A public blockchain network configuration designed to allow public participation;
-> - **Permissioned network**: A private blockchain network configuration that includes only authorized participants;
+> - **Permissionless network**: A public blockchain network configuration designed to allow public participation;
+> - **Permissioned network**  : A private blockchain network configuration that includes only authorized participants;
 
 ## F2 - Consensus Protocol
 
 > - **Proof of Work (PoW)**: A compute-intensive protocol with proof of security; suitable for permission-less blockchain networks but can also be used in permissioned blockchain networks to increase security. The Bitcoin blockchain uses this protocol: unfortunately, many people mistakenly believe that all blockchain networks need to use this typically high-energy consumption protocol, which is not true.
 > - **Proof of Stake (PoS)**: A low-energy consumption protocol that is suitable for healthcare applications operating on permission-less or permissioned blockchain networks.
 > - **Mining Diversity**: A round-robin, low-energy consumption protocol specifically designed for permissioned healthcare applications.31 Variations can be designed to suit various needs.
-> - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at
-least initially), but that requires more time as the number of nodes in the network grows.
-> - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network
-with many nodes while needing more time to reach consensus.
+> - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
+> - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network with many nodes while needing more time to reach consensus.
 
 ## F3 - Special Hardware Requirement 
 
-> - **Yes**: If special hardware (eg, Intel SGX43) is required, the specifications of the computing environment need
-to be confirmed before the healthcare applications can be deployed properly.
-> - **No**: If no special hardware is required, the healthcare application can be deployed without further hardware
-checking.
+> - **Yes**: If special hardware (eg, Intel SGX43) is required, the specifications of the computing environment need to be confirmed before the healthcare applications can be deployed properly.
+> - **No** : If no special hardware is required, the healthcare application can be deployed without further hardware checking.
 
 ## F4 - Smart Contracts Support 
 
-> - **Yes**: If the healthcare applications focus on autonomous operations (eg, automatic payment for insurance
-claims), the immutable smart contract support can be essential.
-> - **No**: If the healthcare applications aim at primarily serving as a ledger (eg, recording access rights or data
-transaction records), the blockchain platform without smart contract support would be sufficient.
+> - **Yes**: If the healthcare applications focus on autonomous operations (eg, automatic payment for insurance claims), the immutable smart contract support can be essential.
+> - **No** : If the healthcare applications aim at primarily serving as a ledger (eg, recording access rights or data transaction records), the blockchain platform without smart contract support would be sufficient.
 
 ## F5 - Scripting Language
 
-> - **Bitcoin Script**: If smart contracts are not required for the healthcare applications, this basic scripting language
-would be sufficient.
-> - **Solidity**: The main smart contract language for Ethereum; it is one of the most popular languages for writing
-smart contracts.
-> - **Chaincode**: The main smart contract language for Hyperledger Fabric; it is also one of the most popular languages
-for writing smart contracts.
+> - **Bitcoin Script**: If smart contracts are not required for the healthcare applications, this basic scripting language would be sufficient.
+> - **Solidity**: The main smart contract language for Ethereum; it is one of the most popular languages for writing smart contracts.
+> - **Chaincode**: The main smart contract language for Hyperledger Fabric; it is also one of the most popular languages for writing smart contracts.
 
 ## F6 - Software License 
 
