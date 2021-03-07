@@ -40,6 +40,8 @@ Consensus Mechanism is a method of autenticating and validating a value or trans
 
 ![Figure Consensus Mechanisms Time Line Eovolution 001](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Consensus%20Mechanisms%20Time%20Line%20Eovolution%20001.jpg)
 
+![part 2](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Consensus%20Mechanisms%20Time%20Line%20Eovolution%20001-part2.jpg)
+
 ### How Concensus Mechanisms work
 
 Basic parameters that define a consensus mechanism are:
@@ -58,9 +60,6 @@ Within these parameters, there are significantly differences between one consens
 Many blockchain platforms operate as a distributed computing system, often with orders of magnitude more nodes than their traditional counterpart. How these nodes communicate with one another and maintain truth in the presence of faults is known as consensus. First, consensus relevant to distributed computing is described, followed by the present-day case of blockchains. One strategy to handle updating the state involves replicating the database across multiple instances and comparing the information. The state of the system is a sequential list of commands that is replicated between all nodes in the network. Coming to consensus on the state means every node executes the linearly ordered log arriving at the same result. A consensus algorithm must maintain consistent copies of the state across all nodes and process updates proposed by any of those nodes.  Figure below illustrates consensus as a state diagram that seeks to identify who is proposing an update and how agreement is to be achieved all:
 
   ![consensus scope](https://github.com/aridiosilva/Blockchain/blob/main/Figure%2001%20Consensus%20Scope%20Blockchain.jpg)
-  
-    ![part2](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Consensus%20Mechanisms%20Time%20Line%20Eovolution%20001-part2.jpg)
-  
   
   ![Figure - Historical Comparison of Consensus Mechanism (source; KPMG Report)](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20-%20Historical%20Comparison%20of%20Consensus%20Mechanism%20(source%3B%20KPMG%20Report).jpg)
 
