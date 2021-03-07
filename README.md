@@ -147,7 +147,14 @@ Decred is the only coin right now using a variation of proof of activity.
 > 
 > - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
 >
-> -  
+> - **Round Robin Consensus**:
+> 
+>   In Round Robin Consensus, validators participate in the consensus process by signing votes for blocks. There are three types of votes: a prevote, a precommit and a commit. To receive more than two third of commits means to receive commits from a two third majority of validators. A block is said to be committed by the network when a two third majority of validators have signed and broadcasted commits for that block. At each height of the blockchain a round-based protocol is run to determine the next block. Each round comprises of three steps (Propose, Prevote, and Precommit), along with two special steps Commit and NewHeight. The Propose, Prevote, and Precommit steps each take one third of the total time allocated for that round. Each round is longer than the previous round followed by a small fixed increase of time. This allows the network to eventually achieve consensus in a limited concurrent network. Round robin consensus process doesn’t depend on a single participant for block validation, Here Multiple nodes play a key role in validating and signing transactions which make this process more secure as compare to other consensus process. It has lesser probability of double spend attack because of the voting power distribution among trusted nodes. Round robin consensus mechanism is best suitable for provenance bases usecases like: trade finance, supply chain etc. Examples: Multichain, Tendermint
+>  
+> - **Federated Consensus**:
+> 
+>   In Federated Consensus, every participant in the network trusts a set of signers for reaching the consensus stage. To do it efficiently, block signers use a single block generator, which receives, holds and filters transaction. The generator’s signature is used to coordinate with signers for block validation process. Block signer verifies the block which is signed by block generator and which fulfills the certain conditions set by the network. Block get published to the network, once the block generator got enough signatures from the network. Federated consensus reliance a on single participant which provides many efficiencies and simplicity benefits and has only limited downsides in target use cases. It guarantees safety and liveness. This consensus mechanism is best for use cases like: cross boarder remittance, real time KYC etc. Examples: Stellar, Ripple 
+>
 > - **Consensus Protocol Comparison**:
 >  
 > ![comparison consensus Mechanisms](https://github.com/aridiosilva/Blockchain/blob/main/Table%207%20-%20Comparison%20Consensus%20Mechanismos%20os%20Blockchain001___.png)
