@@ -1033,10 +1033,10 @@ While some dismiss Bitcoin as a passing fad, many more are beginning to see it a
 
 # Some of the best Bitcoin Mining Software
 
-- Best Overall: [**CGMiner**](https://github.com/ckolivas/cgminer)
-- Best for Customization: [**BFGMiner**](http://bfgminer.org/)
-- Best for Ease of Use: [**MultiMiner**](https://nwoolls.github.io/MultiMiner/)
-- Best Centralized Management: [**Awesome Miner**](https://www.awesomeminer.com/)
+- [**CGMiner**](https://github.com/ckolivas/cgminer)
+- [**BFGMiner**](http://bfgminer.org/)
+- [**MultiMiner**](https://nwoolls.github.io/MultiMiner/)
+- [**Awesome Miner**](https://www.awesomeminer.com/)
 
 ## GMiner
 
