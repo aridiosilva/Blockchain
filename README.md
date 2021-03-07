@@ -29,18 +29,39 @@ Another technique to reduce the need for each user to keep the full history of t
 > - **Permissionless network**: A public blockchain network configuration designed to allow public participation;
 > - **Permissioned network**  : A private blockchain network configuration that includes only authorized participants;
 
-## F2 - Consensus Protocol
+## F2 - Consensus Protocols
 
-> - **Proof of Work (PoW)**: A compute-intensive protocol with proof of security; suitable for permission-less blockchain networks but can also be used in permissioned blockchain networks to increase security. The Bitcoin blockchain uses this protocol: unfortunately, many people mistakenly believe that all blockchain networks need to use this typically high-energy consumption protocol, which is not true.
+> - **Proof of Work (PoW)**: A compute-intensive protocol with proof of security; suitable for permission-less blockchain networks but can also be used in permissioned blockchain networks to increase security. The Bitcoin blockchain uses this protocol: unfortunately, many people mistakenly believe that all blockchain networks need to use this typically high-energy consumption protocol, which is not true. PoW is adopted by Bitcoin,Ethereum, etc. PoW selects one node to create a new block in each round of consensus by computational power competition. In the competition, the participating nodes need to solve a cryptographic puzzle. The node who first addresses the puzzle can have a right to create a new block. The flow of the block creation in PoW is presented in Fig. below. It is very difficult to solve a PoW puzzle. Nodes need to keep adjusting the value of nonce to get the correct answer, which requires much computational power. It is feasible for a malicious attacker to overthrow one block in a chain, but as the valid blocks in the chain increase, the workload is also accumulated, therefore overthrowing a long chain requires a huge amount of computational power. PoW belongs to the probabilistic-finality consensus protocols since it guarantees eventual consistency.
 >  
 >  ![PoW](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%201.%20Flow%20of%20PoW.jpg) 
 >
-> - **Proof of Stake (PoS)**: A low-energy consumption protocol that is suitable for healthcare applications operating on permission-less or permissioned blockchain networks.
+> - **Proof of Stake (PoS)**: A low-energy consumption protocol that is suitable for healthcare applications operating on permission-less or permissioned blockchain networks. In PoS, selecting each round of node who creates a new block depends on the held stake rather than the computational power. Although nodes still need to solve a SHA256 puzzle:
+The different from PoW is that nodes do not need to adjust nonce for many times, instead, the key to solve this puzzle is the amount of stake (coins). Hence, PoS is an energy-saving consensus protocol, which leverages a way of the internal currency incentive instead of consuming lots of computational power to reach a consensus. The flow of PoS is shown in Fig. below. Like PoW, PoS is also a probabilistic-finality consensus protocol. PPcoin was the first cryptocurrency to apply PoS to the blockchain. In PPcoin, in addition to the size of the stake, the coin age is also introduced in solving a PoS puzzle. For instance, if you hold 10 coins for a total of 20 days, then your coin age is 200. Once a node creates a new block, his coin age will be cleared to 0. In addition to PPcoin, many cryptocurrencies adopt PoS, e.g., Nxt, Ouroboros. Note that Ethereum plans to transition from PoW to PoS.
 >  
 >  ![PoS](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%202.%20Flow%20of%20PoS.jpg) 
 >
+> - **Delegated Proof of Stake(DPoS)**:
+> 
+>  The principle of DPoS is to let nodes who hold stake vote to elect block verifiers (i.e., block creators). This way of voting makes the stakeholders give the right of creating blocks to the delegates they support instead of creating blocks themselves, thus reducing their computational power consumption to 0. We can clearly see the flow of DPoS. DPoS is like a parliamentary system, if the delegates are unable to generate blocks in their turns, they will be dismissed and the stakeholders will select new nodes to replace them. DPoS makes the most use of the shareholders’ votes to reach a consensus in a fair and democratic way. Compared to PoW and PoS, DPoS is a low-cost and high-efficiency consensus protocol. There are also some cryptocurrencies adopting DPoS such as BitShares, EOS, etc. The new version of EOS has turned DPoS to BFT-DPoS (Byzantine Fault Tolerance-DPoS).
+> 
+> ![DPoW](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%203.%20Flow%20of%20DPoS..jpg)
+> 
+> - ** PBFT (Practical Byzantine Fault Tolerance)**:
+> 
+>  PBFT is a Byzantine Fault Tolerance protocol with low algorithm complexity and high practicality in distributed systems [11]. PBFT contains five phases: request, pre-prepare, prepare, commit and reply. Fig. 4 describes how PBFT works. The primary node forwards the message sent by the client to the other three nodes. In the case that node 3 is crashed, one message goes through five phases to reach a consensus among these nodes. Finally, these nodes reply to the client to complete a round of consensus. PBFT guarantees nodes maintain a common state and take a consistent action in each round of consensus. PBFT achieves the goal of strong consistency, thus it is an absolute-finality consensus protocol. As mentioned before, EOS takes a combined consensus protocol. EOS leverages PBFT to simultaneously work with the block validation and creation in DPoS, greatly reducing the time required for a round of consensus [10]. A new protocol called Stellar is an improvement of PBFT. Stellar adopts FBA (Federated Byzantine Agreement) protocol, in which nodes can choose the federation they trust to conduct the consensus process [12].
+>
+> ![PBFT](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%204.%20Process%20of%20PBFT..jpg)
+> 
+> - **Ripple**: 
+> 
+>   Ripple is an open source payment protocol [13]. In Ripple, transactions are initiated by clients and broadcast throughout the network via tracking nodes or validating nodes. However, the consensus process in Ripple is performed by validating nodes, each of which owns a list of trusted nodes called UNL (Unique Node List). Nodes in UNL can vote on the transactions they support. The process of consensus in Ripple is presented in Fig. 5. Each validating node sends its own transactions set as a proposal to other validating nodes. Once receiving the transaction proposals sent by nodes in UNL, the validating node will check each transaction in the proposal. The transaction in the proposal will get one vote if there is the same transaction in its local transactions set. When the transaction gets more than  of the votes, this transaction will enter the next round. The screening threshold will be increased for each round, and transactions with more than  of the votes will be finally recorded in the distributed ledger. Hence, Ripple is an absolute-finality consensus protocol.
+>
+> ![ripple](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%205.%20Process%20of%20Ripple..jpg)
+>
 > - **Mining Diversity**: A round-robin, low-energy consumption protocol specifically designed for permissioned healthcare applications.31 Variations can be designed to suit various needs.
+> 
 > - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
+> 
 > - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network with many nodes while needing more time to reach consensus.
 
 ## F3 - Special Hardware Requirement 
