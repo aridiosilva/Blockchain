@@ -64,7 +64,7 @@ The different from PoW is that nodes do not need to adjust nonce for many times,
 > 
 > - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network with many nodes while needing more time to reach consensus.
 > 
-> ![table Comparison Consensus Protocols](https://github.com/aridiosilva/Blockchain/blob/main/Table%201%20-%20%20Main%20Concensus%20Protocols%20Comparison_5_Cases.jpg)
+> ![table Comparison Consensus Protocols](https://github.com/aridiosilva/Blockchain/blob/main/Table%201%20-%20%20Main%20Concensus%20Protocols%20Comparison_5_Cases_.jpg)
 
 
 ## F3 - Special Hardware Requirement 
