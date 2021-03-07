@@ -15,7 +15,7 @@ Blockchain is a distributed ledger—write once and never erase. Although origin
 
 # Distributed Ledger Tecnologies
 
-!()[https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Illustrative%20Distributed%20Ledger%20Technologies%20(source%20KPMG)%20001.jpg)
+![https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Illustrative%20Distributed%20Ledger%20Technologies%20(source%20KPMG)%20001.jpg)
 
 # Main Elements of Blochchain
 
