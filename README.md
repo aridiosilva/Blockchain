@@ -108,7 +108,7 @@ random timer that operates independently at every node of the distributed ledger
 Extension (SGX). It is effectively a set of security-related instruction code executed on CPU which is employed by applications to isolate certain trusted regions of code and
 data. +ese isolated regions are called enclaves. It primarily protects sensitive data and code from any outer interference or inspection, by providing a secure enclave for developers. Primarily, SGX functions to provide a trusted execution environment (TEE) which allows specific trusted code and data to execute independently of the application and system on which it runs [36]. Code that executes in a trusted environment created using SGX has the capability to generate a signed attestation from within the platform or application which is rooted in the CPU and provides authentication that the code has been correctly booted up in a trusted environment. SGX acts as a mechanism by which participant nodes hitch the network and confirm whether they are executing the trusted code needed for the PoET consensus implementation.
 >
->    ![Fig. 6. Process of PoET}(https://github.com/aridiosilva/Blockchain/blob/main/Fig.%206.%20Process%20of%20PoET.jpg)
+>    ![PoET](https://github.com/aridiosilva/Blockchain/blob/main/Fig.%206.%20Process%20of%20PoET.jpg)
 >
 > - **Proof of activity (PoA)**:
 > 
