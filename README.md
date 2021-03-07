@@ -1031,7 +1031,7 @@ Mining equipment is also very power-hungry. Depending on the cost of electricity
 
 While some dismiss Bitcoin as a passing fad, many more are beginning to see it as the future of commerce. A 2020 survey showed that 36% of small and mid-sized businesses already accept cryptocurrency, as do many larger businesses and organizations including Microsoft, AT&T, and Wikipedia. While Bitcoin can be purchased with real cash, it’s more commonly “mined” using a combination of specialized hardware and software. In this article, we review the best bitcoin mining software based on reputation, features, ease of use, and more. Here are our top four picks.   
 
-# Some of the best Bitcoin Mining Software
+# Some Bitcoin Mining Software
 
 - [**CGMiner**](https://github.com/ckolivas/cgminer)
 - [**BFGMiner**](http://bfgminer.org/)
