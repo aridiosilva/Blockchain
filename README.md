@@ -95,19 +95,16 @@ inspection*. To improve this, Zcash uses a *zero-knowledge proof algorithm* know
 >
 > - **Monero**
 > 
->   Monero is a secure, private, and untraceable cryptocurrency. Monero offers privacy or anonymity to its users by using the “Ring Confidential Transactions” (a ring signature algorithm based on CryptoNote89 that generates a group signature and in which the actual signer cannot be identified) and the “Stealth Address” (an onetime
-address for each transaction) technologies, to obfuscate the origins, destinations, and amounts of all transactions.88 Therefore, the ability to “hide the destination and origin of transactions”90 is an important feature of Monero. This platform might be considered in applications in which the privacy or anonymity of patient or participant
-users is at stake, although it only supports the high energy consumption PoW protocol.
+>   Monero is a secure, private, and untraceable cryptocurrency. Monero offers privacy or anonymity to its users by using the “Ring Confidential Transactions” (a ring signature algorithm based on CryptoNotethat generates a group signature and in which the actual signer cannot be identified) and the *“Stealth Address”* (an onetime address for each transaction) technologies, to *obfuscate the origins, destinations, and amounts of all transactions*. Therefore, the ability to “hide the destination and origin of transactions” is an important feature of Monero. This platform might be considered in applications in which the privacy or anonymity of participant users is at stake, although it only supports the *high energy consumption PoW protocol*.
 > 
 > - **MultiChain**
 >
->   MultiChain is a blockchain platform to create and deploy permissioned or private blockchain networks.31 As a fork of the Bitcoin Blockchain, MultiChain focuses on providing features such as integrating user permission management and improve the data ledger functions.34 Also, MultiChain supports both Bitcoin Blockchain PoW and “Mining Diversity,” a round-robin-based consensus protocol.  31 The basic idea of Mining Diversity is that, within a private blockchain network, the participants are already “trusted” to some
-extent because they are identifiable entities.31 Therefore, Mining Diversity can provide consensus and mining securely on the private blockchain network without the need for the computationally intensive PoW algorithm.31 However, MultiChain does not provide additional privac
+>   MultiChain is a blockchain platform to create and deploy *permissioned* or *private blockchain networks*. As a *fork* of the *Bitcoin Blockchain*, MultiChain focuses on providing features such as *integrating user permission management* and improve the *data ledger functions*. Also, MultiChain supports both *Bitcoin Blockchain PoW* and *“Mining Diversity,”* a *round-robin-based consensus protocol*.  The basic idea of *Mining Diversity* is that, within a *private blockchain network*, the participants are already “trusted” to some extent because they are *identifiable entities*. Therefore, *Mining Diversity* can provide consensus and mining securely on the private blockchain network without the need for the computationally intensive PoW algorithm. However, MultiChain *does not provide additional privacy for users* as do some other platforms.
 >
 > - **Hyperledger**
 > 
->   Hyperledger is an open-source collaborative effort created to advance permissioned or private, cross-industry blockchain technologies. 91 As the use of blockchain must respond to different needs, Hyperledger provides an infrastructure to include a range of modules, such as various smart contract engines.43 Specifically, Hyperledger
-includes differentiated blockchain frameworks and tools. Each framework supports different types of consensus protocols. Hyperledger does not support PoW43 and the additional privacyprotection is yet to be included. It should also be noted that Hyperledger has global collaborations with various companies.  
+>   Hyperledger is an *open-source collaborative effort* created to *advance permissioned or private, cross-industry blockchain technologies*. As the use of blockchain must respond to different needs, Hyperledger provides an infrastructure to include a range of modules, such as various *smart contract engines*. Specifically, Hyperledger
+includes *differentiated blockchain frameworks and tools*. Each framework supports *different types of consensus protocols*. Hyperledger *does not support PoW* and the additional *privacy protection* is yet to be included. It should also be noted that Hyperledger has *global collaborations* with various companies.  
 >
 
 # Blockchain Applications and Services 
