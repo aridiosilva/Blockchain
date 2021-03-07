@@ -157,6 +157,23 @@ Decred is the only coin right now using a variation of proof of activity.
 >   
 >   As we’ve seen, most of these alternative protocols employ some type of pay-to-play scheme. Proof of capacity is no different, but here you ‘pay’ with hard drive space. The more hard drive space you have, the better your chance of mining the next block and earning the block reward. Prior to mining in a proof-of-capacity system, the algorithm generates large data sets known as ‘plots’, which you store on your hard drive. The more plots you have, the better your chance of finding the next block in the chain. By investing in terabytes of hard drive space, you buy yourself a better chance to create duplicate blocks and fork the system. But with proof of capacity, we still have the problem of nothing at stake to deter bad actors. Variations of proof of capacity include proof of storage and proof of space. Burstcoin is the only cryptocurrency to use a form of proof of capacity.
 >
+> - **Leased Proof of Stake (LPoS)**:Ç
+> 
+>   LPoS is an enhanced version of PoS consensus mechanism that operates on the Waves platform. Unlike the regular Proof-of-Stake method where each node with some amount of cryptocurrency is entitled to add the next blockchain, users can lease their balance to full nodes in this consensus algorithm. And the one that leases the bigger amount to the full node have a higher probability of generating the next block. Also, the leaser is then rewarded with a percentage of transaction fee that has been collected by the complete node. This PoS variant is an efficient and safe option for the development of public cryptocurrencies.
+>
+> - **Direct Acyclic Graph (DAG)**:
+> 
+>   Another basic yet prime blockchain consensus model that every mobile app development services company working with Blockchain must be familiar with is DAG. In this type of Blockchain consensus protocol, every node itself prepares to become the ‘miners’. Now, when miners are eradicated and transactions are validated by users itself, the associated fee reduces to zero. It becomes easier to validate transactions between any two closest nodes, which makes the whole process lightweight, faster, and secure. The two best examples of DAG algorithm are IOTA and Hedera Hashgraph. Though these are the prime consensus models in the development environment, many different blockchain consensus mechanisms have slowly and gradually starting gaining momentum.
+>   
+> - **Proof of Identity (PoI)**:
+> 
+>   The concept of PoI (Proof of Identity) is just like that of the authorized identity. It is a piece of cryptographic confirmation for a users’ private key that is being attached to each particular transaction. Each identified user can create and manage a block of data that can be presented to others in the network. This blockchain consensus model ensures authenticity and integrity of the created data. And thus, is a good choice for introducing in smart cities.
+>   
+> - **Proof of Importance (PoI)**:
+> 
+>   Introduced by NEM, PoI is a variation of PoS protocol that considers the role of shareholders and validators for its operation. However, this is not only influenced by the size and chance of their shares; various other factors like reputation, overall balance, and no. of transactions made through any particular address also plays a role in it. 
+The networks based on POI consensus model are expensive to attack on and rewards users for contributing to the network’s security.
+>   
 > - **Mining Diversity**: A round-robin, low-energy consumption protocol specifically designed for permissioned healthcare applications.31 Variations can be designed to suit various needs.
 > 
 > - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
