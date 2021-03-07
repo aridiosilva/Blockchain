@@ -66,7 +66,7 @@ for writing smart contracts.
 
 ## F6 - Software License 
 
-> -**MIT**: A “permissive” license that allows healthcare applications to reuse the source code of the platform.
+> - **MIT**: A “permissive” license that allows healthcare applications to reuse the source code of the platform.
 > - **GPL**: A “copyleft” license that also allows using the source code; the derivative works in some situations
 must be open-source too.
 
