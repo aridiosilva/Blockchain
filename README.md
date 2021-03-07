@@ -36,14 +36,14 @@ Consensus Mechanism is a method of autenticating and validating a value or trans
 How Concensus Mechanisms work
 Basic parameters that define a consensus mechanism are:
 
-•	Decentralized Governance – A single central authority cannot provide transaction finality
-•	Quorum Structure – Nodes exchange messages in predefined ways, which may include stages or tiers
-•	Authentication – This process provides means to verify of the participants´identities
-•	Integrity – It enforces the validation of the transaction integrity (e.g., mathematically through cryptography)
-•	Nonrepudiation – This provides means to verify that the supposed sender really sent the message
-•	Privacy – It helps ensure that only the intended recipient can read the message
-•	Fault Tolerance – The network operates efficiently and quickly, even if some nodes or servers fail or are slow
-•	Performance – It considers throughout, liveness, scalability, and latency
+-	**Decentralized Governance** – A single central authority cannot provide transaction finality
+-	**Quorum Structure** – Nodes exchange messages in predefined ways, which may include stages or tiers
+-	**Authentication** – This process provides means to verify of the participants´identities
+-	**Integrity** – It enforces the validation of the transaction integrity (e.g., mathematically through cryptography)
+- **Nonrepudiation** – This provides means to verify that the supposed sender really sent the message
+-	**Privacy** – It helps ensure that only the intended recipient can read the message
+-	**Fault Tolerance** – The network operates efficiently and quickly, even if some nodes or servers fail or are slow
+-	**Performance** – It considers throughout, liveness, scalability, and latency
 
 Within these parameters, there are significantly differences between one consensus mechanism and another. 
 
