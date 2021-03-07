@@ -131,8 +131,6 @@ Decred is the only coin right now using a variation of proof of activity.
 >  
 > ![comparison consensus Mechanisms](https://github.com/aridiosilva/Blockchain/blob/main/Table%207%20-%20Comparison%20Consensus%20Mechanismos%20os%20Blockchain001___.png)
 >
-> ![table Comparison Consensus Protocols](https://github.com/aridiosilva/Blockchain/blob/main/Table%201%20-%20%20Main%20Concensus%20Protocols%20Comparison_5_Cases_.jpg)
->
 > i) Fault tolerance
 > 
 >  PoW, PoS and DPoS are probabilistic-finality protocols, and attackers need to accumulate a large amount of computational power or coins (stake) to create a long private chain to replace a valid chain. For instance, in Bitcoin, a  fraction of the computational power is sufficient for an attacker to create a longer private chain to successfully complete a double-spend attack [1]. Hence, if attacker’s fraction of the computational power is more than or equal to , the blockchain network will be undermined. Like PoW, PoS and DPoS can only allow the existence of the stakeholder with less than  of the held stake. In PBFT, if there are a total of  nodes in the network, the number of normal nodes must exceed , which means that the number of malicious or crashed nodes must be less than . Therefore, the fault tolerance of PBFT is 1/3 [11]. The fault tolerance of Ripple is only , i.e., Ripple can tolerate Byzantine Problem in  of nodes in the entire network without affecting the correct result of consensus [13].
