@@ -59,6 +59,9 @@ Many blockchain platforms operate as a distributed computing system, often with 
 
   ![consensus scope](https://github.com/aridiosilva/Blockchain/blob/main/Figure%2001%20Consensus%20Scope%20Blockchain.jpg)
   
+    ![part2](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Consensus%20Mechanisms%20Time%20Line%20Eovolution%20001-part2.jpg)
+  
+  
   ![Figure - Historical Comparison of Consensus Mechanism (source; KPMG Report)](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20-%20Historical%20Comparison%20of%20Consensus%20Mechanism%20(source%3B%20KPMG%20Report).jpg)
 
 Various types of consensus algorithms have been devised over time for varying applications, but all of these algorithms must hold these properties for tolerating halting failures: 
