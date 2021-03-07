@@ -8,6 +8,11 @@ Blockchain is a distributed ledger—write once and never erase. Although origin
 
 - [Blockchan simply explained in this video](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 
+
+# Architecture of Blockchain System
+
+![layers of blockchain system](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20-%20Architecture%20of%20Blockchian%20System%20-%20The%20Layers.jpg)
+
 # Main Elements of Blochchain
 
 ![main elements](https://github.com/aridiosilva/Blockchain/blob/main/Main%20Elements%20of%20blockchain.jpg)
