@@ -45,11 +45,30 @@ Business runs on information. The faster it’s received and the more accurate i
 
 All network participants have access to the distributed ledger and its immutable record of transactions. With this shared ledger, transactions are recorded only once, eliminating the duplication of effort that’s typical of traditional business networks.
 
-### b) Immutable records
+The major advantages of a distributed system over single computers are:
+
+• Higher computing power
+• Cost reduction
+• Higher reliability
+• Ability to grow naturally
+
+The disadvantages of distributed systems compared to single computers are:
+
+• Coordination overhead
+• Communication overhead
+• Dependency on networks
+• Higher program complexity
+• Security issues
+
+### b) Peer-to-Peer Systems (P2P)
+
+Peer-to-peer networks are a special kind of distributed systems. They consistof individual computers (also called nodes), which make their computational. resources (e.g., processing power, storage capacity, data or network bandwidth) directly available to all other members of the network without having any central point of coordination. The nodes in the network are equal concerning their rights and roles in the system. Furthermore, all of them are both suppliers and consumers of resources. Peer-to-peer systems have interesting applications such as file sharing, content distribution, and privacy protection. Most of these applications utilize a simple but powerful idea: turning the computers of the users into nodes that make up the whole distributed system. As a result, the more users or customers use the software, the larger and more powerful the system becomes. This idea, its consequences, and it challenges are discussed in the following steps.
+
+### c) Immutable records
 
 No participant can change or tamper with a transaction after it’s been recorded to the shared ledger. If a transaction record includes an error, a new transaction must be added to reverse the error, and both transactions are then visible.
 
-### c) Smart contracts
+### d) Smart contracts
 
 To speed transactions, a set of rules — called a smart contract — is stored on the blockchain and executed automatically. A smart contract can define conditions for corporate bond transfers, include terms for travel insurance to be paid and much more.
 
