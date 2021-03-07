@@ -56,14 +56,14 @@ Many blockchain platforms operate as a distributed computing system, often with 
 
 Various types of consensus algorithms have been devised over time for varying applications, but all of these algorithms must hold these properties for tolerating halting failures: 
 
-(1) **Termination**: the process of achieving consensus on a given data value should come to an end; i.e., eventually, every correct node must decide some value.
-(1) **Agreement seeking**: each consensus protocol should try to bring about as much agreement as possible from the network.
-(1) **Collaborative**: the aim of the participants of the system should be to work in unison for the welfare of the group by achieving a result that favors the best interest of the group.
-(1) **Cooperative**: the participants should not put their interests first and work as a team more than individuals.
-(1) **Egalitarian**: a system that is trying to achieve consensus must be as egalitarian as possible; i.e., weightage of every vote should be equal. In simple words, one vote cannot be less important than another.
-(1) **Inclusive**: for a system to reach consensus, it should try to involve as many entities as possible in the process. It should not be similar to normal voting; i.e., it should not be the case that certain entities do not vote because they feel that it is not worthy to cast their vote as it will not have any weightage in the long run.
-(1) **Participatory**: everyone should participate actively in the entire process of consensus. 
-(1) **Integrity**: if v is the value that is decided by the majority of correct processes, then that same value (v) must be decided by any correct process
+1) **Termination**: the process of achieving consensus on a given data value should come to an end; i.e., eventually, every correct node must decide some value.
+1) **Agreement seeking**: each consensus protocol should try to bring about as much agreement as possible from the network.
+1) **Collaborative**: the aim of the participants of the system should be to work in unison for the welfare of the group by achieving a result that favors the best interest of the group.
+1) **Cooperative**: the participants should not put their interests first and work as a team more than individuals.
+1) **Egalitarian**: a system that is trying to achieve consensus must be as egalitarian as possible; i.e., weightage of every vote should be equal. In simple words, one vote cannot be less important than another.
+1) **Inclusive**: for a system to reach consensus, it should try to involve as many entities as possible in the process. It should not be similar to normal voting; i.e., it should not be the case that certain entities do not vote because they feel that it is not worthy to cast their vote as it will not have any weightage in the long run.
+1) **Participatory**: everyone should participate actively in the entire process of consensus. 
+1) **Integrity**: if v is the value that is decided by the majority of correct processes, then that same value (v) must be decided by any correct process
 
 ### Actual Consensus Mechanisms
 
