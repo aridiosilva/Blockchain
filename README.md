@@ -63,6 +63,9 @@ The different from PoW is that nodes do not need to adjust nonce for many times,
 > - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
 > 
 > - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network with many nodes while needing more time to reach consensus.
+> 
+> ![table Comparison Consensus Protocols](https://github.com/aridiosilva/Blockchain/blob/main/Table%201%20-%20%20Main%20Concensus%20Protocols%20Comparison_5_Cases.jpg)
+
 
 ## F3 - Special Hardware Requirement 
 
