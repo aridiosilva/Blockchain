@@ -8,6 +8,10 @@ Blockchain is a distributed ledger—write once and never erase. Although origin
 
 - [Blockchan simply explained in this video](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 
+# Main Elements of Blochchain
+
+![main elements](https://github.com/aridiosilva/Blockchain/blob/main/Main%20Elements%20of%20blockchain.jpg)
+
 # Blockchain Structure
 
 ![Blockchain Merkle tree](https://github.com/aridiosilva/Blockchain/blob/main/Blockchain_and_Merkle_Tree_figure001.jpg)
@@ -18,9 +22,66 @@ To reduce storage, if a block B is “voted” to be correct because the chain i
 
 Another technique to reduce the need for each user to keep the full history of transactions is to use lightweight nodes together with a Merkle tree. For a user who only wants to use coins but does not want to “mine” new blocks, the full transaction history (more than 150 GB as of January 2018) is too large, especially for smartphones. Therefore, a user can adopt lightweight nodes1 so that only the Merkle Branch1 that links the transactions that the user would like to verify is used. An example of the Merkle Branch for transaction T12 stored on a blockchain lightweight node (eg, on a mobile device), in contrast to the data storage of a full node (eg, on a personal computer), is shown in this figure. With the use of the Merkle tree, a lightweight node only stores data relevant to specific transactions (eg, T12) to save space.1 For example, in addition to T12 itself, this lightweight node only needs to store related hashes (ie, Hash of T11, Hash of T13–14, and Hash of T15–18), instead of storing the full Merkle tree, to make sure T12 is linked to block B1. That is, one can first compute the Hash of T12 using T12, and then compute the Hash of T11–12 using the Hash of T11 and the Hash of T12. Eventually, one can compute the value of the Merkle Root (Hash of T11–18), and compare it with the one stored in B1, to make sure T12 has been verified in B1. This way, a lot of required storage space for those lightweight nodes is saved, making applications such as wallet apps on mobile devices feasible. This verifying process is also known as Simplified Payment Verification.1,59 As a result, users/nodes can be divided into 2 groups: full nodes (the ones storing the whole transaction history and performing mining) and lightweight nodes (ie, the nodes using Simplified Payment Verification just for transactions, without mining), thus reducing the storage space for lightweight nodes and improving the scalability of a blockchain network.
 
-# Main Elements of Blochchain
+# 
 
-![main elements](https://github.com/aridiosilva/Blockchain/blob/main/Main%20Elements%20of%20blockchain.jpg)
+# Features of Blockchain Plaforms -  Main Options and Implications
+
+## F1 - Network Permission
+
+> - **Permission-less network**: A public blockchain network configuration designed to allow public participation;
+> - **Permissioned network**: A private blockchain network configuration that includes only authorized participants;
+
+## F2 - Consensus Protocol
+
+> -**Proof of Work (PoW)**: A compute-intensive protocol with proof of security; suitable for permission-less blockchain networks but can also be used in permissioned blockchain networks to increase security. The Bitcoin blockchain uses this protocol: unfortunately, many people mistakenly believe that all blockchain networks need to use this typically high-energy consumption protocol, which is not true.
+> - **Proof of Stake (PoS)**: A low-energy consumption protocol that is suitable for healthcare applications operating on permission-less or permissioned blockchain networks.
+> - **Mining Diversity**: A round-robin, low-energy consumption protocol specifically designed for permissioned healthcare applications.31 Variations can be designed to suit various needs.
+> - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at
+least initially), but that requires more time as the number of nodes in the network grows.
+> - **Proof of Elapsed Time (PoET)**: A lottery-based, low-energy consumption protocol that can scale well for a network
+with many nodes while needing more time to reach consensus.
+
+## F3 - Special Hardware Requirement 
+
+> - **Yes**: If special hardware (eg, Intel SGX43) is required, the specifications of the computing environment need
+to be confirmed before the healthcare applications can be deployed properly.
+> - **No**: If no special hardware is required, the healthcare application can be deployed without further hardware
+checking.
+
+## F4 - Smart Contracts Support 
+
+> - **Yes**: If the healthcare applications focus on autonomous operations (eg, automatic payment for insurance
+claims), the immutable smart contract support can be essential.
+> - **No**: If the healthcare applications aim at primarily serving as a ledger (eg, recording access rights or data
+transaction records), the blockchain platform without smart contract support would be sufficient.
+
+## F5 - Scripting Language
+
+> - **Bitcoin Script**: If smart contracts are not required for the healthcare applications, this basic scripting language
+would be sufficient.
+> - **Solidity**: The main smart contract language for Ethereum; it is one of the most popular languages for writing
+smart contracts.
+> - **Chaincode**: The main smart contract language for Hyperledger Fabric; it is also one of the most popular languages
+for writing smart contracts.
+
+## F6 - Software License 
+
+> -**MIT**: A “permissive” license that allows healthcare applications to reuse the source code of the platform.
+> - **GPL**: A “copyleft” license that also allows using the source code; the derivative works in some situations
+must be open-source too.
+
+# Summary of Blockchain Platforms
+
+> - **Bitcoin** 
+> - **Ethereum**
+> - **Zcash**
+> - **Litecoin**
+> - **Dash**
+> - **Peercoin**
+> - **Ripple**
+> - **Monero**
+> - **MultiChain**
+> - **Hyperledger**
 
 # Blockchain Applications and Services 
 
