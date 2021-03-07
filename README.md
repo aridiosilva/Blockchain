@@ -137,13 +137,7 @@ Decred is the only coin right now using a variation of proof of activity.
 > - **Kafka**: A voting-based, low-energy consumption protocol that can finalize the consensus decision faster (at least initially), but that requires more time as the number of nodes in the network grows.
 >
 > -  
-> - **Existing Frameworks for Consensus Protocol Comparison**:
-> 
->  The blockchain technology is relatively new and the competition among consensus protocols are intense. Hence, the merits and demerits of many consensus protocols are not strictly evaluated, and it is also very costly, if not impossible, to test them extensively in reality. Currently, the literature on comparing consensus protocols is growing, some of which implicitly analyzed these protocols under several dimensions. We summarized these papers in Table 1, as well as their considered dimensions and research methods. It can be found that there is a lack of a universal framework for consensus protocol comparison.  The table below shows the existing Frameworks for comparison of Consensus Mechanisms:
->
->  ![table of frameworks of comparison of consensus protocols](https://github.com/aridiosilva/Blockchain/blob/main/table%208%20-%20Existing%20Frameworks%20for%20Consensus%20Protocol%20Comparision%20002.jpg)
->
-> - **Comparison of Main Consensus Protocols**
+> - ** Consensus Protocol Comparison**:
 >  
 > ![comparison consensus Mechanisms](https://github.com/aridiosilva/Blockchain/blob/main/Table%207%20-%20Comparison%20Consensus%20Mechanismos%20os%20Blockchain001___.png)
 >
