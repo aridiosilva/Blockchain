@@ -1242,6 +1242,20 @@ Mining equipment is also very power-hungry. Depending on the cost of electricity
 
 While some dismiss Bitcoin as a passing fad, many more are beginning to see it as the future of commerce. A 2020 survey showed that 36% of small and mid-sized businesses already accept cryptocurrency, as do many larger businesses and organizations including Microsoft, AT&T, and Wikipedia. While Bitcoin can be purchased with real cash, it’s more commonly “mined” using a combination of specialized hardware and software. In this article, we review the best bitcoin mining software based on reputation, features, ease of use, and more. Here are our top four picks.   
 
+# Mining Pool
+
+## What is?
+
+A mining pool is a group of miners who share their computing power over a network and get rewarded based on the amount of power each contributes as opposed to whether or not the pool finds a block. Mining pools help make revenue for miners more predictable. Huge drops in weekly numbers could highlight that some mining pools are either being turned off or they have decided to mine other currencies. If a mining pool were to control more than half of the total hashrate, it could (while unlikely) lead to a 51% attack on the network.
+
+## Methodology to Identify Mining Pools
+
+The coinbase transaction (first transaction in a block) helps identify the mining pool. Its input script usually contains a tag which can be mapped to the Mining Pool using the pools.json file from our public repository Blockchain-Known-Pools. Also, this same file contains a list of payout addresses linked to Mining Pools which are checked against the output addresses of the coinbase transactions.
+
+An interesting behavior is described in Blockchain Hashrate Distribution (an estimation of hashrate distribution amongst the largest mining pools), where the clockchain main site analysts have found that weekly numbers are a better representation of the underlying power, because they are less sensitive to mining randomness. Note that mining pools could suddenly decide to change their tag or input addresses (See Methodology), leading to a decrease of their labelled contribution and an increase in the UNKNOWN labels.
+
+![Actual Mining Pools based on Blockchain site](https://www.blockchain.com/charts/pools)
+
 # Some Bitcoin Mining Software
 
 - [**CGMiner**](https://github.com/ckolivas/cgminer)
