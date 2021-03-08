@@ -1254,7 +1254,7 @@ The coinbase transaction (first transaction in a block) helps identify the minin
 
 An interesting behavior is described in Blockchain Hashrate Distribution (an estimation of hashrate distribution amongst the largest mining pools), where the clockchain main site analysts have found that weekly numbers are a better representation of the underlying power, because they are less sensitive to mining randomness. Note that mining pools could suddenly decide to change their tag or input addresses (See Methodology), leading to a decrease of their labelled contribution and an increase in the UNKNOWN labels.
 
-![Actual Mining Pools based on Blockchain site](https://www.blockchain.com/charts/pools)
+[Actual Mining Pools based on Blockchain site](https://www.blockchain.com/charts/pools)
 
 # Some Bitcoin Mining Software
 
