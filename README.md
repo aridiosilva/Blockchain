@@ -19,6 +19,10 @@ Blockchain is a distributed ledger—write once and never erase. Although origin
 
 ![distributed ledger technologies](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Illustrative%20Distributed%20Ledger%20Technologies%20(source%20KPMG)%20001.jpg)
 
+The difference among centralized (client/server), discentralized, and distributed network toplogies is shown in the iamge below
+
+![Figure Network Architectures and Blockchain 001](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Network%20Architectures%20and%20Blockchain%20001.jpg)
+
 
 # Main Elements of Blochchain
 
