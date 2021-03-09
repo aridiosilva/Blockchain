@@ -1266,7 +1266,7 @@ The word “mining” is somewhat misleading. By evoking the extraction of preci
 
 Mining is the invention that makes bitcoin special, a decentralized security mechanism that is the basis for peer-to-peer digital cash. The reward of newly minted coins and transaction fees is an incentive scheme that aligns the actions of miners with the security of the network, while simultaneously implementing the monetary supply.
 
-# Economics Concepts Behind Blockchain 
+## Economics Concepts Behind Blockchain 
 
 Bitcoins are “minted” during the creation of each block at a fixed and diminishing rate. Each block, generated on average every 10 minutes, contains entirely new bitcoins, created from nothing. Every 210,000 blocks, or approximately every four years, the currency issuance rate is decreased by 50%. For the first four years of operation of the network, each block contained 50 new bitcoins.
 
@@ -1274,7 +1274,7 @@ In November 2012, the new bitcoin issuance rate was decreased to 25 bitcoins per
 
 The finite and diminishing issuance creates a fixed monetary supply that resists inflation. Unlike a flat currency, which can be printed in infinite numbers by a central bank, bitcoin can never be inflated by printing.
 
-``
+```
 **DEFLATIONARY MONEY**
 
 The most important and debated consequence of a fixed and diminishing monetary issuance is that the currency will tend to be inherently deflationary. Deflation is the phenomenon of appreciation of value due to a mismatch in supply and demand that drives up the value (and exchange rate) of a currency. The opposite of inflation, price deflation means that the money has more purchasing power over time.
