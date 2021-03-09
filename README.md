@@ -692,6 +692,10 @@ Allows applications to be deployed in production or removed, without having to n
 
 This type of network is the most decentralized. Applications can be deployed in production or removed, without having to notify anyone, reveal their identity, or meet any application criteria requirements. Additionally, the nodes which constitute the network can freely and anonymously join and contribute, typically in exchange for a network’s native cryptocurrency.
 
+### Comparison between Types of Blockchain Networks
+
+!{Table - Blockchain Network Types Comparison 001](https://github.com/aridiosilva/Blockchain/blob/main/Table%20-%20Blockchain%20Network%20Types%20Comparison%20001.jpg)
+
 ## Reaching consensus
 
 Although every node on a permissioned or permissionless distributed ledger maintains and updates their own copy of the ledger, it is imperative that each of these ledgers remains identical. Imagine, for instance, that your copy of the ledger reveals that you have $100 in your account, while the cashier’s ledger holds that you have $1. This discrepancy would make it very difficult, if not impossible, to buy a candy bar. Without identical ledgers, participants in the network could not make transactions.
