@@ -694,7 +694,7 @@ This type of network is the most decentralized. Applications can be deployed in 
 
 ### Comparison between Types of Blockchain Networks
 
-!{Table - Blockchain Network Types Comparison 001](https://github.com/aridiosilva/Blockchain/blob/main/Table%20-%20Blockchain%20Network%20Types%20Comparison%20001.jpg)
+![Table - Blockchain Network Types Comparison 001](https://github.com/aridiosilva/Blockchain/blob/main/Table%20-%20Blockchain%20Network%20Types%20Comparison%20001.jpg)
 
 ## Reaching consensus
 
