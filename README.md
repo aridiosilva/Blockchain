@@ -1274,7 +1274,6 @@ In November 2012, the new bitcoin issuance rate was decreased to 25 bitcoins per
 
 The finite and diminishing issuance creates a fixed monetary supply that resists inflation. Unlike a flat currency, which can be printed in infinite numbers by a central bank, bitcoin can never be inflated by printing.
 
-```
 **DEFLATIONARY MONEY**
 
 The most important and debated consequence of a fixed and diminishing monetary issuance is that the currency will tend to be inherently deflationary. Deflation is the phenomenon of appreciation of value due to a mismatch in supply and demand that drives up the value (and exchange rate) of a currency. The opposite of inflation, price deflation means that the money has more purchasing power over time.
@@ -1284,7 +1283,6 @@ Many economists argue that a deflationary economy is a disaster that should be a
 Bitcoin experts argue that deflation is not bad per se. Rather, deflation is associated with a collapse in demand because that is the only example of deflation we have to study. In a fiat currency with the possibility of unlimited printing, it is very difficult to enter a deflationary spiral unless there is a complete collapse in demand and an unwillingness to print money. Deflation in bitcoin is not caused by a collapse in demand, but by a predictably constrained supply.
 
 In practice, it has become evident that the hoarding instinct caused by a deflationary currency can be overcome by discounting from vendors, until the discount overcomes the hoarding instinct of the buyer. Because the seller is also motivated to hoard, the discount becomes the equilibrium price at which the two hoarding instincts are matched. With discounts of 30% on the bitcoin price, most bitcoin retailers are not experiencing difficulty overcoming the hoarding instinct and generating revenue. It remains to be seen whether the deflationary aspect of the currency is really a problem when it is not driven by rapid economic retraction.
-```
 
 ## Decentralized Consensus
 
@@ -1309,24 +1307,24 @@ However, before forwarding transactions to its neighbors, every bitcoin node tha
 
 Each node verifies every transaction against a long checklist of criteria:
 
-1) The transaction’s syntax and data structure must be correct.
-1) Neither lists of inputs or outputs are empty.
-1) The transaction size in bytes is less than MAX_BLOCK_SIZE.
-1) Each output value, as well as the total, must be within the allowed range of values (less than 21m coins, more than 0).
-1) None of the inputs have hash=0, N=–1 (coinbase transactions should not be relayed).
-1) nLockTime is less than or equal to INT_MAX.
-1) The transaction size in bytes is greater than or equal to 100.
-1) The number of signature operations contained in the transaction is less than the signature operation limit.
-1) The unlocking script (scriptSig) can only push numbers on the stack, and the locking script (scriptPubkey) must match isStandard forms (this rejects “nonstandard” transactions).
-1) A matching transaction in the pool, or in a block in the main branch, must exist.
-1) For each input, if the referenced output exists in any other transaction in the pool, the transaction must be rejected.
-1) For each input, look in the main branch and the transaction pool to find the referenced output transaction. If the output transaction is missing for any input, this will be an orphan transaction. Add to the orphan transactions pool, if a matching transaction is not already in the pool.
-1) For each input, if the referenced output transaction is a coinbase output, it must have at least COINBASE_MATURITY (100) confirmations.
-1) For each input, the referenced output must exist and cannot already be spent.
-1) Using the referenced output transactions to get input values, check that each input value, as well as the sum, are in the allowed range of values (less than 21m coins, more than 0).
-1) Reject if the sum of input values is less than sum of output values.
-1) Reject if transaction fee would be too low to get into an empty block.
-1) The unlocking scripts for each input must validate against the corresponding output locking scripts.
+> 1) The transaction’s syntax and data structure must be correct.
+> 1) Neither lists of inputs or outputs are empty.
+> 1) The transaction size in bytes is less than MAX_BLOCK_SIZE.
+> 1) Each output value, as well as the total, must be within the allowed range of values (less than 21m coins, more than 0).
+> 1) None of the inputs have hash=0, N=–1 (coinbase transactions should not be relayed).
+> 1) nLockTime is less than or equal to INT_MAX.
+> 1) The transaction size in bytes is greater than or equal to 100.
+> 1) The number of signature operations contained in the transaction is less than the signature operation limit.
+> 1) The unlocking script (scriptSig) can only push numbers on the stack, and the locking script (scriptPubkey) must match isStandard forms (this rejects “nonstandard” transactions).
+> 1) A matching transaction in the pool, or in a block in the main branch, must exist.
+> 1) For each input, if the referenced output exists in any other transaction in the pool, the transaction must be rejected.
+> 1) For each input, look in the main branch and the transaction pool to find the referenced output transaction. If the output transaction is missing for any input, this will be an orphan transaction. Add to the orphan transactions pool, if a matching transaction is not already in the pool.
+> 1) For each input, if the referenced output transaction is a coinbase output, it must have at least COINBASE_MATURITY (100) confirmations.
+> 1) For each input, the referenced output must exist and cannot already be spent.
+> 1) Using the referenced output transactions to get input values, check that each input value, as well as the sum, are in the allowed range of values (less than 21m coins, more than 0).
+> 1) Reject if the sum of input values is less than sum of output values.
+> 1) Reject if transaction fee would be too low to get into an empty block.
+> 1) The unlocking scripts for each input must validate against the corresponding output locking scripts.
 
 Note that the conditions change over time, to address new types of denial-of-service attacks or sometimes to relax the rules so as to include more types of transactions.
 
