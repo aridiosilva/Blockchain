@@ -1248,9 +1248,109 @@ Mining equipment is also very power-hungry. Depending on the cost of electricity
 
 While some dismiss Bitcoin as a passing fad, many more are beginning to see it as the future of commerce. A 2020 survey showed that 36% of small and mid-sized businesses already accept cryptocurrency, as do many larger businesses and organizations including Microsoft, AT&T, and Wikipedia. While Bitcoin can be purchased with real cash, it’s more commonly “mined” using a combination of specialized hardware and software. In this article, we review the best bitcoin mining software based on reputation, features, ease of use, and more. Here are our top four picks.   
 
+# Mining and Consensus
+
+## What is Mining and Miners
+
+Mining is the process by which new bitcoin is added to the money supply. Mining also serves to secure the bitcoin system against fraudulent transactions or transactions spending the same amount of bitcoin more than once, known as a double-spend. Miners provide processing power to the bitcoin network in exchange for the opportunity to be rewarded bitcoin.
+
+Miners validate new transactions and record them on the global ledger. A new block, containing transactions that occurred since the last block, is “mined” every 10 minutes, thereby adding those transactions to the blockchain. Transactions that become part of a block and added to the blockchain are considered “confirmed,” which allows the new owners of bitcoin to spend the bitcoin they received in those transactions.
+
+Miners receive two types of rewards for mining: new coins created with each new block, and transaction fees from all the transactions included in the block. To earn this reward, the miners compete to solve a difficult mathematical problem based on a cryptographic hash algorithm. The solution to the problem, called the proof of work, is included in the new block and acts as proof that the miner expended significant computing effort. The competition to solve the proof-of-work algorithm to earn reward and the right to record transactions on the blockchain is the basis for bitcoin’s security model.
+
+The process of new coin generation is called mining because the reward is designed to simulate diminishing returns, just like mining for precious metals. Bitcoin’s money supply is created through mining, similar to how a central bank issues new money by printing bank notes. The amount of newly created bitcoin a miner can add to a block decreases approximately every four years (or precisely every 210,000 blocks). It started at 50 bitcoin per block in January of 2009 and halved to 25 bitcoin per block in November of 2012. It will halve again to 12.5 bitcoin per block sometime in 2016. Based on this formula, bitcoin mining rewards decrease exponentially until approximately the year 2140, when all bitcoin (20.99999998 million) will have been issued. After 2140, no new bitcoins will be issued.
+
+Bitcoin miners also earn fees from transactions. Every transaction may include a transaction fee, in the form of a surplus of bitcoin between the transaction’s inputs and outputs. The winning bitcoin miner gets to “keep the change” on the transactions included in the winning block. Today, the fees represent 0.5% or less of a bitcoin miner’s income, the vast majority coming from the newly minted bitcoins. However, as the reward decreases over time and the number of transactions per block increases, a greater proportion of bitcoin mining earnings will come from fees. After 2140, all bitcoin miner earnings will be in the form of transaction fees.
+
+The word “mining” is somewhat misleading. By evoking the extraction of precious metals, it focuses our attention on the reward for mining, the new bitcoins in each block. Although mining is incentivized by this reward, the primary purpose of mining is not the reward or the generation of new coins. If you view mining only as the process by which coins are created, you are mistaking the means (incentives) as a goal of the process. Mining is the main process of the decentralized clearinghouse, by which transactions are validated and cleared. Mining secures the bitcoin system and enables the emergence of network-wide consensus without a central authority.
+
+Mining is the invention that makes bitcoin special, a decentralized security mechanism that is the basis for peer-to-peer digital cash. The reward of newly minted coins and transaction fees is an incentive scheme that aligns the actions of miners with the security of the network, while simultaneously implementing the monetary supply.
+
+# Economics Concepts Behind Blockchain 
+
+Bitcoins are “minted” during the creation of each block at a fixed and diminishing rate. Each block, generated on average every 10 minutes, contains entirely new bitcoins, created from nothing. Every 210,000 blocks, or approximately every four years, the currency issuance rate is decreased by 50%. For the first four years of operation of the network, each block contained 50 new bitcoins.
+
+In November 2012, the new bitcoin issuance rate was decreased to 25 bitcoins per block and it will decrease again to 12.5 bitcoins at block 420,000, which will be mined sometime in 2016. The rate of new coins decreases like this exponentially over 64 “halvings” until block 13,230,000 (mined approximately in year 2137), when it reaches the minimum currency unit of 1 satoshi. Finally, after 13.44 million blocks, in approximately 2140, all 2,099,999,997,690,000 satoshis, or almost 21 million bitcoins, will be issued. Thereafter, blocks will contain no new bitcoins, and miners will be rewarded solely through the transaction fees. Figure 8-1 shows the total bitcoin in circulation over time, as the issuance of currency decreases.
+
+The finite and diminishing issuance creates a fixed monetary supply that resists inflation. Unlike a flat currency, which can be printed in infinite numbers by a central bank, bitcoin can never be inflated by printing.
+
+``
+**DEFLATIONARY MONEY**
+
+The most important and debated consequence of a fixed and diminishing monetary issuance is that the currency will tend to be inherently deflationary. Deflation is the phenomenon of appreciation of value due to a mismatch in supply and demand that drives up the value (and exchange rate) of a currency. The opposite of inflation, price deflation means that the money has more purchasing power over time.
+
+Many economists argue that a deflationary economy is a disaster that should be avoided at all costs. That is because in a period of rapid deflation, people tend to hoard money instead of spending it, hoping that prices will fall. Such a phenomenon unfolded during Japan’s “Lost Decade,” when a complete collapse of demand pushed the currency into a deflationary spiral.
+
+Bitcoin experts argue that deflation is not bad per se. Rather, deflation is associated with a collapse in demand because that is the only example of deflation we have to study. In a fiat currency with the possibility of unlimited printing, it is very difficult to enter a deflationary spiral unless there is a complete collapse in demand and an unwillingness to print money. Deflation in bitcoin is not caused by a collapse in demand, but by a predictably constrained supply.
+
+In practice, it has become evident that the hoarding instinct caused by a deflationary currency can be overcome by discounting from vendors, until the discount overcomes the hoarding instinct of the buyer. Because the seller is also motivated to hoard, the discount becomes the equilibrium price at which the two hoarding instincts are matched. With discounts of 30% on the bitcoin price, most bitcoin retailers are not experiencing difficulty overcoming the hoarding instinct and generating revenue. It remains to be seen whether the deflationary aspect of the currency is really a problem when it is not driven by rapid economic retraction.
+```
+
+## Decentralized Consensus
+
+In the previous chapter we looked at the blockchain, the global public ledger (list) of all transactions, which everyone in the bitcoin network accepts as the authoritative record of ownership.
+
+But how can everyone in the network agree on a single universal “truth” about who owns what, without having to trust anyone? All traditional payment systems depend on a trust model that has a central authority providing a clearinghouse service, basically verifying and clearing all transactions. Bitcoin has no central authority, yet somehow every full node has a complete copy of a public ledger that it can trust as the authoritative record. The blockchain is not created by a central authority, but is assembled independently by every node in the network. Somehow, every node in the network, acting on information transmitted across insecure network connections, can arrive at the same conclusion and assemble a copy of the same public ledger as everyone else. This chapter examines the process by which the bitcoin network achieves global consensus without central authority.
+
+Satoshi Nakamoto’s main invention is the decentralized mechanism for emergent consensus. Emergent, because consensus is not achieved explicitly—there is no election or fixed moment when consensus occurs. Instead, consensus is an emergent artifact of the asynchronous interaction of thousands of independent nodes, all following simple rules. All the properties of bitcoin, including currency, transactions, payments, and the security model that does not depend on central authority or trust, derive from this invention.
+
+Bitcoin’s decentralized consensus emerges from the interplay of four processes that occur independently on nodes across the network:
+
+> - Independent verification of each transaction, by every full node, based on a comprehensive list of criteria
+> - Independent aggregation of those transactions into new blocks by mining nodes, coupled with demonstrated computation through a proof-of-work algorithm
+> - Independent verification of the new blocks by every node and assembly into a chain
+> - Independent selection, by every node, of the chain with the most cumulative computation demonstrated through proof of work
+
+## Independent Verification of Transactions
+
+Wallet software creates transactions by collecting UTXO, providing the appropriate unlocking scripts, and then constructing new outputs assigned to a new owner. The resulting transaction is then sent to the neighboring nodes in the bitcoin network so that it can be propagated across the entire bitcoin network.
+
+However, before forwarding transactions to its neighbors, every bitcoin node that receives a transaction will first verify the transaction. This ensures that only valid transactions are propagated across the network, while invalid transactions are discarded at the first node that encounters them.
+
+Each node verifies every transaction against a long checklist of criteria:
+
+1) The transaction’s syntax and data structure must be correct.
+1) Neither lists of inputs or outputs are empty.
+1) The transaction size in bytes is less than MAX_BLOCK_SIZE.
+1) Each output value, as well as the total, must be within the allowed range of values (less than 21m coins, more than 0).
+1) None of the inputs have hash=0, N=–1 (coinbase transactions should not be relayed).
+1) nLockTime is less than or equal to INT_MAX.
+1) The transaction size in bytes is greater than or equal to 100.
+1) The number of signature operations contained in the transaction is less than the signature operation limit.
+1) The unlocking script (scriptSig) can only push numbers on the stack, and the locking script (scriptPubkey) must match isStandard forms (this rejects “nonstandard” transactions).
+1) A matching transaction in the pool, or in a block in the main branch, must exist.
+1) For each input, if the referenced output exists in any other transaction in the pool, the transaction must be rejected.
+1) For each input, look in the main branch and the transaction pool to find the referenced output transaction. If the output transaction is missing for any input, this will be an orphan transaction. Add to the orphan transactions pool, if a matching transaction is not already in the pool.
+1) For each input, if the referenced output transaction is a coinbase output, it must have at least COINBASE_MATURITY (100) confirmations.
+1) For each input, the referenced output must exist and cannot already be spent.
+1) Using the referenced output transactions to get input values, check that each input value, as well as the sum, are in the allowed range of values (less than 21m coins, more than 0).
+1) Reject if the sum of input values is less than sum of output values.
+1) Reject if transaction fee would be too low to get into an empty block.
+1) The unlocking scripts for each input must validate against the corresponding output locking scripts.
+
+Note that the conditions change over time, to address new types of denial-of-service attacks or sometimes to relax the rules so as to include more types of transactions.
+
+By independently verifying each transaction as it is received and before propagating it, every node builds a pool of valid new transactions (the transaction pool), roughly in the same order.
+
+## Mining Nodes
+
+Some of the nodes on the bitcoin network are specialized nodes called miners. A “mining rig” is a specialized computer-hardware system designed to mine bitcoins. This specialized mining hardware is connected to a server running a full bitcoin node. but, ome miners mine without a full node, as we will see in Mining Pools. Like every other full node, miner node receives and propagates unconfirmed transactions on the bitcoin network. Miner node, however, also aggregates these transactions into new blocks.
+
+A miner node is listening for new blocks, propagated on the bitcoin network, as do all nodes. However, the arrival of a new block has special significance for a mining node. The competition among miners effectively ends with the propagation of a new block that acts as an announcement of a winner. To miners, receiving a new block means someone else won the competition and they lost. However, the end of one round of a competition is also the beginning of the next round. The new block is not just a checkered flag, marking the end of the race; it is also the starting pistol in the race for the next block.
+
+## Aggregating Transactions into Blocks
+
+After validating transactions, a bitcoin node will add them to the memory pool, or transaction pool, where transactions await until they can be included (mined) into a block. The miner node collects, validates, and relays new transactions just like any other node. Unlike other nodes, however, miner node will then aggregate these transactions into a candidate block.
+
+A full mining node maintains a local copy of the blockchain, the list of all blocks created since the beginning of the bitcoin system in 2009. Mining node is listening for transactions, trying to mine a new block and also listening for blocks discovered by other nodes. As mining node is mining, it receives, for example, a new block 277,315 through the bitcoin network. The arrival of this block signifies the end of the competition for block 277,315 and the beginning of the competition to create block 277,316.
+
+During the previous 10 minutes, while mining node was searching for a solution to block 277,315, it was also collecting transactions in preparation for the next block. By now it has collected a few hundred transactions in the memory pool. Upon receiving block 277,315 and validating it, mining node will also check all the transactions in the memory pool and remove any that were included in block 277,315. Whatever transactions remain in the memory pool are unconfirmed and are waiting to be recorded in a new block.
+
+Mining node immediately constructs a new empty block, a candidate for block 277,316. This block is called a candidate block because it is not yet a valid block, as it does not contain a valid proof of work. The block becomes valid only if the miner succeeds in finding a solution to the proof-of-work algorithm.
+
 # Mining Pool
 
-## What is?
+## What is it ?
 
 A mining pool is a group of miners who share their computing power over a network and get rewarded based on the amount of power each contributes as opposed to whether or not the pool finds a block. Mining pools help make revenue for miners more predictable. Huge drops in weekly numbers could highlight that some mining pools are either being turned off or they have decided to mine other currencies. If a mining pool were to control more than half of the total hashrate, it could (while unlikely) lead to a 51% attack on the network.
 
