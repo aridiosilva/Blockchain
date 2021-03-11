@@ -30,7 +30,7 @@ The difference among centralized (client/server), discentralized, and distribute
 
 # Mining Difficulty in Blokchain
 
-## Whait is Mining Difficulty?
+## What is Mining Difficulty?
 
 > - The difficulty is a measure of how difficult it is to mine a Bitcoin block, or in more technical terms, to find a hash below a given target. 
 > - A high difficulty means that it will take more computing power to mine the same number of blocks, making the network more secure against attacks. 
