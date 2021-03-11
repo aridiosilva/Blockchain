@@ -64,9 +64,13 @@ To understand the correlation between the two, let’s check out their graphs. U
 
 ![Image_total_hash_rate_blockchain_chart001](https://github.com/aridiosilva/Blockchain/blob/main/Image_total_hash_rate_blockchain_chart001.jpg)
 
+- [take a look at the currenty  Hash Rate chart of Bitcoin](https://www.blockchain.com/charts/hash-rate)
+
 Mining hashrate is a key security metric. The more hashing (computing) power in the network, the greater its security and its overall resistance to attack. Although Bitcoin’s exact hashing power is unknown, it is possible to estimate it from the number of blocks being mined and the current block difficulty. Daily numbers (raw values) may periodically rise or drop as a result of the randomness of block discovery : even with a hashing power constant, the number of blocks mined can vary in day. Our analysts have found that looking at a 7 day average is a better representation of the underlying power. The hashing power is estimated from the number of blocks being mined in the last 24h and the current block difficulty. More specifically, given the average time T between mined blocks and a difficulty D, the estimated hash rate per second H is given by the formula H = 2 32 D / T.
 
 ![Image_network_difficulty_blockchain_chart001](https://github.com/aridiosilva/Blockchain/blob/main/Image_network_difficulty_blockchain_chart001.jpg)
+
+- [take a look at the currenty Network Difficulty chart of Bitcoin](https://www.blockchain.com/charts/difficulty)
 
 As you can see, there is a very close correlation between the two. Around March 26, the network difficulty fell by 16% from 16.55 trillion to 13.9 trillion. This was the largest crash in network difficulty since early 2013. To understand why this happened this time around, look at how the hashrate dropped as well just before the bitcoin difficulty drop. This dip occurred because of Bitcoin’s price crash, which forced a lot of miners to quit operations.
 
