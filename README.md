@@ -35,15 +35,14 @@ The difference among centralized (client/server), discentralized, and distribute
 > - The difficulty is a measure of how difficult it is to mine a Bitcoin block, or in more technical terms, to find a hash below a given target. 
 > - A high difficulty means that it will take more computing power to mine the same number of blocks, making the network more secure against attacks. 
 > - The difficulty adjustment is directly related to the total estimated mining power estimated in the Total Hash Rate (TH/s) chart.
-
-The difficulty is adjusted every 2016 blocks (every 2 weeks approximately) so that the average time between each block remains 10 minutes. The difficulty comes directly from the confirmed blocks data in the Bitcoin network.
+> - The difficulty is adjusted every 2016 blocks (every 2 weeks approximately) so that the average time between each block remains 10 minutes. The difficulty comes directly from the confirmed blocks data in the Bitcoin network.
 
 [- Link to see the Netork Difficulty chart of Bitcoin](https://www.blockchain.com/charts/difficulty)
 [- link to see the Hash Rate chart of Bitcoin](https://www.blockchain.com/charts/hash-rate)
 
 ## What Determines Mining Difficulty?
 
-### To Maintain Netowrk Integrity
+### To Maintain Network Integrity
 
 The level of Bitcoin mining difficulty increases or decreases according to the ease of mining within the protocol. Remember, Bitcoin needs to have a consistent block time of 10 minutes. In other words, new BTC can be injected into the circulating supply every 10 minutes. To make sure that this timing doesn’t change the Bitcoin protocol:
 
@@ -56,7 +55,7 @@ The Bitcoin network has a universal block difficulty. All valid blocks must have
 
 One of the critical metrics in judging the health of a proof-of-work network is hash rate. Simply put, hashrate shows you how powerful the miners are within the network. Higher the bitcoin network hashrate, higher it’s overall security and speed. However, these networks need to keep their hashrate under control for consistent block production. This is why, when hashrate becomes high, the bitcoin difficulty eventually gets higher as well, making it tougher for miners to mine easily within the network.
 
-The inverse is also true.  If Bitcoin’s hashrate decreases, the network difficulty will reduce as well. Hashrate may decrease because of the following reasons:
+The inverse is also true. If Bitcoin’s hashrate decreases, the network difficulty will reduce as well. Hashrate may decrease because of the following reasons:
 
 > - Bitcoin currently has a high difficulty, which is why the miners are having a tough time mining in the system.
 > - The price of BTC went down, which is why a lot of miners quit mining.
