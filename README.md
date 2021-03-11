@@ -78,12 +78,12 @@ As you can see, there is a very close correlation between the two. Around March 
 
 Bitcoin’s network difficulty changes every 2016 blocks. The formula used by the network to calculate difficulty goes like this:
 
-      difficulty = difficulty_1_target / current_target
+      difficulty = difficulty target / current target
 
 In the formula above:
 
 > - target is a 256-bit number. As per Bitcoin’s protocol, the targets are a custom floating-point type with limited accuracy. Bitcoin clients approximate difficulty based on this fact. This value is also known as bdiff.
-> - difficulty_1_target can be different depending on how you choose to measure difficulty. Traditionally, it represents a hash where the leading 32 bits are zero and the rest are one. In fact, this value is also known as pool difficulty or pdiff.
+> - difficulty target can be different depending on how you choose to measure difficulty. Traditionally, it represents a hash where the leading 32 bits are zero and the rest are one. In fact, this value is also known as pool difficulty or pdiff.
 
 Every single block stores a packed representation of bitcoin difficulty in their blocks called “Bits.” This target usually appear as 0x1b0404cb (stored in little-endian order: cb 04 04 1b).
 
