@@ -60,9 +60,11 @@ The inverse is also true. If Bitcoin’s hashrate decreases, the network difficu
 > - Bitcoin currently has a high difficulty, which is why the miners are having a tough time mining in the system.
 > - The price of BTC went down, which is why a lot of miners quit mining.
 
-To understand the correlation between the two, let’s check out their graphs. Up first, we have the hash rate.
+To understand the correlation between the two, let’s check out their graphs. Up first, we have the hash rate. After that, we have the bitcoin difficulty chart:
 
-After that, we have the bitcoin difficulty chart:
+![Image_total_hash_rate_blockchain_chart001](https://github.com/aridiosilva/Blockchain/blob/main/Image_total_hash_rate_blockchain_chart001.jpg)
+
+![Image_network_difficulty_blockchain_chart001](https://github.com/aridiosilva/Blockchain/blob/main/Image_network_difficulty_blockchain_chart001.jpg)
 
 As you can see, there is a very close correlation between the two. Around March 26, the network difficulty fell by 16% from 16.55 trillion to 13.9 trillion. This was the largest crash in network difficulty since early 2013. To understand why this happened this time around, look at how the hashrate dropped as well just before the bitcoin difficulty drop. This dip occurred because of Bitcoin’s price crash, which forced a lot of miners to quit operations.
 
