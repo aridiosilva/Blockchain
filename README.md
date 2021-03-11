@@ -38,6 +38,9 @@ The difference among centralized (client/server), discentralized, and distribute
 > - The difficulty is adjusted every 2016 blocks (every 2 weeks approximately) so that the average time between each block remains 10 minutes. The difficulty comes directly from the confirmed blocks data in the Bitcoin network.
 
 - [Link to see the Netork Difficulty chart of Bitcoin](https://www.blockchain.com/charts/difficulty)
+
+Mining hashrate is a key security metric. The more hashing (computing) power in the network, the greater its security and its overall resistance to attack. Although Bitcoin’s exact hashing power is unknown, it is possible to estimate it from the number of blocks being mined and the current block difficulty. Daily numbers (raw values) may periodically rise or drop as a result of the randomness of block discovery : even with a hashing power constant, the number of blocks mined can vary in day. Our analysts have found that looking at a 7 day average is a better representation of the underlying power. The hashing power is estimated from the number of blocks being mined in the last 24h and the current block difficulty. More specifically, given the average time T between mined blocks and a difficulty D, the estimated hash rate per second H is given by the formula H = 2 32 D / T.
+
 - [link to see the Hash Rate chart of Bitcoin](https://www.blockchain.com/charts/hash-rate)
 
 ## What Determines Mining Difficulty?
