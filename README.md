@@ -37,8 +37,8 @@ The difference among centralized (client/server), discentralized, and distribute
 > - The difficulty adjustment is directly related to the total estimated mining power estimated in the Total Hash Rate (TH/s) chart.
 > - The difficulty is adjusted every 2016 blocks (every 2 weeks approximately) so that the average time between each block remains 10 minutes. The difficulty comes directly from the confirmed blocks data in the Bitcoin network.
 
-[- Link to see the Netork Difficulty chart of Bitcoin](https://www.blockchain.com/charts/difficulty)
-[- link to see the Hash Rate chart of Bitcoin](https://www.blockchain.com/charts/hash-rate)
+[Link to see the Netork Difficulty chart of Bitcoin](https://www.blockchain.com/charts/difficulty)
+[link to see the Hash Rate chart of Bitcoin](https://www.blockchain.com/charts/hash-rate)
 
 ## What Determines Mining Difficulty?
 
