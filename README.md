@@ -32,9 +32,9 @@ The difference among centralized (client/server), discentralized, and distribute
 
 ## Whait is Mining Difficulty?
 
-- The difficulty is a measure of how difficult it is to mine a Bitcoin block, or in more technical terms, to find a hash below a given target. 
-- A high difficulty means that it will take more computing power to mine the same number of blocks, making the network more secure against attacks. 
-- The difficulty adjustment is directly related to the total estimated mining power estimated in the Total Hash Rate (TH/s) chart.
+> - The difficulty is a measure of how difficult it is to mine a Bitcoin block, or in more technical terms, to find a hash below a given target. 
+> - A high difficulty means that it will take more computing power to mine the same number of blocks, making the network more secure against attacks. 
+> - The difficulty adjustment is directly related to the total estimated mining power estimated in the Total Hash Rate (TH/s) chart.
 
 The difficulty is adjusted every 2016 blocks (every 2 weeks approximately) so that the average time between each block remains 10 minutes. The difficulty comes directly from the confirmed blocks data in the Bitcoin network.
 
@@ -75,24 +75,24 @@ Bitcoin’s network difficulty changes every 2016 blocks. The formula used by th
 
 In the formula above:
 
-- target is a 256-bit number. As per Bitcoin’s protocol, the targets are a custom floating-point type with limited accuracy. Bitcoin clients approximate difficulty based on this fact. This value is also known as bdiff.
-- difficulty_1_target can be different depending on how you choose to measure difficulty. Traditionally, it represents a hash where the leading 32 bits are zero and the rest are one. In fact, this value is also known as pool difficulty or pdiff.
+> - target is a 256-bit number. As per Bitcoin’s protocol, the targets are a custom floating-point type with limited accuracy. Bitcoin clients approximate difficulty based on this fact. This value is also known as bdiff.
+> - difficulty_1_target can be different depending on how you choose to measure difficulty. Traditionally, it represents a hash where the leading 32 bits are zero and the rest are one. In fact, this value is also known as pool difficulty or pdiff.
 
 Every single block stores a packed representation of bitcoin difficulty in their blocks called “Bits.” This target usually appear as 0x1b0404cb (stored in little-endian order: cb 04 04 1b).
 
 A block calculates the target value via a predetermined formula. Eg. With the packed target given above, i.e. 0x1b0404cb. The hexadecimal target is:
 
-  0x0404cb * 2**(8*(0x1b – 3)) = 0x00000000000404CB000000000000000000000000000000000000000000000000
+      0x0404cb * 2**(8*(0x1b – 3)) = 0x00000000000404CB000000000000000000000000000000000000000000000000
 
 Now let’s calculate bdiff and pdiff.
 
 The highest possible target (difficulty_1_target) is defined as 0x1d00ffff or, in hex form:
 
-   0x00ffff * 2**(8*(0x1d – 3)) = 0x00000000FFFF0000000000000000000000000000000000000000000000000000
+      0x00ffff * 2**(8*(0x1d – 3)) = 0x00000000FFFF0000000000000000000000000000000000000000000000000000
 
 Now that we know this value, we can use this to calculate our bdiff using the 
 
-    difficulty = difficulty_1_target / current_target formula
+      difficulty = difficulty_1_target / current_target formula
 
 Now, as we have defined in the previous section, the current_target is 
 
