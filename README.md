@@ -28,6 +28,123 @@ The difference among centralized (client/server), discentralized, and distribute
 
 ![main elements](https://github.com/aridiosilva/Blockchain/blob/main/Main%20Elements%20of%20blockchain.jpg)
 
+# Mining Difficulty in Blokchain
+
+## Whait is Mining Difficulty?
+
+- The difficulty is a measure of how difficult it is to mine a Bitcoin block, or in more technical terms, to find a hash below a given target. 
+- A high difficulty means that it will take more computing power to mine the same number of blocks, making the network more secure against attacks. 
+- The difficulty adjustment is directly related to the total estimated mining power estimated in the Total Hash Rate (TH/s) chart.
+
+The difficulty is adjusted every 2016 blocks (every 2 weeks approximately) so that the average time between each block remains 10 minutes. The difficulty comes directly from the confirmed blocks data in the Bitcoin network.
+
+[- Link to see the Netork Difficulty chart of Bitcoin](https://www.blockchain.com/charts/difficulty)
+[- link to see the Hash Rate chart of Bitcoin](https://www.blockchain.com/charts/hash-rate)
+
+## What Determines Mining Difficulty?
+
+### To Maintain Netowrk Integrity
+
+The level of Bitcoin mining difficulty increases or decreases according to the ease of mining within the protocol. Remember, Bitcoin needs to have a consistent block time of 10 minutes. In other words, new BTC can be injected into the circulating supply every 10 minutes. To make sure that this timing doesn’t change the Bitcoin protocol:
+
+> - **Increases network difficulty** when it becomes easier for miners to mine.
+> - **Decrease network difficulty** when it becomes harder for miners to mine.
+
+The Bitcoin network has a universal block difficulty. All valid blocks must have a hash below the target. Mining pools also have a pool-specific share difficulty setting a lower limit for shares.
+
+### Relationship with the Hash Rate
+
+One of the critical metrics in judging the health of a proof-of-work network is hash rate. Simply put, hashrate shows you how powerful the miners are within the network. Higher the bitcoin network hashrate, higher it’s overall security and speed. However, these networks need to keep their hashrate under control for consistent block production. This is why, when hashrate becomes high, the bitcoin difficulty eventually gets higher as well, making it tougher for miners to mine easily within the network.
+
+The inverse is also true.  If Bitcoin’s hashrate decreases, the network difficulty will reduce as well. Hashrate may decrease because of the following reasons:
+
+> - Bitcoin currently has a high difficulty, which is why the miners are having a tough time mining in the system.
+> - The price of BTC went down, which is why a lot of miners quit mining.
+
+To understand the correlation between the two, let’s check out their graphs. Up first, we have the hash rate.
+
+After that, we have the bitcoin difficulty chart:
+
+As you can see, there is a very close correlation between the two. Around March 26, the network difficulty fell by 16% from 16.55 trillion to 13.9 trillion. This was the largest crash in network difficulty since early 2013. To understand why this happened this time around, look at how the hashrate dropped as well just before the bitcoin difficulty drop. This dip occurred because of Bitcoin’s price crash, which forced a lot of miners to quit operations.
+
+### How does Bitcoin calculate difficulty?
+
+Bitcoin’s network difficulty changes every 2016 blocks. The formula used by the network to calculate difficulty goes like this:
+
+   **difficulty = difficulty_1_target / current_target**
+
+In the formula above:
+
+- target is a 256-bit number. As per Bitcoin’s protocol, the targets are a custom floating-point type with limited accuracy. Bitcoin clients approximate difficulty based on this fact. This value is also known as bdiff.
+- difficulty_1_target can be different depending on how you choose to measure difficulty. Traditionally, it represents a hash where the leading 32 bits are zero and the rest are one. In fact, this value is also known as pool difficulty or pdiff.
+
+Every single block stores a packed representation of bitcoin difficulty in their blocks called “Bits.” This target usually appear as 0x1b0404cb (stored in little-endian order: cb 04 04 1b).
+
+A block calculates the target value via a predetermined formula. Eg. With the packed target given above, i.e. 0x1b0404cb. The hexadecimal target is:
+
+  0x0404cb * 2**(8*(0x1b – 3)) = 0x00000000000404CB000000000000000000000000000000000000000000000000
+
+Now let’s calculate bdiff and pdiff.
+
+The highest possible target (difficulty_1_target) is defined as 0x1d00ffff or, in hex form:
+
+   0x00ffff * 2**(8*(0x1d – 3)) = 0x00000000FFFF0000000000000000000000000000000000000000000000000000
+
+Now that we know this value, we can use this to calculate our bdiff using the 
+
+    difficulty = difficulty_1_target / current_target formula
+
+Now, as we have defined in the previous section, the current_target is 
+
+    0x1b0404cb or 0x00000000000404CB000000000000000000000000000000000000000000000000.
+
+So, to calculate current difficulty:
+
+    0x00000000FFFF0000000000000000000000000000000000000000000000000000 /
+    0x00000000000404CB000000000000000000000000000000000000000000000000
+    = 16307.420938523983
+
+Hence, bdiff is 16307.420938523983.
+
+Now, let’s calculate the pdiff. Mining pools tend to use non-truncated targets which puts difficulty_1_target at 
+  
+     0x00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.
+
+If that’s the case then for the same current_target, our pdiff will be:
+
+    0x00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF /
+    0x00000000000404CB000000000000000000000000000000000000000000000000
+    = 16307.669773817162
+
+Here is a program code taken from Bitcoin wiki which relies on logs to make difficulty calculation easier:
+
+```c++
+#include <iostream>
+#include <cmath>
+inline float fast_log(float val)
+{
+   int * const exp_ptr = reinterpret_cast <int *>(&val);
+   int x = *exp_ptr;
+ 
+   const int log_2 = ((x >> 23) & 255) – 128;
+   x &= ~(255 << 23);
+   x += 127 << 23;
+   *exp_ptr = x;
+   val = ((-1.0f/3) * val + 2) * val – 2.0f/3;
+   return ((val + log_2) * 0.69314718f);
+}
+float difficulty(unsigned int bits)
+{
+   static double max_body = fast_log(0x00ffff), scaland = fast_log(256);
+   return exp(max_body – fast_log(bits & 0x00ffffff) + scaland * (0x1d – ((bits & 0xff000000) >> 24)));
+}
+int main()
+{
+   std::cout << difficulty(0x1b0404cb) << std::endl;
+   return 0;
+}
+```
+
 # Blockchain Structure
 
 To reduce storage, if a block B is “voted” to be correct because the chain is long enough (ie, there are already many blocks created after B), we can discard the transactions contained in B, without changing the hash of B’s header (otherwise all blocks after B would need to be changed). To do this, instead of saving the content of all transactions directly in a block, we first compute the hash values of each transaction, and then construct a tree structure (a Merkle tree), to “combine” (ie, hash again) all hash values, and store only the Merkle Root hash value at the block header. This way we can prune the transactions in the tree later, without changing the Merkle Root and the block header. In other words, the size of the blockchain is now proportional to the number of blocks instead of being proportional to the number of transactions. Belowe an example blockchain without a Merkle tree. 
