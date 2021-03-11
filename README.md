@@ -145,6 +145,50 @@ int main()
 }
 ```
 
+## How do you set a mining difficulty?
+
+Miners use specialized ASIC hardware to mine Bitcoins. These machines are extremely fast and produce tetrahashes every single second. It will be extremely impractical for a system to painstakingly check every single one of them to see if they satisfy all the necessary conditions, or not. This is exponentially true for mining pools. They can’t check all the hashes produced by a bitcoin miner every single second. This is why mining pools use a concept called “Share Time.”
+
+So, let’s imagine that your bitcoin mining pool has set a Share Time of 5 seconds. This means that, on average, your mining pool will require miners to submit a share to them every 5 seconds.
+
+### How exactly is this done?
+
+Your bitcoin mining pool will set a value called Share Difficulty for every miner. The share difficulty of a miner is directly proportional to their individual hashrate. As such, higher the miner’s hashrate, higher their Share Difficulty. The idea is that the miner will use their equipment to generate tons of hashes. The moment they find a hash that meets the target Share Difficulty, they will send the hash to the pool.
+
+### How are the miners rewarded?
+
+Miners in the pool are rewarded on a “Pay per share” (PPS) basis. In this system, the miners get rewarded for the shares they submit. The values of the shares are entirely dependent on how difficult it was to discover the share.
+
+Let’s take an example to see how this works:
+
+> 1) Suppose you are a miner with an individual hashrate of 50 TH/s.
+> 1) The mining pool that you have joined has set your Share Difficulty at 1,000,000.
+> 1) The moment that you get shares above 1,000,000, you’ll be rewarded by the pool.
+> 1) The pool may change your difficulty to make sure that you are not submitting your shares too quickly.
+> 1) Now, if you buy some new equipment and increase your hashrate to 150 TH/s, the pool will increase your difficulty to 3,000,000. You will be submitting shares at the same rate that you were previously submitting. However, you’ll get 3 times the reward that you were previously receiving for the shares you submit.
+> 1) The reason why pools recommend higher difficulties for faster hardware is to reduce network load on both the miner’s system and the pool. It also reduces decreases the restart delay for your mining hardware as it prepares for the next work unit. At the same time, the pool must be careful not to set the difficulty too high which will result in a lot of stale shares.
+
+       NOTE: Share Target = 1 / Share Difficulty
+
+### The Importance of Difficulty in Nakamoto consensus
+
+To understand how critical difficulty is to Bitcoin’s ecosystem, you need to know how Nakamoto consensus works. For a wide area network with no centralized entity, consensus protocols are the only way to maintain any form of governance. Traditional consensus algorithms like Raft are not ideal for maintaining a wide-area cryptoeconomic protocol. This is why Satoshi Nakamoto, the creator of Bitcoin, came up with Nakamoto consensus. The central tenet of the Nakamoto consensus is that to participate in the system, one must pay a price. In the case of proof-of-work (POW), i.e., Bitcoin’s consensus, miners pay a price with “work.” Work, in this case, is the heavy amount of computational energy that a miner must spend to mine one Bitcoin. This is where difficulty comes in.  Difficulty is the metric that makes Bitcoin mining hard, plus, this is what Nakamoto consensus leverages to solve the double spending problem.
+
+### What is double spending?
+
+Double spending is the reason why all the attempts at creating a decentralized cryptocurrency had failed miserably before Bitcoin. In simple terms, it is a flaw that can allow one Bitcoin to be spent more than once at the same time. We never encountered this issue while dealing with physical cash. After all, if you are buying something with a $10 note, you can’t simultaneously purchase something else with that same note, right?
+
+However, a digital token has digital files that can be easily duplicated, leading to inevitable double spending. As you can imagine, double spending can have several devastating effects on the ecosystem’s economy:
+
+> - Firstly, it inflates the total supply of the coins within the ecosystem, which throws the supply-demand equation out of control.
+> - Secondly, if anyone, anywhere can spend the same coin without restriction, it will reduce the people’s faith in the sanctity of that currency.
+
+Bitcoin requires all the transactions to be included in the blockchain, without fail. This makes sure that anyone in the network can trace every single Bitcoin right to its very source. Such a high level of transparency ensures no one will be able to double spend without the entire network noticing. However, let’s think of something more diabolical. Suppose, someone decides to hijack the blockchain by forking out and try to double spend all the Bitcoins.
+
+### What happens then?
+
+Well, it turns out that due to network difficulty, the amount of resources and money that the attacker will need to take over the chain will be exponential. As such, it will simply not be economically worth it for them to act against the interests of the system. This is how network difficulty gives Nakamoto Consensus the firepower it needs to maintain network security and integrity.
+
 # Blockchain Structure
 
 To reduce storage, if a block B is “voted” to be correct because the chain is long enough (ie, there are already many blocks created after B), we can discard the transactions contained in B, without changing the hash of B’s header (otherwise all blocks after B would need to be changed). To do this, instead of saving the content of all transactions directly in a block, we first compute the hash values of each transaction, and then construct a tree structure (a Merkle tree), to “combine” (ie, hash again) all hash values, and store only the Merkle Root hash value at the block header. This way we can prune the transactions in the tree later, without changing the Merkle Root and the block header. In other words, the size of the blockchain is now proportional to the number of blocks instead of being proportional to the number of transactions. Belowe an example blockchain without a Merkle tree. 
