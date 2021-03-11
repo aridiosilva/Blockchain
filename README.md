@@ -78,7 +78,7 @@ As you can see, there is a very close correlation between the two. Around March 
 
 Bitcoin’s network difficulty changes every 2016 blocks. The formula used by the network to calculate difficulty goes like this:
 
-      **difficulty = difficulty_1_target / current_target**
+      *difficulty = difficulty_1_target / current_target*
 
 In the formula above:
 
