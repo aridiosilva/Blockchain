@@ -1604,7 +1604,3 @@ Awesome Miner also makes it easy for users to add, switch, and manage multiple m
 Although Awesome Miner is designed for Windows and Linux, the web version of the software can be accessed on any computer or browser. Awesome Miner is free to download and use.
 
 
-
-
-
-
