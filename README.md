@@ -1403,7 +1403,6 @@ To help you make sense of this complicated landscape we applied a simple SWOT an
 
 ![swot analysis](https://github.com/aridiosilva/SmartContractsBlockchain/blob/main/Blockchain%20SWOT%20Analysis%20of%20BLOCKCHAIN%20TECHNOLOGY__.png)
 
-
 # Blockchain Mining Software
 
 ## What Is Bitcoin Mining Software?
@@ -1602,4 +1601,5 @@ Awesome Miner offers a number of powerful features to help users maximize profit
 Awesome Miner also makes it easy for users to add, switch, and manage multiple miner pools with one click so they can start mining in less time. All of this is managed in Awesome Miner’s comprehensive dashboard, which also displays hardware properties like fan speed, temperature, etc. The software features a built-in C# script engine miners can use to make customized triggers and actions.
 
 Although Awesome Miner is designed for Windows and Linux, the web version of the software can be accessed on any computer or browser. Awesome Miner is free to download and use.
+
 
