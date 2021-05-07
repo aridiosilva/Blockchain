@@ -23,7 +23,6 @@ The difference among centralized (client/server), discentralized, and distribute
 
 ![Figure Network Architectures and Blockchain 001](https://github.com/aridiosilva/Blockchain/blob/main/Figure%20Network%20Architectures%20and%20Blockchain%20001.jpg)
 
-
 # Main Elements of Blochchain
 
 ![main elements](https://github.com/aridiosilva/Blockchain/blob/main/Main%20Elements%20of%20blockchain.jpg)
