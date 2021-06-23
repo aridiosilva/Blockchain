@@ -563,3 +563,6 @@ These tend to develop blockchain solutions for a specific business issue. Mainly
 ## Technology-Focused
 
 These offer reusable blockchain platforms, solutions based on technical standards. Mainly these have multipurpose use cases. Ex: Hype
+
+
+
