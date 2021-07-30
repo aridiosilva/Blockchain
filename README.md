@@ -1,5 +1,4 @@
 
-
 # Blockchain Technology
 
 Blockchain is a distributed ledger—write once and never erase. Although originally invented for financial transactions,1 its applications are broad. Refered as Distributed Ledger Technology (DLT)  makes the history of any digital asset unalterable and transparent through the use of descentralization and cryptographic hashing.
@@ -11,7 +10,6 @@ Blockchain is a distributed ledger—write once and never erase. Although origin
 - [Whitepaper - Practical Byzantine Fault Tolerance - Miguel Castro and Barbara Liskov](https://github.com/aridiosilva/Blockchain/blob/main/Whitepaper%20-%20%20Practical%20Byzantine%20Fault%20Tolerance%20-%20Miguel%20Castro%20and%20Barbara%20Liskov.pdf)
 
 - [Blockchan simply explained in this video](https://www.youtube.com/watch?v=SSo_EIwHSd4)
-
 
 # Architecture of Blockchain System
 
