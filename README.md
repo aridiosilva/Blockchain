@@ -565,3 +565,24 @@ These tend to develop blockchain solutions for a specific business issue. Mainly
 These offer reusable blockchain platforms, solutions based on technical standards. Mainly these have multipurpose use cases. Ex: Hype
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
