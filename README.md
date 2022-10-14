@@ -1,3 +1,5 @@
+
+
 # Blockchain Technology
 
 Blockchain is a distributed ledger—write once and never erase. Although originally invented for financial transactions,1 its applications are broad. Refered as Distributed Ledger Technology (DLT)  makes the history of any digital asset unalterable and transparent through the use of descentralization and cryptographic hashing.
