@@ -567,22 +567,3 @@ These offer reusable blockchain platforms, solutions based on technical standard
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
